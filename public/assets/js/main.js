@@ -85,6 +85,59 @@ var brandSlider = new Swiper(".brand-slider-2", {
     },
   },
 });
+
+// ========================TF-1 : Testimonial Slider custom================================
+var brandSlider = new Swiper(".testimonial-slider-custom1", {
+  slidesPerView: 2,
+  spaceBetween: 40,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  speed: 1200,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+    1200: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+// ========================TF-1 : Testimonial Slider custom================================
+var brandSlider = new Swiper(".partners-slider-custom1", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  speed: 1200,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1,
+    },
+    992: {
+      slidesPerView: 1,
+    },
+    1200: {
+      slidesPerView: 1,
+    },
+  },
+});
+
 // ========================TF-3 : Testimonial Slider================================
 var testimonialOne = new Swiper(".testimonial-one", {
   navigation: {

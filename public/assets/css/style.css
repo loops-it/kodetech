@@ -814,17 +814,18 @@ p:last-child {
 
 .is-blue {
   --tw-border-opacity: 1;
-  border-color: rgb(49 71 255 / var(--tw-border-opacity));
+  border-color: rgb(249 3 5 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(49 71 255 / var(--tw-bg-opacity));
+  background-color: rgb(249 3 5 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  border-radius: 4px !important;
 }
 
 .is-blue:hover {
   background-color: transparent;
   --tw-text-opacity: 1;
-  color: rgb(49 71 255 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .is-purple {
@@ -891,18 +892,20 @@ p:last-child {
 
 .is-lime {
   --tw-border-opacity: 1;
-  border-color: rgb(193 255 0 / var(--tw-border-opacity));
+  border-color: rgb(249 3 5 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(193 255 0 / var(--tw-bg-opacity));
+  background-color: rgb(249 3 5 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  border-radius: 4px !important;
 }
 
 .is-lime:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(10 16 47 / var(--tw-border-opacity));
+  border-color: rgb(249 3 5 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .is-lunar-green {
@@ -3984,7 +3987,7 @@ p:last-child {
 
 .text-ColorAtomicTangerine {
   --tw-text-opacity: 1;
-  color: rgb(255 153 102 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .text-ColorBlack {
@@ -5220,7 +5223,7 @@ p:last-child {
 .after\:bg-ColorAtomicTangerine::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(255 153 102 / var(--tw-bg-opacity));
+  background-color: rgb(249 3 5 / var(--tw-bg-opacity));
 }
 
 .after\:bg-ColorBlack::after {
@@ -5263,7 +5266,7 @@ p:last-child {
 .after\:bg-ColorPurple::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(162 89 255 / var(--tw-bg-opacity));
+  background-color: rgb(249 3 5 / var(--tw-bg-opacity));
 }
 
 .after\:bg-\[\#BEF8FC\]::after {
@@ -5395,7 +5398,7 @@ p:last-child {
 
 .hover\:bg-ColorAtomicTangerine:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 153 102 / var(--tw-bg-opacity));
+  background-color: rgb(249 3 5 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-ColorBlack:hover {
@@ -5494,7 +5497,7 @@ p:last-child {
 
 .hover\:text-ColorAtomicTangerine:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 153 102 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .hover\:text-ColorBlue:hover {
@@ -5700,7 +5703,7 @@ p:last-child {
 
 .group:hover .group-hover\:border-ColorAtomicTangerine {
   --tw-border-opacity: 1;
-  border-color: rgb(255 153 102 / var(--tw-border-opacity));
+  border-color: rgb(249 3 5 / var(--tw-border-opacity));
 }
 
 .group:hover .group-hover\:border-\[\#F65510\] {
@@ -5710,7 +5713,7 @@ p:last-child {
 
 .group:hover .group-hover\:bg-ColorAtomicTangerine {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 153 102 / var(--tw-bg-opacity));
+  background-color: rgb(249 3 5 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:bg-\[\#F65510\] {
@@ -5725,7 +5728,7 @@ p:last-child {
 
 .group:hover .group-hover\:text-ColorAtomicTangerine {
   --tw-text-opacity: 1;
-  color: rgb(255 153 102 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-ColorBlue {
@@ -7871,4 +7874,9 @@ p:last-child {
   .xxl\:text-\[90px\] {
     font-size: 90px;
   }
+}
+
+
+.fa-play{
+  color: #F90305 !important
 }

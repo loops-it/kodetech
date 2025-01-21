@@ -1,14 +1,14 @@
 @extends('layout.layout1')
 
 @section('headerLogo')
-<img src="{{ asset('assets/img/logo-blue-dark.png') }}" alt="Masco" width="109" height="24" />
+<img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109" height="24" />
 @endsection
 
 @section('headButtons')
 
 <div class="flex items-center gap-6">
-    <a href="{{ url('login') }}" class="btn-text hidden hover:text-ColorBlue md:inline-block">Login</a>
-    <a href="{{ url('signup') }}" class="btn is-blue is-rounded btn-animation group hidden md:inline-block"><span>Sign up free</span></a>
+    {{-- <a href="{{ url('login') }}" class="btn-text hidden hover:text-ColorBlue md:inline-block">Login</a>
+    <a href="{{ url('signup') }}" class="btn is-blue is-rounded btn-animation group hidden md:inline-block"><span>Sign up free</span></a> --}}
     <!-- Responsive Offcanvas Menu Button -->
     <div class="block lg:hidden">
         <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
@@ -33,10 +33,10 @@
             <div class="container-default">
                 <div class="breadcrumb-block">
                     <h1 class="breadcrumb-title">Contact Us</h1>
-                    <ul class="breadcrumb-nav">
+                    {{-- <ul class="breadcrumb-nav">
                         <li><a href="{{ url('index') }}">Home</a></li>
                         <li>Contact Us</li>
-                    </ul>
+                    </ul> --}}
                 </div>
             </div>
             <!-- Section Container -->
