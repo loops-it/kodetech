@@ -5547,7 +5547,7 @@ p:last-child {
 
 .hover\:text-ColorPurple:hover {
   --tw-text-opacity: 1;
-  color: rgb(162 89 255 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .hover\:text-ColorViolet:hover {
@@ -7879,4 +7879,29 @@ p:last-child {
 
 .fa-play{
   color: #F90305 !important
+}
+.slide-padding-case{
+  padding: 20px !important;
+}
+.swiper-slide{
+  padding: 10px !important;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  width: 30px !important;
+    height: 5px !important;
+    border-radius: 20px !important;
+}
+
+
+
+
+
+
+
+.black-section .swiper-pagination-clickable .swiper-pagination-bullet{
+  background-color: #DDDDDD;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #F90305 !important
 }

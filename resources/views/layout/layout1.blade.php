@@ -79,7 +79,7 @@
                                     </h2>
                                 </div>
                                 <div class="">
-                                    <a href="#" class="btn is-black is-large btn-animation group inline-block w-full rounded-[3px] border-2"><span>Let's Get Started</span></a>
+                                    <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Let's Get Started</span></a>
                                 </div>
                             </div>
                         </div>

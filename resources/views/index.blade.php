@@ -185,9 +185,9 @@
         <!-- Section Space -->
 
         <!-- Content Shape -->
-        <div class="absolute hidden xl:inline-block right-[60px] top-1/3 -z-10 rotate-[29deg]">
+        {{-- <div class="absolute hidden xl:inline-block right-[60px] top-1/3 -z-10 rotate-[29deg]">
             <img src="{{ asset('assets/img/elements/home-8-dot-shape.svg') }}" alt="home-8-dot-shape" width="126" height="275" />
-        </div>
+    </div> --}}
     </div>
 </section>
 <!-- Content Section End -->
@@ -394,7 +394,7 @@
 
 
 <!-- Case studies Section Start -->
-<div class="section-brand bg-[#ffffff]">
+<div class="section-brand bg-[#ffffff] ">
     <div class="jos">
         <!-- Section Space -->
         <div class="py-[60px] md:py-20 lg:py-[100px]">
@@ -411,42 +411,132 @@
                     <!-- Section Content Block -->
                 </div>
                 <!-- Section Content Wrapper -->
-                <!-- Partners Slider -->
-                <div class="swiper partners-slider-custom1">
+                <!-- Case studies Slider -->
+                <div class="swiper case-study-slider-custom1">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                            <!-- Case studies Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                                <!-- Content Area Single -->
+                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                    <!-- Content Block Left -->
+                                    <div class="jos order-1 md:order-2">
+                                        <!-- Section Wrapper -->
+                                        <div>
+                                            <!-- Section Block -->
+                                            <div class="mb-5">
+                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                    Fresh Harvest Project </h2>
+                                            </div>
+                                            <!-- Section Block -->
+                                        </div>
+                                        <!-- Section Wrapper -->
+                                        <p class="mb-5">
+                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. </p>
+                                        {{-- <hr class="mb-5" /> --}}
+                                        <p>
+                                            Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience. </p>
+                                        <div class="mt-8 lg:mt-[50px]">
+                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- Content Block Left -->
+                                    <!-- Content Block Right -->
+                                    <div class="jos relative order-2 md:order-1">
+                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" class="m-[20px] " />
+                                    </div>
+                                    <!-- Content Block Right -->
                                 </div>
+                                <!-- Content Area Single -->
+
+
                             </div>
-                            <!-- Partner Item -->
+                            <!-- Case studies Item -->
                         </div>
                         <div class="swiper-slide">
-                            <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                            <!-- Case studies Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                                <!-- Content Area Single -->
+                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                    <!-- Content Block Left -->
+                                    <div class="jos order-1 md:order-2">
+                                        <!-- Section Wrapper -->
+                                        <div>
+                                            <!-- Section Block -->
+                                            <div class="mb-5">
+                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                    Fresh Harvest Project </h2>
+                                            </div>
+                                            <!-- Section Block -->
+                                        </div>
+                                        <!-- Section Wrapper -->
+                                        <p class="mb-5">
+                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. </p>
+                                        {{-- <hr class="mb-5" /> --}}
+                                        <p>
+                                            Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience. </p>
+                                        <div class="mt-8 lg:mt-[50px]">
+                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- Content Block Left -->
+                                    <!-- Content Block Right -->
+                                    <div class="jos relative order-2 md:order-1">
+                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                    </div>
+                                    <!-- Content Block Right -->
                                 </div>
+                                <!-- Content Area Single -->
+
+
                             </div>
-                            <!-- Partner Item -->
+                            <!-- Case studies Item -->
                         </div>
                         <div class="swiper-slide">
-                            <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                            <!-- Case studies Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                                <!-- Content Area Single -->
+                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                    <!-- Content Block Left -->
+                                    <div class="jos order-1 md:order-2">
+                                        <!-- Section Wrapper -->
+                                        <div>
+                                            <!-- Section Block -->
+                                            <div class="mb-5">
+                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                    Fresh Harvest Project </h2>
+                                            </div>
+                                            <!-- Section Block -->
+                                        </div>
+                                        <!-- Section Wrapper -->
+                                        <p class="mb-5">
+                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. </p>
+                                        {{-- <hr class="mb-5" /> --}}
+                                        <p>
+                                            Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience. </p>
+                                        <div class="mt-8 lg:mt-[50px]">
+                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- Content Block Left -->
+                                    <!-- Content Block Right -->
+                                    <div class="jos relative order-2 md:order-1">
+                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                    </div>
+                                    <!-- Content Block Right -->
                                 </div>
+                                <!-- Content Area Single -->
+
+
                             </div>
-                            <!-- Partner Item -->
+                            <!-- Case studies Item -->
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-                <!-- Partners Slider -->
+                <!-- Case studies Slider -->
             </div>
             <!-- Section Container -->
         </div>
@@ -457,7 +547,7 @@
 
 
 <!-- Partners Section Start -->
-<div class="section-brand bg-[#1B1C1D]">
+<div class="section-brand bg-[#1B1C1D] black-section">
     <div class="jos">
         <!-- Section Space -->
         <div class="py-[60px] md:py-20 lg:py-[100px]">
@@ -534,7 +624,7 @@
                                 Browse our articles and resources to learn more
                             </h2>
                         </div>
-                        <p class="text-center">
+                        <p class="text-center ">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                     </div>
@@ -552,7 +642,7 @@
                         <div class="mb-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack">
                             App - The power of communication
                         </div>
-                        <p>
+                        <p class="line-clamp-3">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple">Read More
@@ -569,7 +659,7 @@
                         </div>
                         <div class="mb-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack">
                             App - The power of communication </div>
-                        <p>
+                        <p class="line-clamp-3">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple">Read More
@@ -587,7 +677,7 @@
                         <div class="mb-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack">
                             App - The power of communication
                         </div>
-                        <p>
+                        <p class="line-clamp-3">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple">Read More
                             <span class="transition-all duration-300 ease-in-out hover:translate-x-2">

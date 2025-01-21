@@ -114,7 +114,7 @@
 <!-- Content Section End -->
 
 <!-- Brand Section Start -->
-<div class="section-brand bg-[#1B1C1D]">
+<div class="section-brand bg-[#1B1C1D] black-section">
     <div class="jos">
         <!-- Section Space -->
         <div class="pb-[60px] md:pb-20 lg:pb-[100px]">
@@ -354,7 +354,7 @@
 <!-- Video Section End -->
 
 <!-- Partners Section Start -->
-<div class="section-brand bg-[#1B1C1D]">
+<div class="section-brand bg-[#1B1C1D] black-section" >
     <div class="jos">
         <!-- Section Space -->
         <div class="py-[60px] md:py-20 lg:py-[100px]">
