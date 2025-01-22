@@ -4013,11 +4013,11 @@ p:last-child {
 
 .text-ColorBlue {
   --tw-text-opacity: 1;
-  color: rgb(49 71 255 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .text-ColorBlue\/80 {
-  color: rgb(49 71 255 / 0.8);
+  color: rgb(249 3 5 / 0.8);
 }
 
 .text-ColorCaribbeanGreen {
@@ -5502,22 +5502,22 @@ p:last-child {
 
 .hover\:text-ColorBlue:hover {
   --tw-text-opacity: 1;
-  color: rgb(49 71 255 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .hover\:text-ColorBluePurple:hover {
   --tw-text-opacity: 1;
-  color: rgb(121 73 246 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .hover\:text-ColorCaribbeanGreen:hover {
   --tw-text-opacity: 1;
-  color: rgb(21 207 146 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .hover\:text-ColorDenimDarkBlue:hover {
   --tw-text-opacity: 1;
-  color: rgb(45 43 146 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .hover\:text-ColorEggSour:hover {
@@ -5733,7 +5733,7 @@ p:last-child {
 
 .group:hover .group-hover\:text-ColorBlue {
   --tw-text-opacity: 1;
-  color: rgb(49 71 255 / var(--tw-text-opacity));
+  color: rgb(249 3 5 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-ColorPurple {

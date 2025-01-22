@@ -29,9 +29,9 @@
 @section('content')
 
 <!-- Breadcrumb Section Start -->
-<section class="section-breadcrumb">
+<section class="section-breadcrumb" style="background-image: url({{ asset('assets/img/kodetech/sub.jpg') }}); background-position: bottom center; background-size: cover">
     <!-- Breadcrumb Section Spacer -->
-    <div class="breadcrumb-wrapper">
+    <div class="breadcrumb-wrapper" style="background-color: transparent !important">
         <!-- Section Container -->
         <div class="container-default">
             <div class="breadcrumb-block">
@@ -45,14 +45,14 @@
         <!-- Section Container -->
 
         <!-- Breadcrumb Shape - 1 -->
-        <div class="absolute left-0 top-0 -z-10">
+        {{-- <div class="absolute left-0 top-0 -z-10">
             <img src="{{ asset('assets/img/elements/breadcrumb-shape-1.svg') }}" alt="hero-shape-1" width="291" height="380" />
-        </div>
+    </div> --}}
 
-        <!-- Breadcrumb Shape - 2 -->
-        <div class="absolute bottom-0 right-0 -z-[1]">
+    <!-- Breadcrumb Shape - 2 -->
+    {{-- <div class="absolute bottom-0 right-0 -z-[1]">
             <img src="{{ asset('assets/img/elements/breadcrumb-shape-2.svg') }}" alt="hero-shape-2" width="291" height="380" />
-        </div>
+    </div> --}}
     </div>
     <!-- Breadcrumb Section Spacer -->
 </section>
@@ -106,9 +106,9 @@
         <!-- Section Space -->
 
         <!-- Content Shape -->
-        <div class="absolute hidden xl:inline-block right-[60px] top-1/3 -z-10 rotate-[29deg]">
+        {{-- <div class="absolute hidden xl:inline-block right-[60px] top-1/3 -z-10 rotate-[29deg]">
             <img src="{{ asset('assets/img/elements/home-8-dot-shape.svg') }}" alt="home-8-dot-shape" width="126" height="275" />
-        </div>
+        </div> --}}
     </div>
 </section>
 <!-- Content Section End -->
@@ -117,10 +117,10 @@
 <div class="section-brand bg-[#1B1C1D] black-section">
     <div class="jos">
         <!-- Section Space -->
-        <div class="pb-[60px] md:pb-20 lg:pb-[100px]">
+        <div class="pb-[60px] md:pb-20 lg:pb-[100px] pt-[60px] md:pt-20 lg:pt-[100px]">
             <!-- Section Container -->
             <div class="container-default">
-                <div class="mx-auto mb-10 max-w-[80%] text-center text-white text-xl font-semibold leading-[1.4] opacity-70 md:mb-16 lg:mb-20 lg:max-w-2xl">
+                <div class="mx-auto mb-10 max-w-[80%] text-center text-white text-xl font-semibold leading-[1.4] opacity-70 md:mb-10 lg:mb-10 lg:max-w-2xl" style="color: #ffffff !important">
                     From start-up to Fortune , we partner with brands of all sizes
                 </div>
                 <!-- Brand Slider -->
@@ -208,6 +208,7 @@
     </div>
 </div>
 <!-- Brand Section End -->
+
 <!-- Service Section Start -->
 <section class="section-service">
     <div class="relative z-10 overflow-hidden">
@@ -218,8 +219,8 @@
                 <!-- Section Content Wrapper -->
                 <div class="jos mb-[60px] xl:mb-20">
                     <!-- Section Content Block -->
-                    <div class="mx-auto max-w-[590px]">
-                        <h2 class="text-center">
+                    <div class="mx-auto max-w-[700px]">
+                        <h2 class="text-center mb-4">
                             Exploring its core capabilities
                         </h2>
                         <div class="mx-auto mb-10 max-w-[80%] text-center text-xl font-semibold leading-[1.4] opacity-70 md:mb-16 lg:mb-20 lg:max-w-2xl">
@@ -234,15 +235,14 @@
                 <div class="grid gap-6 sm:grid-cols-2">
                     <!-- Service Item -->
                     <div class="jos" data-jos_delay="0">
-                        <div class="group rounded-[10px] border border-[#E6E6E6] bg-white p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
+                        <div class="group rounded-[10px] border-0 bg-[#F4F4F4] p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Branding & Digital Strategies
+                                        Enhanced Efficiency
                                     </div>
-                                    <p class="mb-5 line-clamp-2 text-ColorBlack/80">
-                                        Brand strategy is all about developing a unique
-                                        identity that distinguishes your business from
+                                    <p class="mb-5 line-clamp-5 text-ColorBlack/80">
+                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
                                     </p>
                                 </div>
                             </div>
@@ -251,15 +251,14 @@
                     <!-- Service Item -->
                     <!-- Service Item -->
                     <div class="jos" data-jos_delay="0.3">
-                        <div class="group rounded-[10px] border border-[#E6E6E6] bg-white p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
+                        <div class="group rounded-[10px] border-0 bg-[#F4F4F4] p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Web Design & App Development
+                                        Enhanced Efficiency
                                     </div>
-                                    <p class="mb-5 line-clamp-2 text-ColorBlack/80">
-                                        Web design & development is an umbrella term that
-                                        describes the process of creating a website
+                                    <p class="mb-5 line-clamp-5 text-ColorBlack/80">
+                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
                                     </p>
                                 </div>
                             </div>
@@ -268,32 +267,30 @@
                     <!-- Service Item -->
                     <!-- Service Item -->
                     <div class="jos" data-jos_delay="0.6">
-                        <div class="group rounded-[10px] border border-[#E6E6E6] bg-white p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
+                        <div class="group rounded-[10px] border-0 bg-[#F4F4F4] p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Results-Driven Digital Marketing
+                                        Enhanced Efficiency
                                     </div>
-                                    <p class="mb-5 line-clamp-2 text-ColorBlack/80">
-                                        Digital marketing potential customers using the
-                                        internet & other forms of digital communication
+                                    <p class="mb-5 line-clamp-5 text-ColorBlack/80">
+                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
                                     </p>
-                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Service Item -->
                     <!-- Service Item -->
                     <div class="jos" data-jos_delay="0.9">
-                        <div class="group rounded-[10px] border border-[#E6E6E6] bg-white p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
+                        <div class="group rounded-[10px] border-0 bg-[#F4F4F4] p-8 transition-all duration-300 ease-in-out hover:border-ColorOffWhite hover:bg-ColorOffWhite lg:p-10 h-full">
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Custom Software Development
+                                        Enhanced Efficiency
                                     </div>
-                                    <p class="mb-5 line-clamp-2 text-ColorBlack/80">
-                                        Custom Software Development is the process of
-                                        conceptualizing, designing, building & deploying
+                                    <p class="mb-5 line-clamp-5 text-ColorBlack/80">
+                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
                                     </p>
                                 </div>
                             </div>
@@ -308,13 +305,14 @@
         <!-- Section Space -->
 
         <!-- Service Shape -->
-        <div class="absolute bottom-0 left-0 -z-10">
+        {{-- <div class="absolute bottom-0 left-0 -z-10">
             <img src="{{ asset('assets/img/elements/service-1-shape-1.svg') }}" alt="service-section-shape" width="390" height="507" />
-        </div>
+        </div> --}}
         <!-- Service Shape -->
     </div>
 </section>
 <!-- Service Section End -->
+
 <!-- Video Section Start -->
 <section class="section-video">
     <!-- Section Space -->
@@ -354,7 +352,7 @@
 <!-- Video Section End -->
 
 <!-- Partners Section Start -->
-<div class="section-brand bg-[#1B1C1D] black-section" >
+<div class="section-brand bg-[#1B1C1D] black-section">
     <div class="jos">
         <!-- Section Space -->
         <div class="py-[60px] md:py-20 lg:py-[100px]">
@@ -447,11 +445,11 @@
                                 <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
                                     <!-- Review Star -->
                                     <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
                                     </div>
                                     <div class="mb-1 font-semibold">
                                         Great value home exercise 💪🏼
@@ -478,11 +476,11 @@
                                 <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
                                     <!-- Review Star -->
                                     <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
                                     </div>
                                     <div class="mb-1 font-semibold">
                                         Great value home exercise 💪🏼
@@ -509,11 +507,11 @@
                                 <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
                                     <!-- Review Star -->
                                     <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
                                     </div>
                                     <div class="mb-1 font-semibold">
                                         Great value home exercise 💪🏼
@@ -540,135 +538,11 @@
                                 <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
                                     <!-- Review Star -->
                                     <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                    </div>
-                                    <div class="mb-1 font-semibold">
-                                        Great value home exercise 💪🏼
-                                    </div>
-                                    <p class="mb-6">
-                                        I was recommended masco from a dear friend and WOW!!!
-                                        Gives energy, strength & mostly your motivation and you
-                                        helped me grow beyond my expectations.
-                                    </p>
-                                    <div class="flex items-center gap-4">
-                                        <img src="{{ asset('assets/img/th-3/testimonial-avater-1.jpg') }}" alt="testimonial-avater-1" width="60" height="60" class="h-[60px] w-[60px] rounded-[50%]" />
-                                        <div>
-                                            <span class="block font-semibold">Karen Lynn</span>
-                                            <span class="text-sm text-opacity-80">CEO & Co-founder @ Company</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Item -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Testimonial Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
-                                    <!-- Review Star -->
-                                    <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                    </div>
-                                    <div class="mb-1 font-semibold">
-                                        Great value home exercise 💪🏼
-                                    </div>
-                                    <p class="mb-6">
-                                        I was recommended masco from a dear friend and WOW!!!
-                                        Gives energy, strength & mostly your motivation and you
-                                        helped me grow beyond my expectations.
-                                    </p>
-                                    <div class="flex items-center gap-4">
-                                        <img src="{{ asset('assets/img/th-3/testimonial-avater-1.jpg') }}" alt="testimonial-avater-1" width="60" height="60" class="h-[60px] w-[60px] rounded-[50%]" />
-                                        <div>
-                                            <span class="block font-semibold">Karen Lynn</span>
-                                            <span class="text-sm text-opacity-80">CEO & Co-founder @ Company</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Item -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Testimonial Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
-                                    <!-- Review Star -->
-                                    <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                    </div>
-                                    <div class="mb-1 font-semibold">
-                                        Great value home exercise 💪🏼
-                                    </div>
-                                    <p class="mb-6">
-                                        I was recommended masco from a dear friend and WOW!!!
-                                        Gives energy, strength & mostly your motivation and you
-                                        helped me grow beyond my expectations.
-                                    </p>
-                                    <div class="flex items-center gap-4">
-                                        <img src="{{ asset('assets/img/th-3/testimonial-avater-1.jpg') }}" alt="testimonial-avater-1" width="60" height="60" class="h-[60px] w-[60px] rounded-[50%]" />
-                                        <div>
-                                            <span class="block font-semibold">Karen Lynn</span>
-                                            <span class="text-sm text-opacity-80">CEO & Co-founder @ Company</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Item -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Testimonial Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
-                                    <!-- Review Star -->
-                                    <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                    </div>
-                                    <div class="mb-1 font-semibold">
-                                        Great value home exercise 💪🏼
-                                    </div>
-                                    <p class="mb-6">
-                                        I was recommended masco from a dear friend and WOW!!!
-                                        Gives energy, strength & mostly your motivation and you
-                                        helped me grow beyond my expectations.
-                                    </p>
-                                    <div class="flex items-center gap-4">
-                                        <img src="{{ asset('assets/img/th-3/testimonial-avater-1.jpg') }}" alt="testimonial-avater-1" width="60" height="60" class="h-[60px] w-[60px] rounded-[50%]" />
-                                        <div>
-                                            <span class="block font-semibold">Karen Lynn</span>
-                                            <span class="text-sm text-opacity-80">CEO & Co-founder @ Company</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Item -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Testimonial Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]">
-                                    <!-- Review Star -->
-                                    <div class="mb-5 flex gap-[5px] text-2xl text-[#00B67A] lg:mb-[30px]">
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
-                                        <img src="{{ asset('assets/img/icons/icon-green-star.svg') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
+                                        <img src="{{ asset('assets/img/kodetech/Star 1.png') }}" alt="icon-green-star" width="26" height="24" />
                                     </div>
                                     <div class="mb-1 font-semibold">
                                         Great value home exercise 💪🏼
