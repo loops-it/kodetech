@@ -220,16 +220,20 @@
                 </div>
                 <!-- Footer Area Center -->
 
-                <div class="horizontal-line bg-white"></div>
+                <div class="horizontal-line bg-[#F90305]" style="height: 2px; width: 100%; background-color: #F90305; opacity: 1"></div>
 
                 <!-- Footer Area Bottom -->
                 <div>
                     <!-- Footer Bottom Spacing -->
                     <div class="py-[18px]">
                         <!-- Section Container -->
-                        <div class="container-default">
+                        <div class="container-default flex flex-col-reverse md:flex-row justify-between">
                             <div class="text-center text-[#FDFBF9]/80">
-                                &copy; Copyright 2024, All Rights Reserved by PixcelsThemes
+                                &copy; Copyright 2023 Kodetech (Pvt) Ltd.
+                            </div>
+                            <div class="text-center text-[#FDFBF9]/80">
+                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline pe-10">Terms & Conditions</a>
+                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Privacy Policy</a>
                             </div>
                         </div>
                         <!-- Section Container -->
