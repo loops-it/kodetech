@@ -75,19 +75,18 @@
                                 <!-- Section Block -->
                                 <div class="mb-5">
                                     <h2 class="font-PublicSans text-4xl font-bold leading-[1.14] text-[#121212] lg:text-left lg:text-5xl xl:text-[56px]">
-                                        Simple, powerful & efficient process
+                                        Kode Tech Development Process
                                     </h2>
                                 </div>
                                 <!-- Section Block -->
                             </div>
                             <!-- Section Wrapper -->
                             <p class="mb-5">
-                                Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
+                                At Kode Tech, our development process is powered by the Agile methodology, ensuring flexibility, collaboration, and continuous improvement. We begin by thoroughly understanding your unique business needs, breaking projects into manageable sprints, and prioritizing regular feedback. This iterative approach allows us to deliver high-quality, scalable solutions that align with your goals while adapting seamlessly to changing requirements.
                             </p>
                             <hr class="mb-5" />
                             <p>
-                                Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience.Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
-                                Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.
+                                Our dedicated team works closely with clients throughout every stage—planning, development, testing, and deployment. With frequent updates, transparent communication, and a commitment to excellence, we ensure every project is delivered on time and to the highest standard. By integrating innovation with agility, we craft future-ready solutions that are scalable, secure, and designed to evolve with your business. Whether creating cutting-edge web applications or AI-driven tools, we empower businesses to stay ahead in today’s fast-paced digital world. At Kode Tech, your success is our priority.
                             </p>
                         </div>
                         <!-- Content Block Left -->
