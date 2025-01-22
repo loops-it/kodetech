@@ -121,7 +121,7 @@
             <!-- Section Container -->
             <div class="container-default">
                 <div class="mx-auto mb-10 max-w-[80%] text-center text-white text-xl font-semibold leading-[1.4] opacity-70 md:mb-10 lg:mb-10 lg:max-w-2xl" style="color: #ffffff !important">
-                    From start-up to Fortune , we partner with brands of all sizes
+                    Trusted collaborations with industry-leading partners.
                 </div>
                 <!-- Brand Slider -->
                 <div class="swiper brand-slider">
@@ -221,7 +221,7 @@
                     <!-- Section Content Block -->
                     <div class="mx-auto max-w-[700px]">
                         <h2 class="text-center mb-4">
-                            Exploring its core capabilities
+                            Guiding Principles That Define Us
                         </h2>
                         <div class="mx-auto mb-10 max-w-[80%] text-center text-xl font-semibold leading-[1.4] opacity-70 md:mb-16 lg:mb-20 lg:max-w-2xl">
                             Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
@@ -239,10 +239,10 @@
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Enhanced Efficiency
+                                       Innovation at Heart
                                     </div>
                                     <p class="mb-5 line-clamp-5 text-ColorBlack/80">
-                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
+                                        We prioritize innovation to deliver impactful solutions. By adopting emerging technologies and creative thinking, we empower businesses to thrive in a competitive landscape, ensuring every project reflects our passion for driving progress and transformation.
                                     </p>
                                 </div>
                             </div>
@@ -255,10 +255,10 @@
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Enhanced Efficiency
+                                        Customer-Centric Approach
                                     </div>
                                     <p class="mb-5 line-clamp-5 text-ColorBlack/80">
-                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
+                                        Our clients’ success fuels ours. We focus on understanding their unique challenges, crafting customized solutions, and building lasting partnerships. By putting customers first, we ensure satisfaction, trust, and exceptional value in every interaction and delivery.
                                     </p>
                                 </div>
                             </div>
@@ -271,10 +271,10 @@
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Enhanced Efficiency
+                                        Integrity and Excellence
                                     </div>
                                     <p class="mb-5 line-clamp-5 text-ColorBlack/80">
-                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
+                                        Integrity is the cornerstone of our operations. We are dedicated to ethical practices, transparent communication, and delivering outstanding quality. Excellence is not just a goal—it’s our promise to every client and project we undertake.
                                     </p>
                                 </div>
                             </div>
@@ -287,10 +287,10 @@
                             <div class="flex flex-col gap-x-10 gap-y-6 sm:gap-y-8 lg:flex-row">
                                 <div class="flex-1 text-center lg:text-left">
                                     <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
-                                        Enhanced Efficiency
+                                        Collaboration and Growth
                                     </div>
                                     <p class="mb-5 line-clamp-5 text-ColorBlack/80">
-                                        This efficiency is crucial for the fast-paced lifestyle of the new generation. This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation.This efficiency is crucial for the fast-paced lifestyle of the new generation
+                                        We believe that teamwork drives success. By fostering a culture of collaboration and continuous learning, we enable our teams and partners to achieve shared goals, build enduring relationships, and grow together in a dynamic business environment.
                                     </p>
                                 </div>
                             </div>
@@ -425,7 +425,7 @@
                     <!-- Section Content Block -->
                     <div class="mx-auto max-w-[636px]">
                         <h2 class="mb-5 text-center">
-                            Our clients have shared their experiences using Masco
+                           Client testimonials highlight the impact of our services and solutions.
                         </h2>
                     </div>
                     <!-- Section Content Block -->
