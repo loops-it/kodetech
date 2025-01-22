@@ -35,13 +35,12 @@
             <div class="container-default relative z-10">
                 <!-- Hero Area -->
                 <div class="text-center">
-                    <h1 class="jos -trackig-[1px] mx-auto mb-6 font-PublicSans text-5xl font-bold leading-[1.06] text-[#121212] md:max-w-[80%] md:text-[60px] lg:max-w-[70%] lg:text-[70px] xl:max-w-[856px] xl:text-[90px]">
-                        Grow your business
-                        to the next level
+                    <h1 class="jos -trackig-[1px] mx-auto mb-6 font-PublicSans text-5xl font-bold leading-[1.06] text-[#121212] md:max-w-[80%] md:text-[60px] lg:max-w-[95%] lg:text-[70px] xl:max-w-[1000px] xl:text-[90px]">
+                        Driving Growth Through Digital Innovation
                     </h1>
                     <p class="jos mx-auto mb-8 max-w-[658px] lg:mb-[50px]">
-                        Starting a business can be daunting, but you can make it easier with us.
-                        We’re skilled in team - building strategies for your business’s success.
+                        Make your business easier and more efficient with Kode Tech. We provide smart, innovative solutions to streamline your operations and drive growth. Let technology work for you and take your business to the next level!
+
                     </p>
                     <div class="jos flex flex-wrap justify-center gap-[18px]">
                         <a href="#" class="btn is-lime is-large btn-animation group rounded-[3px]"><span>Get In Touch</span></a>
@@ -66,6 +65,7 @@
     <!-- Section Background -->
 </section>
 <!-- Hero Section End -->
+
 <!-- Fact Section Start -->
 <section class="section-fact">
     <!-- Section Background -->
@@ -81,7 +81,7 @@
                         <!-- Section Block -->
                         <div class="mb-5">
                             <h2 class="text-center font-PublicSans text-4xl font-bold leading-[1.14] text-[#FDFBF9] lg:text-left lg:text-5xl xl:text-[56px]">
-                                We earn trust by working efficiently
+                                Earning Trust Through Innovation and Excellence.
                             </h2>
                         </div>
                         <!-- Section Block -->
@@ -149,19 +149,18 @@
                                 <!-- Section Block -->
                                 <div class="mb-5">
                                     <h2 class="font-PublicSans text-4xl font-bold leading-[1.14] text-[#121212] lg:text-left lg:text-5xl xl:text-[56px]">
-                                        The Story behind
-                                        our consulting firm
+                                        The Journey of Kode Tech
                                     </h2>
                                 </div>
                                 <!-- Section Block -->
                             </div>
                             <!-- Section Wrapper -->
                             <p class="mb-5">
-                                Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
+                                For more than 15 years, Kode Tech (Pvt) Ltd has been a trusted name in the world of technology, delivering over 1500 groundbreaking projects across 15 international markets. Our journey has been driven by a passion for innovation, enabling businesses to thrive through advanced solutions in software development, artificial intelligence, blockchain, and the metaverse.
                             </p>
                             {{-- <hr class="mb-5" /> --}}
                             <p>
-                                Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience.
+                                With a rich legacy of excellence and an eye on the future, we continue to redefine what's possible, helping our clients achieve success at every step.
                             </p>
                             <div class="mt-8 lg:mt-[50px]">
                                 <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
@@ -203,11 +202,10 @@
                 <!-- Section Content Block -->
                 <div class="mx-auto max-w-[636px]">
                     <h2 class="mb-5 text-center">
-                        Develop a communication
-                        strategy with live video chat
+                        Explore Our Innovation and Expertise
                     </h2>
                     <p class="text-center">
-                        Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. </p>
+                        Unveil the power of our innovative solutions that drive growth, efficiency, and success for businesses worldwide. </p>
                 </div>
                 <!-- Section Content Block -->
             </div>
@@ -243,7 +241,7 @@
                     <!-- Section Content Block -->
                     <div class="mx-auto max-w-[636px]">
                         <h2 class="text-center font-GeneralSans font-semibold text-white">
-                            Boost your business with advanced SEO strategies
+                            Explore Our Comprehensive Range of Expert Services
                         </h2>
                     </div>
                     <!-- Section Content Block -->
@@ -258,12 +256,10 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">01.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Keyword strategy
+                                Web Development
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                When developing a keyword strategy, we use a number of
-                                tools to conduct keyword research alongside years of
-                                knowledge.
+                                Custom-built, responsive websites designed to enhance user experience, optimize performance, and drive business growth.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -279,12 +275,10 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">02.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Content optimization
+                                Software Development
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                Ranking on page 1 &gaining rich snippets requires a
-                                detailed SEO content strategy. Everything from header
-                                tag optimization.
+                                Innovative, scalable software solutions tailored to streamline operations and meet unique business requirements effectively.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -300,12 +294,10 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">03.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Technical SEO
+                                AI Solutions
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                Creating great content is one thing, but making sure
-                                Googlebot can crawl, and index it efficiently is
-                                another! We used.
+                                Cutting-edge artificial intelligence services to automate processes, analyze data, and enhance decision-making with smart, adaptive technologies.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -321,12 +313,10 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">04.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Link building & SEO audits
+                                Blockchain
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                When developing a keyword strategy, we use a number of
-                                tools to conduct keyword research alongside years of
-                                knowledge.
+                                Secure and transparent blockchain solutions for decentralized applications, smart contracts, and seamless data management.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -342,12 +332,10 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">05.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Website migrations
+                                Mobile App Development
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                Whether it’s a domain, design, or platform migration,
-                                there is always the risk of losing organic traffic. We
-                                can mitigate that risk.
+                                Intuitive, high-performance mobile apps crafted to deliver seamless user experiences across all platforms.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -363,12 +351,49 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">06.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                E-Commerce SEO
+                                AR/VR Solutions
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                E-Commerce websites require a unique approach to SEO in
-                                order to maximize for product page visibility and
-                                increase sales.
+                                Immersive augmented and virtual reality experiences to revolutionize industries like education, retail, and entertainment.
+                            </p>
+                            <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
+                                <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
+                                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Service Item -->
+
+                    <!-- Service Item -->
+                    <div class="jos" data-jos_delay="1.5">
+                        <div class="group flex h-full flex-col text-[#FDFBF9]">
+                            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">06.</span>
+                            <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
+                            <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
+                                Game Development
+                            </div>
+                            <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
+                                Engaging, visually stunning games built with advanced technology for an unparalleled gaming experience.
+                            </p>
+                            <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
+                                <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
+                                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Service Item -->
+                    <!-- Service Item -->
+                    <div class="jos" data-jos_delay="1.5">
+                        <div class="group flex h-full flex-col text-[#FDFBF9]">
+                            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">06.</span>
+                            <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
+                            <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
+                                Metaverse Solutions
+                            </div>
+                            <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
+                                Next-gen metaverse solutions for interactive virtual environments, redefining digital interactions and business opportunities.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -405,7 +430,7 @@
                     <!-- Section Content Block -->
                     <div class="mx-auto max-w-[636px]">
                         <h2 class="mb-5 text-center">
-                            Explore how we can create your success story
+                            Innovative Solutions for Every Business Need
                         </h2>
                     </div>
                     <!-- Section Content Block -->
@@ -428,19 +453,17 @@
                                             <!-- Section Block -->
                                             <div class="mb-5">
                                                 <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
-                                                    Fresh Harvest Project </h2>
+                                                    Document Management System (DMS) </h2>
                                             </div>
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
                                         <p class="mb-5">
-                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. </p>
-                                        {{-- <hr class="mb-5" /> --}}
-                                        <p>
-                                            Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience. </p>
-                                        <div class="mt-8 lg:mt-[50px]">
-                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
-                                        </div>
+                                            Kode Tech’s Document Management System is a comprehensive solution for businesses to securely store, organize, and retrieve critical documents. It enhances collaboration, ensures compliance, and optimizes workflows with features like version control, access management, and automated document tracking. Our DMS empowers organizations to reduce inefficiencies, minimize errors, and improve productivity, making it an indispensable tool for modern businesses. {{-- <hr class="mb-5" /> --}}
+
+                                            <div class="mt-8 lg:mt-[50px]">
+                                                <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                            </div>
                                     </div>
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
@@ -467,16 +490,15 @@
                                             <!-- Section Block -->
                                             <div class="mb-5">
                                                 <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
-                                                    Fresh Harvest Project </h2>
+                                                    AI Chatbot</h2>
                                             </div>
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
                                         <p class="mb-5">
-                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. </p>
+                                            Kode Tech’s AI Chatbot is a versatile tool that revolutionizes customer interactions. Tailored for diverse industries, it offers real-time support, automates routine tasks, and provides personalized responses. From retail to healthcare, our chatbot enhances customer engagement, improves response times, and boosts operational efficiency, helping businesses deliver superior experiences while focusing on strategic goals. </p>
                                         {{-- <hr class="mb-5" /> --}}
-                                        <p>
-                                            Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience. </p>
+
                                         <div class="mt-8 lg:mt-[50px]">
                                             <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                         </div>
@@ -506,16 +528,95 @@
                                             <!-- Section Block -->
                                             <div class="mb-5">
                                                 <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
-                                                    Fresh Harvest Project </h2>
+                                                    AI-Based Lead Generation and CRM </h2>
                                             </div>
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
                                         <p class="mb-5">
-                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. </p>
+                                            Kode Tech’s AI-powered Lead Generation and CRM platform transforms customer acquisition and relationship management. Leveraging advanced analytics, it identifies high-quality leads, streamlines customer engagement, and drives sales growth. This intelligent solution enables businesses to make informed decisions, enhance customer loyalty, and achieve measurable results in today’s competitive landscape.</p>
                                         {{-- <hr class="mb-5" /> --}}
-                                        <p>
-                                            Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience. </p>
+
+                                        <div class="mt-8 lg:mt-[50px]">
+                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- Content Block Left -->
+                                    <!-- Content Block Right -->
+                                    <div class="jos relative order-2 md:order-1">
+                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                    </div>
+                                    <!-- Content Block Right -->
+                                </div>
+                                <!-- Content Area Single -->
+
+
+                            </div>
+                            <!-- Case studies Item -->
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <!-- Case studies Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                                <!-- Content Area Single -->
+                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                    <!-- Content Block Left -->
+                                    <div class="jos order-1 md:order-2">
+                                        <!-- Section Wrapper -->
+                                        <div>
+                                            <!-- Section Block -->
+                                            <div class="mb-5">
+                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                    Human Resource Information System (HRIS)</h2>
+                                            </div>
+                                            <!-- Section Block -->
+                                        </div>
+                                        <!-- Section Wrapper -->
+                                        <p class="mb-5">
+                                            Kode Tech’s HRIS streamlines human resource management with a centralized and automated platform. It handles payroll, employee records, leave tracking, and more with precision and efficiency. Designed for scalability, our HRIS empowers organizations to optimize their workforce, improve compliance, and make data-driven decisions that enhance overall performance.
+                                        </p>
+                                        {{-- <hr class="mb-5" /> --}}
+
+                                        <div class="mt-8 lg:mt-[50px]">
+                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- Content Block Left -->
+                                    <!-- Content Block Right -->
+                                    <div class="jos relative order-2 md:order-1">
+                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                    </div>
+                                    <!-- Content Block Right -->
+                                </div>
+                                <!-- Content Area Single -->
+
+
+                            </div>
+                            <!-- Case studies Item -->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Case studies Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                                <!-- Content Area Single -->
+                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                    <!-- Content Block Left -->
+                                    <div class="jos order-1 md:order-2">
+                                        <!-- Section Wrapper -->
+                                        <div>
+                                            <!-- Section Block -->
+                                            <div class="mb-5">
+                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                    Learning Management System (LMS) </h2>
+                                            </div>
+                                            <!-- Section Block -->
+                                        </div>
+                                        <!-- Section Wrapper -->
+                                        <p class="mb-5">
+                                             Kode Tech’s LMS is an advanced platform designed for seamless education and training delivery. It enables intuitive course management, progress tracking, and collaborative learning. Whether for corporate training or academic institutions, our LMS enhances learner engagement, fosters skill development, and ensures measurable outcomes, aligning perfectly with organizational objectives.</p>
+                                        {{-- <hr class="mb-5" /> --}}
+
                                         <div class="mt-8 lg:mt-[50px]">
                                             <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                         </div>
@@ -558,7 +659,7 @@
                     <!-- Section Content Block -->
                     <div class="mx-auto max-w-[636px]">
                         <h2 class="mb-5 text-center text-white">
-                            Meet our valued clients partners in innovation
+                           Our Valued Clients Around the Globe
                         </h2>
                     </div>
                     <!-- Section Content Block -->
@@ -621,11 +722,11 @@
                     <div class="mx-auto max-w-[640px]">
                         <div class="mb-5">
                             <h2 class="mb-5 text-center font-PublicSans text-4xl font-bold leading-[1.14] text-[#1212121] lg:text-5xl xl:text-[56px]">
-                                Browse our articles and resources to learn more
+                                Browse Through Our Tech Insights
                             </h2>
                         </div>
                         <p class="text-center ">
-                            A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
+                            Stay updated with the latest trends, innovations, and expert insights in technology, AI, blockchain, and more. Explore our blogs to gain valuable knowledge and stay ahead in the digital world.
                         </p>
                     </div>
                     <!-- Section Content Block -->

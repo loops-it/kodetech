@@ -34,21 +34,21 @@
                                 <li class="nav-item">
                                     <a href="{{ url('about') }}" class="nav-link-item">About Us</a>
                                 </li>
-                                 <li class="nav-item">
+                                <li class="nav-item">
                                     <a href="{{ url('tech-stack') }}" class="nav-link-item">Tech Stack</a>
                                 </li>
-                                 <li class="nav-item">
+                                <li class="nav-item">
                                     <a href="{{ url('about') }}" class="nav-link-item">Our Services</a>
                                 </li>
-                                 <li class="nav-item">
+                                <li class="nav-item">
                                     <a href="{{ url('about') }}" class="nav-link-item">Our Products</a>
                                 </li>
-                                 <li class="nav-item">
+                                <li class="nav-item">
                                     <a href="{{ url('about') }}" class="nav-link-item">Our Projects</a>
                                 </li>
                                 <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group hidden md:inline-block"><span>Contact Us</span></a>
                             </ul>
-                            
+
                         </nav>
                     </div>
                     <!-- Header Navigation -->
@@ -73,13 +73,16 @@
                     <div class="pt-[60px] lg:pt-20 xl:pt-[100px]">
                         <div class="container-default">
                             <div class="flex flex-col items-center justify-between gap-x-10 gap-y-8 rounded-[5px] bg-white p-10 md:flex-row lg:gap-x-20 lg:p-[50px]" style="border: solid 2px #F90305">
-                                <div class="max-w-none md:max-w-[60%] lg:max-w-[62%] xl:max-w-[636px]">
+                                <div class="max-w-none md:max-w-[60%] lg:max-w-[65%] xl:max-w-[700px]">
                                     <h2 class="text-center font-GeneralSans font-semibold text-[#1B1C1D] md:text-left">
-                                        Are you ready to increase your SEO ranking?
+                                        Let's Build Something Great Together!
                                     </h2>
+                                    <p class="text-start ">
+                                        Get in touch with us today and take the first step toward innovation and growth.
+                                    </p>
                                 </div>
                                 <div class="">
-                                    <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Let's Get Started</span></a>
+                                    <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Contact us</span></a>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +109,7 @@
                                     <div>
                                         <!-- Footer About Text -->
                                         <div class="lg:max-w-[416px]">
-                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years. 
+                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
                                         </div>
                                         <!-- Footer Mail -->
                                         <a href="mailto:kodetech@gmail.com" class="my-6 block underline-offset-4 transition-all duration-300 hover:underline">kodetech@gmail.com</a>
