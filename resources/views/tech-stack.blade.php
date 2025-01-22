@@ -29,9 +29,9 @@
 @section('content')
 
 <!-- Breadcrumb Section Start -->
-<section class="section-breadcrumb">
+<section class="section-breadcrumb"  style="background-image: url({{ asset('assets/img/kodetech/sub.jpg') }}); background-position: bottom center; background-size: cover">
     <!-- Breadcrumb Section Spacer -->
-    <div class="breadcrumb-wrapper">
+    <div class="breadcrumb-wrapper"  style="background-color: transparent !important">
         <!-- Section Container -->
         <div class="container-default">
             <div class="breadcrumb-block">
@@ -45,14 +45,14 @@
         <!-- Section Container -->
 
         <!-- Breadcrumb Shape - 1 -->
-        <div class="absolute left-0 top-0 -z-10">
+        {{-- <div class="absolute left-0 top-0 -z-10">
             <img src="{{ asset('assets/img/elements/breadcrumb-shape-1.svg') }}" alt="hero-shape-1" width="291" height="380" />
-        </div>
+        </div> --}}
 
         <!-- Breadcrumb Shape - 2 -->
-        <div class="absolute bottom-0 right-0 -z-[1]">
+        {{-- <div class="absolute bottom-0 right-0 -z-[1]">
             <img src="{{ asset('assets/img/elements/breadcrumb-shape-2.svg') }}" alt="hero-shape-2" width="291" height="380" />
-        </div>
+        </div> --}}
     </div>
     <!-- Breadcrumb Section Spacer -->
 </section>
@@ -106,12 +106,74 @@
         <!-- Section Space -->
 
         <!-- Content Shape -->
-        <div class="absolute hidden xl:inline-block right-[60px] top-1/3 -z-10 rotate-[29deg]">
+        {{-- <div class="absolute hidden xl:inline-block right-[60px] top-1/3 -z-10 rotate-[29deg]">
             <img src="{{ asset('assets/img/elements/home-8-dot-shape.svg') }}" alt="home-8-dot-shape" width="126" height="275" />
-        </div>
+        </div> --}}
     </div>
 </section>
 <!-- Content Section End -->
+
+<!-- Partners Section Start -->
+<div class="section-brand bg-[#1B1C1D] black-section">
+    <div class="jos">
+        <!-- Section Space -->
+        <div class="py-[60px] md:py-20 lg:py-[100px]">
+            <!-- Section Container -->
+            <div class="container-default">
+                <!-- Section Content Wrapper -->
+                <div class="jos mb-[60px] xl:mb-20">
+                    <!-- Section Content Block -->
+                    <div class="mx-auto max-w-[636px]">
+                        <h2 class="mb-5 text-center text-white">
+                            Explore how we can create your success story
+                        </h2>
+                    </div>
+                    <!-- Section Content Block -->
+                </div>
+                <!-- Section Content Wrapper -->
+                <!-- Partners Slider -->
+                <div class="swiper partners-slider-custom1">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <!-- Partner Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
+                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                                </div>
+                            </div>
+                            <!-- Partner Item -->
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Partner Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
+                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                                </div>
+                            </div>
+                            <!-- Partner Item -->
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Partner Item -->
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
+                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                                </div>
+                            </div>
+                            <!-- Partner Item -->
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Partners Slider -->
+            </div>
+            <!-- Section Container -->
+        </div>
+        <!-- Section Space -->
+    </div>
+</div>
+<!-- Partners Section End -->
 
 <!-- Portfolio Section Start -->
 <section class="section-portfolio">
@@ -137,7 +199,7 @@
                     <div class="jos" data-jos_delay="0">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-1.jpg') }}" alt="portfolio-img-1" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/kodetech/Rectangle 103.png') }}" alt="portfolio-img-1" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 text-ColorBlack lg:flex-nowrap xl:mb-7">
@@ -154,7 +216,7 @@
                     <div class="jos" data-jos_delay="0.3">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-2.jpg') }}" alt="portfolio-img-2" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/kodetech/Rectangle 104.png') }}" alt="portfolio-img-2" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 text-ColorBlack lg:flex-nowrap xl:mb-7">

@@ -54,7 +54,7 @@
                     <!-- Header Navigation -->
 
                     <!-- Header User Event -->
-                    {{-- @yield('headButtons') --}}
+                    @yield('headButtons')
                     <!-- Header User Event -->
                 </div>
             </div>
