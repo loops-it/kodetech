@@ -116,10 +116,6 @@ var brandSlider = new Swiper(".testimonial-slider-custom1", {
 var brandSlider = new Swiper(".case-study-slider-custom1", {
   slidesPerView: 1,
   spaceBetween: 10,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
   speed: 1200,
   // autoplay: {
   //   delay: 4000,
@@ -137,6 +133,137 @@ var brandSlider = new Swiper(".case-study-slider-custom1", {
     },
   },
 });
+
+
+
+
+// ======================== tech slider ============================
+// var categorySlider = new Swiper(".techStack-category-slider", {
+//   slidesPerView: 4,
+//   spaceBetween: 10,
+//   breakpoints: {
+//     768: { slidesPerView: 2 },
+//     992: { slidesPerView: 3 },
+//     1200: { slidesPerView: 4 },
+//   },
+//   navigation: {
+//     nextEl: ".category-next",
+//     prevEl: ".category-prev",
+//   },
+// });
+
+// var sliders = {};
+// document.querySelectorAll(".techStack-image-slider").forEach(slider => {
+//   let category = slider.getAttribute("data-category");
+//   sliders[category] = new Swiper(slider, {
+//     slidesPerView: 1,
+//     spaceBetween: 10,
+//     loop: true, 
+//     autoplay: {
+//       delay: 3000,
+//       disableOnInteraction: false,
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//   });
+// });
+
+// function showTechStackSlider(category) {
+//   document.querySelectorAll(".techStack-image-slider").forEach(slider => {
+//     if (slider.getAttribute("data-category") === category) {
+//       slider.classList.remove("hidden");
+//     } else {
+//       slider.classList.add("hidden");
+//     }
+//   });
+// }
+
+// showTechStackSlider("web");
+
+// document.querySelectorAll(".techStack-category-slider .swiper-slide").forEach(slide => {
+//   slide.addEventListener("click", function () {
+//     let selectedCategory = this.getAttribute("data-category");
+//     showTechStackSlider(selectedCategory);
+//   });
+// });
+
+var categorySlider = new Swiper(".techStack-category-slider", {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  breakpoints: {
+    768: { slidesPerView: 2 },
+    992: { slidesPerView: 3 },
+    1200: { slidesPerView: 4 },
+  },
+  navigation: {
+    nextEl: ".category-next",
+    prevEl: ".category-prev",
+  },
+});
+
+var sliders = {};
+document.querySelectorAll(".techStack-image-slider").forEach(slider => {
+  let category = slider.getAttribute("data-category");
+  sliders[category] = new Swiper(slider, {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true, 
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+});
+
+function showTechStackSlider(category) {
+  document.querySelectorAll(".techStack-image-slider").forEach(slider => {
+    if (slider.getAttribute("data-category") === category) {
+      slider.classList.remove("hidden");
+    } else {
+      slider.classList.add("hidden");
+    }
+  });
+
+  document.querySelectorAll(".techStack-category-slider .swiper-slide").forEach(slide => {
+    slide.classList.remove("active");
+  });
+
+  let selectedSlide = document.querySelector(`.techStack-category-slider .swiper-slide[data-category="${category}"]`);
+  if (selectedSlide) {
+    selectedSlide.classList.add("active");
+  }
+}
+
+showTechStackSlider("web");
+
+document.querySelectorAll(".techStack-category-slider .swiper-slide").forEach(slide => {
+  slide.addEventListener("click", function () {
+    let selectedCategory = this.getAttribute("data-category");
+    showTechStackSlider(selectedCategory);
+  });
+});
+
+// ======================== tech slider ============================
+
+
+
+
+
+
 
 
 // ========================TF-1 : Testimonial Slider custom================================
