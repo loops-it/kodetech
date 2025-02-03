@@ -194,9 +194,10 @@ var brandSlider = new Swiper(".case-study-slider-custom1", {
 // });
 
 var categorySlider = new Swiper(".techStack-category-slider", {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 20,
   breakpoints: {
+    576: { slidesPerView: 1 },
     768: { slidesPerView: 2 },
     992: { slidesPerView: 3 },
     1200: { slidesPerView: 4 },

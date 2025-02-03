@@ -113,71 +113,13 @@
 <!-- Content Section End -->
 
 <style>
-    .tech-item {
-        cursor: pointer;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .tech-item img {
-        width: 80px;
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .tech-item:hover img {
-        transform: scale(1.1);
-    }
-
-    .techStack-image-slider img {
-        width: 100%;
-        height: auto;
-    }
+  
 
     .hidden {
         display: none;
     }
 
-    .techStack-image-slider .swiper-slide-active {
-        margin-bottom: 30px !important;
-    }
-
-    .techStack-image-slider .swiper-pagination {
-        bottom: -20px;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-        color: #F90305 !important;
-        border: solid 1px #F90305 !important;
-        border-radius: 100% !important;
-        font-size: 14px !important;
-        padding: 10px !important;
-        height: 50px !important;
-        width: 50px !important;
-        top: 25px !important;
-    }
-
-    .swiper-button-prev:after,
-    .swiper-button-next:after {
-        font-size: 16px !important;
-    }
-
-    .techStack-category-slider .swiper-slide.active .tech-item {
-        border: solid 3px #F90305 !important;
-    }
-
-    .swiper-button-prev {
-        left: 45% !important;
-    }
-
-    .swiper-button-next {
-        right: 45% !important;
-    }
-
-    .techStack-category-slider {
-        padding: 50px 30px !important;
-        padding-top: 60px !important;
-    }
+  
 
 </style>
 <!-- Partners Section Start -->
