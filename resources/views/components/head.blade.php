@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Masco - Saas Software Startup Tailwind Template</title>
+    <title>Kode Tech | Your Bridge to Digital Transformation</title>
     <meta name="description" content="AIMass Tailwind based SASS Template" />
 
     <!-- Favicon  -->

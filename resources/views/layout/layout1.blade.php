@@ -232,7 +232,8 @@
                                 &copy; Copyright 2023 Kodetech (Pvt) Ltd.
                             </div>
                             <div class="text-center text-[#FDFBF9]/80">
-                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline pe-10">Terms & Conditions</a>
+                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline ">Terms & Conditions</a>
+                                <span style="width: 50px">1</span>
                                 <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Privacy Policy</a>
                             </div>
                         </div>
