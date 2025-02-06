@@ -28,7 +28,7 @@
 
 @section('content')
 <style>
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
         .img-width {
             width: 75% !important
         }
@@ -74,9 +74,9 @@
             <div class="container-default">
                 <div class="flex flex-col gap-y-20 lg:gap-y-[100px] xl:gap-y-[120px]">
                     <!-- Content Area Single -->
-                    <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-20 xl:gap-20">
+                    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-20 xl:gap-20">
                         <!-- Content Block Left -->
-                        <div class="jos order-2 md:order-1" data-jos_animation="fade-right">
+                        <div class="jos order-2 lg:order-1" data-jos_animation="fade-right">
                             <!-- Section Wrapper -->
                             <div>
                                 <!-- Section Block -->
@@ -98,9 +98,9 @@
                         </div>
                         <!-- Content Block Left -->
                         <!-- Content Block Right -->
-                        <div class="jos relative order-1 md:order-2" data-jos_animation="fade-left">
+                        <div class="jos relative order-1 lg:order-2" data-jos_animation="fade-left">
                             <!-- Content Image -->
-                            <img src="{{ asset('assets/img/kodetech/Group 1000003459.png') }}" alt="content-img-1" width="523" height="450" class="h-auto lg:w-9/12 w-full  rounded-[10px] img-width" />
+                            <img src="{{ asset('assets/img/kodetech/Group 1000003459.png') }}" alt="content-img-1" width="523" height="450" class="h-auto w-full  rounded-[10px] img-width" />
                         </div>
                         <!-- Content Block Right -->
                     </div>

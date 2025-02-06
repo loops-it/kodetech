@@ -67,7 +67,7 @@
             <div class="container-default">
                 <div class="flex flex-col gap-y-20 lg:gap-y-[100px] xl:gap-y-[120px]">
                     <!-- Content Area Single -->
-                    <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-10 xl:gap-10">
+                    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-10 xl:gap-10">
                         <!-- Content Block Left -->
                         <div class="jos order-1 md:order-2" data-jos_animation="fade-right">
                             <!-- Section Wrapper -->

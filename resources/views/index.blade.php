@@ -52,8 +52,8 @@
 
                     </p>
                     <div class="jos flex flex-wrap justify-center gap-[18px]">
-                        <a href="#" class="btn is-lime is-large btn-animation group rounded-[3px]"><span>Get In Touch</span></a>
-                        <a href="#" class="btn is-outline-black is-large btn-animation group rounded-[3px]"><span>View Services</span></a>
+                        <a href="#" class="btn is-lime is-large btn-animation group rounded-[3px]" style="min-width: 177px !important"><span>Get In Touch</span></a>
+                        <a href="#" class="btn is-outline-black is-large btn-animation group rounded-[3px]"  style="min-width: 177px !important"><span>View Services</span></a>
                     </div>
                 </div>
                 <!-- Hero Area -->
@@ -150,9 +150,9 @@
             <div class="container-default">
                 <div class="flex flex-col gap-y-20 lg:gap-y-[100px] xl:gap-y-[120px]">
                     <!-- Content Area Single -->
-                    <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24 xl:gap-60">
+                    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24 xl:gap-60">
                         <!-- Content Block Left -->
-                        <div class="jos order-1 md:order-2" data-jos_animation="fade-right">
+                        <div class="jos order-2 lg:order-2" data-jos_animation="fade-right">
                             <!-- Section Wrapper -->
                             <div>
                                 <!-- Section Block -->
@@ -177,7 +177,7 @@
                         </div>
                         <!-- Content Block Left -->
                         <!-- Content Block Right -->
-                        <div class="jos relative order-2 md:order-1" data-jos_animation="fade-left">
+                        <div class="jos relative order-1 lg:order-1" data-jos_animation="fade-left">
                             <!-- Content Image -->
                             <img src="{{ asset('assets/img/kodetech/sec2-img.png') }}" alt="content-img-1" width="523" height="450" class="h-auto w-full rounded-[10px]" />
                             <!-- Content Shape -->
@@ -377,7 +377,7 @@
                     <!-- Service Item -->
                     <div class="jos" data-jos_delay="1.5">
                         <div class="group flex h-full flex-col text-[#FDFBF9]">
-                            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">06.</span>
+                            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">07.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
                                 Game Development
@@ -396,7 +396,7 @@
                     <!-- Service Item -->
                     <div class="jos" data-jos_delay="1.5">
                         <div class="group flex h-full flex-col text-[#FDFBF9]">
-                            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">06.</span>
+                            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">08.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
                                 Metaverse Solutions
@@ -454,7 +454,7 @@
                             <!-- Case studies Item -->
                             <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
-                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
                                     <div class="jos order-1 md:order-2">
                                         <!-- Section Wrapper -->
@@ -491,7 +491,7 @@
                             <!-- Case studies Item -->
                             <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
-                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
                                     <div class="jos order-1 md:order-2">
                                         <!-- Section Wrapper -->
@@ -529,7 +529,7 @@
                             <!-- Case studies Item -->
                             <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
-                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
                                     <div class="jos order-1 md:order-2">
                                         <!-- Section Wrapper -->
@@ -569,7 +569,7 @@
                             <!-- Case studies Item -->
                             <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
-                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
                                     <div class="jos order-1 md:order-2">
                                         <!-- Section Wrapper -->
@@ -609,7 +609,7 @@
                             <!-- Case studies Item -->
                             <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
-                                <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
+                                <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
                                     <div class="jos order-1 md:order-2">
                                         <!-- Section Wrapper -->

@@ -68,7 +68,7 @@
     <div class="section-space-bottom">
         <!-- Section Container -->
         <div class="container-default">
-            <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-20 xl:grid-cols-[0.9fr_1fr] xl:gap-32 xxl:grid-cols-[0.7fr_1fr] xxl:gap-[210px]">
+            <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-20 xl:grid-cols-[0.9fr_1fr] xl:gap-32 xxl:grid-cols-[0.7fr_1fr] xxl:gap-[210px]">
                 <!-- Contact Info List -->
                 <div class="flex flex-col gap-[60px]">
 
