@@ -27,7 +27,14 @@
 
 
 @section('content')
+<style>
+    @media (min-width: 768px) {
+        .img-width {
+            width: 75% !important
+        }
+    }
 
+</style>
 <!-- Breadcrumb Section Start -->
 <section class="section-breadcrumb" style="background-image: url({{ asset('assets/img/kodetech/sub.jpg') }}); background-position: bottom center; background-size: cover">
     <!-- Breadcrumb Section Spacer -->
@@ -93,7 +100,7 @@
                         <!-- Content Block Right -->
                         <div class="jos relative order-1 md:order-2" data-jos_animation="fade-left">
                             <!-- Content Image -->
-                            <img src="{{ asset('assets/img/kodetech/Group 1000003459.png') }}" alt="content-img-1" width="523" height="450" class="h-auto w-full rounded-[10px]" />
+                            <img src="{{ asset('assets/img/kodetech/Group 1000003459.png') }}" alt="content-img-1" width="523" height="450" class="h-auto lg:w-9/12 w-full  rounded-[10px] img-width" />
                         </div>
                         <!-- Content Block Right -->
                     </div>
@@ -113,13 +120,9 @@
 <!-- Content Section End -->
 
 <style>
-  
-
-    .hidden {
+    .hiddentab {
         display: none;
     }
-
-  
 
 </style>
 <!-- Partners Section Start -->
@@ -190,7 +193,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
 
-                <div class="swiper techStack-image-slider hidden" data-category="game">
+                <div class="swiper techStack-image-slider" data-category="game">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 1" />
@@ -204,7 +207,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
 
-                <div class="swiper techStack-image-slider" data-category="mobile">
+                <div class="swiper techStack-image-slider " data-category="mobile">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
@@ -218,7 +221,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
 
-                <div class="swiper techStack-image-slider hidden" data-category="ai">
+                <div class="swiper techStack-image-slider " data-category="ai">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 1" />
@@ -232,7 +235,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
 
-                <div class="swiper techStack-image-slider" data-category="software">
+                <div class="swiper techStack-image-slider " data-category="software">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
@@ -246,7 +249,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
 
-                <div class="swiper techStack-image-slider hidden" data-category="metaverse">
+                <div class="swiper techStack-image-slider" data-category="metaverse">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 1" />
@@ -319,7 +322,7 @@
                         <h2>We create world-class web design, & branding</h2>
                     </div>
                     <!-- Section Block -->
-                    <a href="{{ url('portfolio') }}" class="btn is-blue is-rounded btn-animation is-large group"><span>See more works</span></a>
+                    <a href="{{ url('portfolio') }}" class="btn is-blue is-rounded btn-animation is-large group"><span>View More Works</span></a>
                 </div>
                 <!-- Section Wrapper -->
 
@@ -336,7 +339,7 @@
                                     <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] group-hover:text-ColorBlue xl:text-2xl">App — The power of communication</a>
                                     <a href="#" class="hover:text-ColorBlue">UI/UX Design</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View More
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -353,7 +356,7 @@
                                     <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
                                     <a href="#" class="hover:text-ColorBlue">Branding</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View More
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -377,19 +380,15 @@
 <script>
     document.querySelectorAll('.techstack-button').forEach(function(button) {
         button.addEventListener('click', function() {
-            // Hide all tech stack sliders
             document.querySelectorAll('.techstack-slider').forEach(function(slider) {
                 slider.style.display = 'none';
             });
 
-            // Get the corresponding tech stack based on the data-techstack attribute
             var techstackClass = this.getAttribute('data-techstack');
             var selectedSlider = document.querySelector('.' + techstackClass);
 
-            // Show the selected tech stack slider
             selectedSlider.style.display = 'block';
 
-            // Optionally, you can also call `techStackSliders[techstackClass].update()` to re-initialize the Swiper instance if necessary.
         });
     });
 

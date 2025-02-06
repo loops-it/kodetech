@@ -74,18 +74,18 @@
                             <div>
                                 <!-- Section Block -->
                                 <div class="mb-5">
-                                    <h2 class="font-PublicSans text-4xl font-bold leading-[1.14] text-[#121212] lg:text-left lg:text-5xl xl:text-[56px]">
+                                    <h2  style="color: #000 !important" class="font-PublicSans text-4xl font-bold leading-[1.14] text-[#121212] lg:text-left lg:text-5xl xl:text-[56px]">
                                         The Story behind our consulting firm
                                     </h2>
                                 </div>
                                 <!-- Section Block -->
                             </div>
                             <!-- Section Wrapper -->
-                            <p class="mb-5">
+                            <p style="color: #000 !important" class="mb-5">
                                 Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
                             </p>
-                            <hr class="mb-5" />
-                            <p>
+                            {{-- <hr class="mb-5" /> --}}
+                            <p style="color: #000 !important">
                                 Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience.Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
                                 Our extensive expertise has earned us a strong foothold in 15 international markets, where we’ve successfully delivered over 1,500 projects. Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.Our innovative and creative approach and cutting-edge technologies always help for a better experience.
                             </p>
@@ -94,7 +94,7 @@
                         <!-- Content Block Right -->
                         <div class="jos relative order-2 md:order-1" data-jos_animation="fade-left">
                             <!-- Content Image -->
-                            <img src="{{ asset('assets/img/kodetech/about-content-image.png') }}" alt="content-img-1" width="523" height="450" class="h-auto w-full rounded-[10px]" />
+                            <img src="{{ asset('assets/img/kodetech/about-content-image.png') }}" alt="content-img-1" width="523" height="450" class="h-auto w-full rounded-[10px] shadow shadow-lg" />
                         </div>
                         <!-- Content Block Right -->
                     </div>

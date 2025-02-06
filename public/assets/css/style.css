@@ -7938,7 +7938,15 @@ p:last-child {
 }
 
 .techStack-image-slider .swiper-pagination {
-  bottom: -20px;
+  bottom: 0px;
+}
+
+.techStack-image-slider .swiper-slide {
+  margin-bottom: 30px
+}
+
+.techStack-image-slider .swiper-pagination-bullets {
+  bottom: 0px !important;
 }
 
 .swiper-button-prev,
