@@ -6,7 +6,7 @@
     <div class="page-wrapper relative z-[1] {{ isset($bgColor) ? $bgColor : 'bg-white' }}">
         <!-- Header Start -->
         <style>
-            @media (min-width: 768px) {
+            @media (min-width: 992px) {
                 .contact-on-mobile {
                     display: none !important;
                 }
@@ -63,7 +63,7 @@
                         </nav>
                     </div>
                     <!-- Header Navigation -->
-                    <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group hidden md:inline-block"><span>Contact Us</span></a>
+                    <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group hidden lg:inline-block"><span>Contact Us</span></a>
                     <!-- Header User Event -->
                     @yield('headButtons')
                     <!-- Header User Event -->
