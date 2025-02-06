@@ -121,6 +121,10 @@ var brandSlider = new Swiper(".case-study-slider-custom1", {
   //   delay: 4000,
   //   disableOnInteraction: false,
   // },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
   breakpoints: {
     768: {
       slidesPerView: 1,

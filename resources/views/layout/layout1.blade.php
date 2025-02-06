@@ -5,14 +5,21 @@
 <body>
     <div class="page-wrapper relative z-[1] {{ isset($bgColor) ? $bgColor : 'bg-white' }}">
         <!-- Header Start -->
+        <style>
+            @media (min-width: 768px) {
+                .contact-on-mobile {
+                    display: none !important;
+                }
+            }
 
-        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+        </style>
+        <header class="site-header bg-white site-header--absolute is--white py-3" id="sticky-menu">
             <div class="container-default">
                 <div class="flex items-center justify-between gap-x-8">
                     <!-- Header Logo -->
                     <a href="{{ url('index') }}" class="">
-                        @yield('headerLogo')
-
+                        {{-- @yield('headerLogo') --}}
+                        <img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109" height="30" class="img-logo-head" />
                     </a>
                     <!-- Header Logo -->
 
@@ -38,21 +45,25 @@
                                     <a href="{{ url('tech-stack') }}" class="nav-link-item">Tech Stack</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ url('about') }}" class="nav-link-item">Our Services</a>
+                                    <a href="{{ url('about1') }}" class="nav-link-item">Our Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ url('about') }}" class="nav-link-item">Our Products</a>
+                                    <a href="{{ url('about1') }}" class="nav-link-item">Our Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ url('about') }}" class="nav-link-item">Our Projects</a>
+                                    <a href="{{ url('about1') }}" class="nav-link-item">Our Projects</a>
                                 </li>
-                                <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group hidden md:inline-block"><span>Contact Us</span></a>
+                                 <li class=" contact-on-mobile px-4">
+                                <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group mt-2">
+                                    <span>Contact Us</span>
+                                </a>
+ </li>
                             </ul>
 
                         </nav>
                     </div>
                     <!-- Header Navigation -->
-
+                    <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group hidden md:inline-block"><span>Contact Us</span></a>
                     <!-- Header User Event -->
                     @yield('headButtons')
                     <!-- Header User Event -->
@@ -139,22 +150,22 @@
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Home</a>
+                                            <a href="{{ url('index') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"  style="color: #939393 !important">Home</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('about') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">About Us</a>
+                                            <a href="{{ url('about') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('services') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Our Services</a>
+                                            <a href="{{ url('services') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Services</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('pricing') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Our Products</a>
+                                            <a href="{{ url('pricing') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Products</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('contact') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Our Projects</a>
+                                            <a href="{{ url('contact') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Projects</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('contact') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Knowledge Center</a>
+                                            <a href="{{ url('contact') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Knowledge Center</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -171,16 +182,16 @@
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="{{ url('signup') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Web Development</a>
+                                            <a href="{{ url('signup') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Web Development</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('login') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Mobile App Development</a>
+                                            <a href="{{ url('login') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Mobile App Development</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('error404') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">AR & VR Solutions</a>
+                                            <a href="{{ url('error404') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">AR & VR Solutions</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('resetpassword') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Game Development</a>
+                                            <a href="{{ url('resetpassword') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Game Development</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -197,16 +208,16 @@
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Metaverse Solutions</a>
+                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Metaverse Solutions</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Block Chain</a>
+                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Block Chain</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Software Development</a>
+                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Software Development</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">AI Solutions</a>
+                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">AI Solutions</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -225,16 +236,16 @@
                 <!-- Footer Area Bottom -->
                 <div>
                     <!-- Footer Bottom Spacing -->
-                    <div class="py-[18px]">
+                    <div class="py-[18px]" style="padding-bottom: 50px !important;">
                         <!-- Section Container -->
                         <div class="container-default flex flex-col-reverse md:flex-row justify-between">
-                            <div class="text-center text-[#FDFBF9]/80">
+                            <div class="text-center text-[#FDFBF9]/80"  style="color: #CFD3D7 !important">
                                 &copy; Copyright 2023 Kodetech (Pvt) Ltd.
                             </div>
                             <div class="text-center text-[#FDFBF9]/80">
-                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline ">Terms & Conditions</a>
-                                <span style="width: 50px">1</span>
-                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline">Privacy Policy</a>
+                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline "  style="color: #CFD3D7 !important">Terms & Conditions</a>
+                                <span style="width: 50px">|</span>
+                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #CFD3D7 !important">Privacy Policy</a>
                             </div>
                         </div>
                         <!-- Section Container -->
@@ -252,7 +263,22 @@
     </div>
 
     <x-scripts />
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentUrl = window.location.pathname;
 
+            document.querySelectorAll(".site-menu-main .nav-link-item").forEach(link => {
+                const linkUrl = new URL(link.href).pathname;
+
+                if (currentUrl === linkUrl || (currentUrl === "/" && linkUrl === "/")) {
+                    link.classList.add("active-url");
+                } else {
+                    link.classList.remove("active-url");
+                }
+            });
+        });
+
+    </script>
 </body>
 
 </html>

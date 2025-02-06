@@ -7979,6 +7979,25 @@ p:last-child {
   padding-top: 60px !important;
 }
 
+.nav-link-item{
+  color: #3A4058 !important; 
+}
+
+.nav-link-item a{
+  color: #3A4058 !important; 
+}
+
+.nav-link-item.active-url {
+  color: #F90305 !important; 
+  font-weight: bold;
+  /* border-bottom: 2px solid #F90305;  */
+}
+
+.img-logo-head{
+  width: auto !important;
+  height: 35px !important;
+}
+
 @media screen and (max-width: 992px) {
   .swiper-button-prev {
     left: 40% !important;

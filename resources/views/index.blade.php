@@ -1,8 +1,8 @@
 @extends('layout.layout1')
 
-@section('headerLogo')
-<img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109" height="24" />
-@endsection
+{{-- @section('headerLogo')
+<img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109" height="30" />
+@endsection --}}
 
 
 
@@ -24,7 +24,16 @@
 @endsection
 
 @section('content')
+<style>
+    .swiper-slide {
+        margin-bottom: 30px
+    }
 
+    .swiper-pagination-bullets {
+        bottom: 0px !important;
+    }
+
+</style>
 <!-- Hero Section Start -->
 <section class="section-hero" style="background-image: url({{ asset('assets/img/kodetech/home.png') }}); background-position: bottom center; background-size: cover">
     <!-- Section Background -->
@@ -115,7 +124,7 @@
                                 <div class="mb-[5px] font-PublicSans text-5xl font-bold leading-[1.14] text-[#FDFBF9] xl:text-[56px]" data-module="countup">
                                     <span class="start-number" data-countup-number="600">600</span>+
                                 </div>
-                                <span class="text-[#FDFBF9]/60">Project completed</span>
+                                <span class="text-[#FDFBF9]/60">Projects completed</span>
                             </div>
                         </div>
                         <!-- Fact Item -->
@@ -411,7 +420,7 @@
         <!-- Section Space -->
 
         <!-- Background Shape -->
-        <img src="{{ asset('assets/img/elements/home-5-service-bg-shape.svg') }}" alt="home-5-service-bg-shape" width="140" height="140" class="absolute right-12 top-[197px] -z-10 hidden xl:inline-block" />
+        {{-- <img src="{{ asset('assets/img/elements/home-5-service-bg-shape.svg') }}" alt="home-5-service-bg-shape" width="140" height="140" class="absolute right-12 top-[197px] -z-10 hidden xl:inline-block" /> --}}
     </div>
     <!-- Section Background -->
 </div>
@@ -443,7 +452,7 @@
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <!-- Case studies Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                            <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
@@ -480,7 +489,7 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- Case studies Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                            <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
@@ -518,7 +527,7 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- Case studies Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                            <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
@@ -558,7 +567,7 @@
 
                         <div class="swiper-slide">
                             <!-- Case studies Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                            <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
@@ -598,7 +607,7 @@
 
                         <div class="swiper-slide">
                             <!-- Case studies Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md slide-padding-case">
+                            <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 md:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
@@ -614,7 +623,7 @@
                                         </div>
                                         <!-- Section Wrapper -->
                                         <p class="mb-5">
-                                             Kode Tech’s LMS is an advanced platform designed for seamless education and training delivery. It enables intuitive course management, progress tracking, and collaborative learning. Whether for corporate training or academic institutions, our LMS enhances learner engagement, fosters skill development, and ensures measurable outcomes, aligning perfectly with organizational objectives.</p>
+                                            Kode Tech’s LMS is an advanced platform designed for seamless education and training delivery. It enables intuitive course management, progress tracking, and collaborative learning. Whether for corporate training or academic institutions, our LMS enhances learner engagement, fosters skill development, and ensures measurable outcomes, aligning perfectly with organizational objectives.</p>
                                         {{-- <hr class="mb-5" /> --}}
 
                                         <div class="mt-8 lg:mt-[50px]">
@@ -659,7 +668,7 @@
                     <!-- Section Content Block -->
                     <div class="mx-auto max-w-[636px]">
                         <h2 class="mb-5 text-center text-white">
-                           Our Valued Clients Around the Globe
+                            Our Valued Clients Around the Globe
                         </h2>
                     </div>
                     <!-- Section Content Block -->
@@ -672,7 +681,7 @@
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                            <div class="jos break-inside-avoid shadow rounded-md">
                                 <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
                                     <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
                                 </div>
@@ -681,7 +690,7 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                            <div class="jos break-inside-avoid shadow rounded-md">
                                 <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
                                     <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
                                 </div>
@@ -690,7 +699,7 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                            <div class="jos break-inside-avoid shadow rounded-md">
                                 <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
                                     <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
                                 </div>
@@ -710,7 +719,7 @@
 <!-- Partners Section End -->
 
 <!-- Blog Class Section Start -->
-<section class="video-class-section">
+<section class="video-class-section" style="background-color: #FDFBF9 !important;">
     <div class="relative z-10">
         <!-- Section Space -->
         <div class="section-space">
@@ -736,57 +745,57 @@
                 <!-- Blog Class List-->
                 <div class="mb-10 grid gap-x-6 gap-y-10 md:grid-cols-2 lg:mb-20 lg:grid-cols-3">
                     <!-- Blog Class Item -->
-                    <div class="jos">
+                    <div class="jos shadow rounded">
                         <div class="relative flex items-center justify-center overflow-hidden rounded-[10px] after:absolute after:inset-0 after:bg-ColorBlack/40">
                             <img src="{{ asset('assets/img/kodetech/Rectangle 108.png') }}" alt="video-class-img-1" width="416" height="250" class="h-full w-full object-cover" />
                         </div>
-                        <div class="mb-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack">
+                        <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3">
+                        <p class="line-clamp-3  px-4"  style="color: #000 !important">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
-                        <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple">Read More
-                            <span class="transition-all duration-300 ease-in-out hover:translate-x-2">
+                        <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#F90305] hover:text-ColorPurple"  style="color: #F90305 !important">Read More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </span>
                         </a>
                     </div>
                     <!-- Blog Class Item -->
                     <!-- Blog Class Item -->
-                    <div class="jos">
+                    <div class="jos shadow rounded">
                         <div class="relative flex items-center justify-center overflow-hidden rounded-[10px] after:absolute after:inset-0 after:bg-ColorBlack/40">
-                            <img src="{{ asset('assets/img/kodetech/Rectangle 108 (2).png') }}" alt="video-class-img-2" width="416" height="250" class="h-full w-full object-cover" />
+                            <img src="{{ asset('assets/img/kodetech/Rectangle 108.png') }}" alt="video-class-img-1" width="416" height="250" class="h-full w-full object-cover" />
                         </div>
-                        <div class="mb-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack">
-                            App - The power of communication </div>
-                        <p class="line-clamp-3">
-                            A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
-                        </p>
-                        <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple">Read More
-                            <span class="transition-all duration-300 ease-in-out hover:translate-x-2">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                        </a>
-                    </div>
-                    <!-- Blog Class Item -->
-                    <!-- Blog Class Item -->
-                    <div class="jos">
-                        <div class="relative flex items-center justify-center overflow-hidden rounded-[10px] after:absolute after:inset-0 after:bg-ColorBlack/40">
-                            <img src="{{ asset('assets/img/kodetech/Rectangle 108 (1).png') }}" alt="video-class-img-3" width="416" height="250" class="h-full w-full object-cover" />
-                        </div>
-                        <div class="mb-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack">
+                        <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3">
-                            A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business </p>
-                        <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple">Read More
-                            <span class="transition-all duration-300 ease-in-out hover:translate-x-2">
+                        <p class="line-clamp-3  px-4"  style="color: #000 !important">
+                            A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
+                        </p>
+                        <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple" style="color: #F90305 !important">Read More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </span>
                         </a>
                     </div>
                     <!-- Blog Class Item -->
+                    <!-- Blog Class Item -->
+                    <div class="jos shadow rounded">
+                        <div class="relative flex items-center justify-center overflow-hidden rounded-[10px] after:absolute after:inset-0 after:bg-ColorBlack/40">
+                            <img src="{{ asset('assets/img/kodetech/Rectangle 108.png') }}" alt="video-class-img-1" width="416" height="250" class="h-full w-full object-cover" />
+                        </div>
+                        <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
+                            App - The power of communication
+                        </div>
+                        <p class="line-clamp-3  px-4"  style="color: #000 !important">
+                            A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
+                        </p>
+                        <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple" style="color: #F90305 !important">Read More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- Blog Class Item -->
+                    
                 </div>
                 <!-- Blog Class List-->
             </div>

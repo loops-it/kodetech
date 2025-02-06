@@ -1,8 +1,8 @@
 @extends('layout.layout1')
 
-@section('headerLogo')
+{{-- @section('headerLogo')
 <img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109" height="24" />
-@endsection
+@endsection --}}
 
 
 

@@ -1,8 +1,8 @@
 @extends('layout.layout1')
 
-@section('headerLogo')
+{{-- @section('headerLogo')
 <img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109" height="24" />
-@endsection
+@endsection --}}
 
 
 
@@ -350,7 +350,16 @@
     <!-- Section Space -->
 </section>
 <!-- Video Section End -->
+<style>
+    .swiper-slide {
+        margin-bottom: 30px
+    }
 
+    .swiper-pagination-bullets {
+        bottom: 0px !important;
+    }
+
+</style>
 <!-- Partners Section Start -->
 <div class="section-brand bg-[#1B1C1D] black-section">
     <div class="jos">
@@ -376,7 +385,7 @@
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                            <div class="jos break-inside-avoid shadow rounded-md">
                                 <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
                                     <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
                                 </div>
@@ -385,7 +394,7 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                            <div class="jos break-inside-avoid shadow rounded-md">
                                 <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
                                     <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
                                 </div>
@@ -394,7 +403,7 @@
                         </div>
                         <div class="swiper-slide">
                             <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
+                            <div class="jos break-inside-avoid shadow rounded-md">
                                 <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
                                     <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
                                 </div>
@@ -413,11 +422,12 @@
 </div>
 <!-- Partners Section End -->
 
+
 <!-- Testimonials Section Start -->
 <div class="section-brand bg-[#fff]">
     <div class="jos">
         <!-- Section Space -->
-        <div class="pb-[60px] md:pb-20 lg:pb-[100px]">
+        <div class="pb-[60px] md:pb-20 lg:pb-[100px] section-space">
             <!-- Section Container -->
             <div class="container-default">
                 <!-- Section Content Wrapper -->
