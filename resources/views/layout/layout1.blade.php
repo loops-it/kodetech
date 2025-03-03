@@ -44,8 +44,24 @@
                                 <li class="nav-item">
                                     <a href="{{ url('tech-stack') }}" class="nav-link-item">Tech Stack</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="{{ url('about1') }}" class="nav-link-item">Our Services</a>
+                                <li class="nav-item nav-item-has-children">
+                                    <a  class="nav-link-item drop-trigger">Our Services
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">Web Development</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">Software Development</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">AI Development</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">Blockchain Development</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{ url('about1') }}" class="nav-link-item">Our Products</a>
