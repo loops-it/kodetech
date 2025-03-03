@@ -45,7 +45,7 @@
                                     <a href="{{ url('tech-stack') }}" class="nav-link-item">Tech Stack</a>
                                 </li>
                                 <li class="nav-item nav-item-has-children">
-                                    <a  class="nav-link-item drop-trigger">Our Services
+                                    <a class="nav-link-item drop-trigger">Our Services
                                         <i class="fa-solid fa-angle-down"></i>
                                     </a>
                                     <ul class="sub-menu" id="submenu-2">
@@ -69,11 +69,11 @@
                                 <li class="nav-item">
                                     <a href="{{ url('about1') }}" class="nav-link-item">Our Projects</a>
                                 </li>
-                                 <li class=" contact-on-mobile px-4">
-                                <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group mt-2">
-                                    <span>Contact Us</span>
-                                </a>
- </li>
+                                <li class=" contact-on-mobile px-4">
+                                    <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group mt-2">
+                                        <span>Contact Us</span>
+                                    </a>
+                                </li>
                             </ul>
 
                         </nav>
@@ -166,7 +166,7 @@
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="{{ url('index') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"  style="color: #939393 !important">Home</a>
+                                            <a href="{{ url('index') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Home</a>
                                         </li>
                                         <li>
                                             <a href="{{ url('about') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">About Us</a>
@@ -255,11 +255,11 @@
                     <div class="py-[18px]" style="padding-bottom: 50px !important;">
                         <!-- Section Container -->
                         <div class="container-default flex flex-col-reverse md:flex-row justify-between">
-                            <div class="text-center text-[#FDFBF9]/80"  style="color: #CFD3D7 !important">
+                            <div class="text-center text-[#FDFBF9]/80" style="color: #CFD3D7 !important">
                                 &copy; Copyright 2023 Kodetech (Pvt) Ltd.
                             </div>
                             <div class="text-center text-[#FDFBF9]/80">
-                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline "  style="color: #CFD3D7 !important">Terms & Conditions</a>
+                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline " style="color: #CFD3D7 !important">Terms & Conditions</a>
                                 <span style="width: 50px">|</span>
                                 <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #CFD3D7 !important">Privacy Policy</a>
                             </div>
