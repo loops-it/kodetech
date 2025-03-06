@@ -126,7 +126,7 @@
 
 </style>
 <!-- Partners Section Start -->
-<div class="section-brand bg-[#1B1C1D] black-section">
+{{-- <div class="section-brand bg-[#1B1C1D] black-section">
     <div class="jos">
         <!-- Section Space -->
         <div class="py-[60px] md:py-20 lg:py-[100px]">
@@ -142,8 +142,6 @@
                     </div>
                     <!-- Section Content Block -->
                 </div>
-
-
                 <!-- Tech Stack Category Slider -->
                 <div class="swiper techStack-category-slider">
                     <div class="swiper-button-prev category-prev"></div>
@@ -175,19 +173,15 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
-                            {{-- <div class="text-white">web Development 1</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 2" />
-                            {{-- <div class="text-white">web Development 2</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 3" />
-                            {{-- <div class="text-white">web Development 3</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 4" />
-                            {{-- <div class="text-white">web Development 4</div> --}}
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -197,11 +191,9 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 1" />
-                            {{-- <div class="text-white">game Development 1</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 2" />
-                            {{-- <div class="text-white">game Development 2</div> --}}
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -211,11 +203,9 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
-                            {{-- <div class="text-white">mobile Development 1</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 2" />
-                            {{-- <div class="text-white">mobile Development 2</div> --}}
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -225,11 +215,9 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 1" />
-                            {{-- <div class="text-white">ai Development 1</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 2" />
-                            {{-- <div class="text-white">ai Development 2</div> --}}
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -239,11 +227,9 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
-                            {{-- <div class="text-white">software Development 1</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 2" />
-                            {{-- <div class="text-white">software Development 2</div> --}}
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -253,58 +239,79 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 1" />
-                            {{-- <div class="text-white">metaverse Development 1</div> --}}
                         </div>
                         <div class="swiper-slide">
                             <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Game Tech 2" />
-                            {{-- <div class="text-white">metaverse Development 2</div> --}}
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-
-
-                <!-- Partners Slider -->
-                {{-- <div class="swiper techStack-category-slider-custom1">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <!-- Partner Item -->
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
             </div>
         </div>
-        <!-- Partner Item -->
     </div>
-    <div class="swiper-slide">
-        <!-- Partner Item -->
-        <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-            <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
-            </div>
-        </div>
-        <!-- Partner Item -->
-    </div>
-    <div class="swiper-slide">
-        <!-- Partner Item -->
-        <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-            <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
-            </div>
-        </div>
-        <!-- Partner Item -->
-    </div>
-</div>
-<div class="swiper-pagination"></div>
 </div> --}}
-<!-- Partners Slider -->
-</div>
-<!-- Section Container -->
-</div>
-<!-- Section Space -->
-</div>
+
+<div class="section-brand bg-[#1B1C1D] black-section">
+    <div class="jos">
+        <!-- Section Space -->
+        <div class="py-[60px] md:py-20 lg:py-[100px]">
+            <!-- Section Container -->
+            <div class="container-default">
+                <!-- Section Content Wrapper -->
+                <div class="jos mb-[60px] xl:mb-20">
+                    <!-- Section Content Block -->
+                    <div class="mx-auto max-w-[636px]">
+                        <h2 class="mb-5 text-center text-white">
+                            Explore how we can create your success story
+                        </h2>
+                    </div>
+                    <!-- Section Content Block -->
+                </div>
+                <!-- Tech Stack Category Slider -->
+                <div class="swiper techStack-new-category-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-category="web">
+                            <div class="tech-item textTechStack">
+                                <p>Web Development</p>
+                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="software">
+                            <div class="tech-item textTechStack">
+                                <p>Software Development</p>
+                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="mobile">
+                            <div class="tech-item textTechStack">
+                                <p>Mobile Development</p>
+                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="ai">
+                            <div class="tech-item textTechStack">
+                                <p>AI Development</p>
+                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="game">
+                            <div class="tech-item textTechStack">
+                                <p>Game Development</p>
+                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="metaverse">
+                            <div class="tech-item textTechStack">
+                                <p>Metaverse Development</p>
+                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                            </div>
+                        </div>
+                    </div>
+                     <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Partners Section End -->
 

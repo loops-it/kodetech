@@ -1118,7 +1118,7 @@ p:last-child {
 
 .tab-btn-blue:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(49 71 255 / var(--tw-bg-opacity));
+  background-color: #F90305;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1126,7 +1126,7 @@ p:last-child {
 .tab-btn-blue.active {
   border-style: none;
   --tw-bg-opacity: 1;
-  background-color: rgb(49 71 255 / var(--tw-bg-opacity));
+  background-color: #F90305;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -7907,20 +7907,27 @@ p:last-child {
 }
 
 .textTechStack{
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   border-radius: 20px;
   color: #000;
   font-size: 20px;
 }
-
+.textTechStack p{
+  color: #F90305;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 52.73px;
+  letter-spacing: 0%;  
+}
 .tech-item {
   cursor: pointer;
   text-align: center;
-  padding: 10px;
+  padding: 2rem 4rem;
 }
 
 .tech-item img {
-  width: 80px;
+  width: auto;
+  height: 300px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -8005,7 +8012,12 @@ p:last-child {
   width: auto !important;
   height: 35px !important;
 }
-
+.techStack-category-slider .swiper-wrapper{
+  margin-bottom: 30px;
+}
+.techStack-category-slider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: -8px;
+}
 @media screen and (max-width: 992px) {
   .swiper-button-prev {
     left: 40% !important;
@@ -8020,7 +8032,16 @@ p:last-child {
   .swiper-button-prev {
     left: 30% !important;
   }
-  
+  .tech-item img {
+    width: 300px;
+    height: auto;
+  }
+  .tech-item {
+    padding: 0;
+  }
+  .textTechStack p{
+    font-size: 26px; 
+  }
   .swiper-button-next {
     right: 30% !important;
   }

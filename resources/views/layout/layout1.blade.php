@@ -67,7 +67,7 @@
                                     <a href="{{ url('about1') }}" class="nav-link-item">Our Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ url('about1') }}" class="nav-link-item">Our Projects</a>
+                                    <a href="{{ url('portfolio') }}" class="nav-link-item">Our Projects</a>
                                 </li>
                                 <li class=" contact-on-mobile px-4">
                                     <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group mt-2">

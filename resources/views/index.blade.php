@@ -341,10 +341,10 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">05.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Mobile App Development
+                                Lorem ipsum
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                Intuitive, high-performance mobile apps crafted to deliver seamless user experiences across all platforms.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -355,7 +355,7 @@
                     </div>
                     <!-- Service Item -->
                     <!-- Service Item -->
-                    <div class="jos" data-jos_delay="1.5">
+                    {{-- <div class="jos" data-jos_delay="1.5">
                         <div class="group flex h-full flex-col text-[#FDFBF9]">
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">06.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
@@ -371,11 +371,11 @@
                                 </span>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- Service Item -->
 
                     <!-- Service Item -->
-                    <div class="jos" data-jos_delay="1.5">
+                    {{-- <div class="jos" data-jos_delay="1.5">
                         <div class="group flex h-full flex-col text-[#FDFBF9]">
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">07.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
@@ -391,7 +391,7 @@
                                 </span>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- Service Item -->
                     <!-- Service Item -->
                     <div class="jos" data-jos_delay="1.5">
@@ -399,10 +399,10 @@
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">08.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
                             <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Metaverse Solutions
+                                Lorem ipsum
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                Next-gen metaverse solutions for interactive virtual environments, redefining digital interactions and business opportunities.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">

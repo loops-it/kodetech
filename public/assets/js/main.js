@@ -197,6 +197,15 @@ var brandSlider = new Swiper(".case-study-slider-custom1", {
 //   });
 // });
 
+var categorySlider = new Swiper(".techStack-new-category-slider", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
 var categorySlider = new Swiper(".techStack-category-slider", {
   slidesPerView: 1,
   spaceBetween: 20,
