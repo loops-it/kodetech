@@ -94,14 +94,14 @@
                     <div class="jos" data-jos_delay="0">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-1.jpg') }}" alt="portfolio-img-1" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/portfolio/Rectangle 104.png') }}" alt="portfolio-img-1" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">App — The power of communication</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">App — The power of communication</a>
                                     <a href="#" class="hover:text-ColorBlue">UI/UX Design</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -111,14 +111,14 @@
                     <div class="jos" data-jos_delay="0.3">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-2.jpg') }}" alt="portfolio-img-2" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/portfolio/Rectangle 106.png') }}" alt="portfolio-img-2" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
                                     <a href="#" class="hover:text-ColorBlue">Branding</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -128,14 +128,14 @@
                     <div class="jos" data-jos_delay="0.6">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-3.jpg') }}" alt="portfolio-img-3" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/portfolio/Rectangle 107.png') }}" alt="portfolio-img-3" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Campaign — Provision of information</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Campaign — Provision of information</a>
                                     <a href="#" class="hover:text-ColorBlue">Marketing</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -145,14 +145,14 @@
                     <div class="jos" data-jos_delay="0.9">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-4.jpg') }}" alt="portfolio-img-4" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/portfolio/Rectangle 108.png') }}" alt="portfolio-img-4" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Journal — Asset in business</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Journal — Asset in business</a>
                                     <a href="#" class="hover:text-ColorBlue">Commercial</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -162,14 +162,14 @@
                     <div class="jos" data-jos_delay="1.2">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-5.jpg') }}" alt="portfolio-img-5" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/portfolio/Rectangle 111.png') }}" alt="portfolio-img-5" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Book — Design of the year</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Book — Design of the year</a>
                                     <a href="#" class="hover:text-ColorBlue">UI/UX Design</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -179,14 +179,14 @@
                     <div class="jos" data-jos_delay="1.5">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/th-1/portfolio-img-6.jpg') }}" alt="portfolio-img-6" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('assets/img/portfolio/Rectangle 114.png') }}" alt="portfolio-img-6" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Strategic — Ways to level up your brand</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Strategic — Ways to level up your brand</a>
                                     <a href="#" class="hover:text-ColorBlue">Branding</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -204,10 +204,10 @@
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
                                     <a href="#" class="hover:text-ColorBlue">Branding</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -225,10 +225,10 @@
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
                                     <a href="#" class="hover:text-ColorBlue">Branding</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -242,10 +242,10 @@
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Strategic — Ways to level up your brand</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Strategic — Ways to level up your brand</a>
                                     <a href="#" class="hover:text-ColorBlue">Branding</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -263,10 +263,10 @@
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Journal — Asset in business</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Journal — Asset in business</a>
                                     <a href="#" class="hover:text-ColorBlue">Commercial</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -284,10 +284,10 @@
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Campaign — Provision of information</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Campaign — Provision of information</a>
                                     <a href="#" class="hover:text-ColorBlue">Marketing</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -305,10 +305,10 @@
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">App — The power of communication</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">App — The power of communication</a>
                                     <a href="#" class="hover:text-ColorBlue">UI/UX Design</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -322,10 +322,10 @@
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Book — Design of the year</a>
+                                    <a href="{{ url('portfolioDetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl">Book — Design of the year</a>
                                     <a href="#" class="hover:text-ColorBlue">UI/UX Design</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
+                                <a href="{{ url('portfolioDetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View work
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
