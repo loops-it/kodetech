@@ -674,6 +674,36 @@
                     <!-- Section Content Block -->
                 </div>
                 <!-- Section Content Wrapper -->
+                 <!-- Section Content Wrapper -->
+                <style>
+                    .grid-container {
+                        display: grid;
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(3, 1fr);
+                        gap: 15px;
+                    }
+
+                    .grid-item {
+                        background-color: transparent;
+                        padding: 0px;
+                        text-align: center;
+                        border-radius: 5px;
+                    }
+
+                    .grid-item img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                        border-radius: 10px;
+                    }
+
+                   /* @media (max-width: 480px) {
+                        .grid-container {
+                             grid-template-columns: repeat(6, 1fr);
+                        }
+                    }*/
+
+                </style>
                 <!-- Partners Slider -->
                 <div class="swiper partners-slider-custom1">
                     <!-- Additional required wrapper -->
@@ -682,8 +712,61 @@
                         <div class="swiper-slide">
                             <!-- Partner Item -->
                             <div class="jos break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                                <div class="grid-container">
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/Logo 02.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
                                 </div>
                             </div>
                             <!-- Partner Item -->
@@ -691,17 +774,61 @@
                         <div class="swiper-slide">
                             <!-- Partner Item -->
                             <div class="jos break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
-                                </div>
-                            </div>
-                            <!-- Partner Item -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Partner Item -->
-                            <div class="jos break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] p-6 text-ColorBlack sm:p-[30px]">
-                                    <img src="{{ asset('assets/img/kodetech/Group 1000003451.png') }}" alt="icon-green-star" />
+                                <div class="grid-container">
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/Logo 02.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
                                 </div>
                             </div>
                             <!-- Partner Item -->
