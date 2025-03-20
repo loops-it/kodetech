@@ -273,7 +273,18 @@
                         <div class="swiper-slide" data-category="web">
                             <div class="tech-item textTechStack">
                                 <p>Web Development</p>
-                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                                {{-- <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" /> --}}
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="bg-blue-500 p-6 text-white rounded-lg">Item 1</div>
+                                    <div class="bg-green-500 p-6 text-white rounded-lg">Item 2</div>
+                                    <div class="bg-red-500 p-6 text-white rounded-lg">Item 3</div>
+                                    <div class="bg-yellow-500 p-6 text-white rounded-lg">Item 4</div>
+                                    <div class="bg-purple-500 p-6 text-white rounded-lg">Item 5</div>
+                                    <div class="bg-pink-500 p-6 text-white rounded-lg">Item 6</div>
+                                    <div class="bg-gray-500 p-6 text-white rounded-lg">Item 7</div>
+                                    <div class="bg-teal-500 p-6 text-white rounded-lg">Item 8</div>
+                                </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide" data-category="software">
@@ -307,7 +318,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>

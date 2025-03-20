@@ -9,8 +9,8 @@
 @section('headButtons')
 
 <div class="flex items-center gap-6">
-    <a href="{{ url('login') }}" class="btn-text hidden hover:text-ColorBlue md:inline-block">Login</a>
-    <a href="{{ url('signup') }}" class="btn is-blue is-rounded btn-animation group hidden md:inline-block"><span>Sign up free</span></a>
+    {{-- <a href="{{ url('login') }}" class="btn-text hidden hover:text-ColorBlue sm:inline-block">Login</a>
+    <a href="{{ url('signup') }}" class="btn is-blue is-rounded btn-animation group hidden sm:inline-block"><span>Sign up free</span></a> --}}
     <!-- Responsive Offcanvas Menu Button -->
     <div class="block lg:hidden">
         <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
@@ -27,36 +27,35 @@
 
 @section('content')
 
-       <!-- Breadcrumb Section Start -->
-       <section class="section-breadcrumb">
-        <!-- Breadcrumb Section Spacer -->
-        <div class="breadcrumb-wrapper">
-            <!-- Section Container -->
-            <div class="container-default">
-                <div class="breadcrumb-block">
-                    <h1 class="breadcrumb-title">UI/UX and product designer</h1>
-                    <ul class="breadcrumb-nav">
-                        <li><a href="{{ url('index') }}">Home</a></li>
-                        <li><a href="{{ url('careers') }}">Career</a></li>
-                        <li>Career Details</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Section Container -->
-
-            <!-- Breadcrumb Shape - 1 -->
-            <div class="absolute left-0 top-0 -z-10">
-                <img src="{{ asset('assets/img/elements/breadcrumb-shape-1.svg') }}" alt="hero-shape-1" width="291" height="380" />
-            </div>
-
-            <!-- Breadcrumb Shape - 2 -->
-            <div class="absolute bottom-0 right-0 -z-[1]">
-                <img src="{{ asset('assets/img/elements/breadcrumb-shape-2.svg') }}" alt="hero-shape-2" width="291" height="380" />
+<!-- Breadcrumb Section Start -->
+<section class="section-breadcrumb" style="background-image: url({{ asset('assets/img/kodetech/sub.jpg') }}); background-position: bottom center; background-size: cover">
+    <!-- Breadcrumb Section Spacer -->
+    <div class="breadcrumb-wrapper" style="background-color: transparent !important">
+        <!-- Section Container -->
+        <div class="container-default">
+            <div class="breadcrumb-block">
+                <h1 class="breadcrumb-title">Careers</h1>
+                {{-- <ul class="breadcrumb-nav">
+                    <li><a href="{{ url('index') }}">Home</a></li>
+                <li>About</li>
+                </ul> --}}
             </div>
         </div>
-        <!-- Breadcrumb Section Spacer -->
-    </section>
-    <!-- Breadcrumb Section End -->
+        <!-- Section Container -->
+
+        <!-- Breadcrumb Shape - 1 -->
+        {{-- <div class="absolute left-0 top-0 -z-10">
+            <img src="{{ asset('assets/img/elements/breadcrumb-shape-1.svg') }}" alt="hero-shape-1" width="291" height="380" />
+    </div> --}}
+
+    <!-- Breadcrumb Shape - 2 -->
+    {{-- <div class="absolute bottom-0 right-0 -z-[1]">
+            <img src="{{ asset('assets/img/elements/breadcrumb-shape-2.svg') }}" alt="hero-shape-2" width="291" height="380" />
+    </div> --}}
+    </div>
+    <!-- Breadcrumb Section Spacer -->
+</section>
+<!-- Breadcrumb Section End -->
 
     <!-- Career Details Section Start -->
     <section class="section-careerdetails">
@@ -300,10 +299,5 @@
     </section>
     <!-- Career Details Section End -->
 
-@endsection
 
-
-
-@section('footer')
-    <x-footer1/>
 @endsection

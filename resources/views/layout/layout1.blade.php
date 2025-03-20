@@ -50,21 +50,40 @@
                                     </a>
                                     <ul class="sub-menu" id="submenu-2">
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">Web Development</a>
+                                            <a href="{{ url('serviceDetails') }}">Web Development</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">Software Development</a>
+                                            <a href="{{ url('serviceDetails') }}">Software Development</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">AI Development</a>
+                                            <a href="{{ url('serviceDetails') }}">AI Development</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">Blockchain Development</a>
+                                            <a href="{{ url('serviceDetails') }}">Blockchain Development</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="{{ url('about1') }}" class="nav-link-item">Our Products</a>
+                                <li class="nav-item nav-item-has-children">
+                                    <a class="nav-link-item drop-trigger">Our Products
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul class="sub-menu" id="submenu-2">
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">Document Management System (DMS)</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">AI Based Customer Relationship Management</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">AI Chatbot</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">Human Resource Information System</a>
+                                        </li>
+                                        <li class="sub-menu--item">
+                                            <a href="{{ url('#') }}">E-Commerce solutions</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="{{ url('portfolio') }}" class="nav-link-item">Our Projects</a>
@@ -182,6 +201,12 @@
                                         </li>
                                         <li>
                                             <a href="{{ url('contact') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Knowledge Center</a>
+                                        </li>
+                                         <li>
+                                            <a href="{{ url('careers') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Careers</a>
+                                        </li>
+                                         <li>
+                                            <a href="{{ url('faq') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">FAQ</a>
                                         </li>
                                     </ul>
                                 </div>

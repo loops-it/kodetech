@@ -290,7 +290,3 @@
 @endsection
 
 
-
-@section('footer')
-    <x-footer1/>
-@endsection
