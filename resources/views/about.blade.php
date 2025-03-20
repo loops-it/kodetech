@@ -129,37 +129,37 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]" style="height: 160px; width: 160px; display: flex; justify-content: center; align-items: center;">
-                                    <img src="{{ asset('assets/img/kodetech/partners/logoblack.png') }}" alt="icon-green-star" width="100" height="80" />
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md p-2 flex justify-center align-middle items-center">
+                                <div class="flex flex-col rounded-[10px] bg-white text-ColorBlack" style="height: auto; width: max-content; display: flex; justify-content: center; align-items: center;">
+                                    <img src="{{ asset('assets/img/kodetech/partners/Logo 7.png') }}" alt="icon-green-star" width="100" height="80" class="img-fluid"  />
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]" style="height: 160px; width: 160px; display: flex; justify-content: center; align-items: center;">
-                                    <img src="{{ asset('assets/img/kodetech/partners/SLTMobitel_Logo.svg.png') }}" alt="icon-green-star" width="100" height="80" />
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md p-2 flex justify-center align-middle items-center">
+                                <div class="flex flex-col rounded-[10px] bg-white text-ColorBlack" style="height: auto; width: max-content; display: flex; justify-content: center; align-items: center;">
+                                    <img src="{{ asset('assets/img/kodetech/partners/Logo 8.png') }}" alt="icon-green-star" width="100" height="80" class="img-fluid"  />
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]" style="height: 160px; width: 160px; display: flex; justify-content: center; align-items: center;">
-                                    <img src="{{ asset('assets/img/kodetech/partners/images.jpg') }}" alt="icon-green-star" width="100" height="80" />
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md p-2 flex justify-center align-middle items-center">
+                                <div class="flex flex-col rounded-[10px] bg-white text-ColorBlack" style="height: auto; width: max-content; display: flex; justify-content: center; align-items: center;">
+                                    <img src="{{ asset('assets/img/kodetech/partners/Logo 9.png') }}" alt="icon-green-star" width="100" height="80" class="img-fluid" />
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]" style="height: 160px; width: 160px; display: flex; justify-content: center; align-items: center;">
-                                    <img src="{{ asset('assets/img/kodetech/partners/buzzbuilderslk_logo.jpg') }}" alt="icon-green-star" width="100" height="80" />
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md p-2 flex justify-center align-middle items-center">
+                                <div class="flex flex-col rounded-[10px] bg-white text-ColorBlack" style="height: auto; width: max-content; display: flex; justify-content: center; align-items: center;">
+                                    <img src="{{ asset('assets/img/kodetech/partners/Logo 10.png') }}" alt="icon-green-star" width="100" height="80" class="img-fluid"  />
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="jos mb-6 break-inside-avoid shadow rounded-md">
-                                <div class="flex flex-col rounded-[10px] bg-white p-6 text-ColorBlack sm:p-[30px]" style="height: 160px; width: 160px; display: flex; justify-content: center; align-items: center;">
-                                    <img src="{{ asset('assets/img/kodetech/partners/yCHxrR9d_400x400.jpg') }}" alt="icon-green-star" width="100" height="80" />
+                            <div class="jos mb-6 break-inside-avoid shadow rounded-md p-2 flex justify-center align-middle items-center">
+                                <div class="flex flex-col rounded-[10px] bg-white text-ColorBlack" style="height: auto; width: max-content; display: flex; justify-content: center; align-items: center;">
+                                    <img src="{{ asset('assets/img/kodetech/partners/Logo 11.png') }}" alt="icon-green-star" width="100" height="80" class="img-fluid"  />
                                 </div>
                             </div>
                         </div>
