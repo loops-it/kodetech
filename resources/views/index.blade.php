@@ -477,7 +477,7 @@
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
                                     <div class="jos relative order-2 md:order-1">
-                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" class="m-[20px] " />
+                                        <img src="{{ asset('assets/img/kodetech/products/document management system.png') }}" alt="icon-green-star" class="m-[20px] " />
                                     </div>
                                     <!-- Content Block Right -->
                                 </div>
@@ -515,7 +515,7 @@
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
                                     <div class="jos relative order-2 md:order-1">
-                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                        <img src="{{ asset('assets/img/kodetech/products/AI Chat bot.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
                                 </div>
@@ -553,7 +553,7 @@
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
                                     <div class="jos relative order-2 md:order-1">
-                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                        <img src="{{ asset('assets/img/kodetech/products/CRM.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
                                 </div>
@@ -594,7 +594,7 @@
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
                                     <div class="jos relative order-2 md:order-1">
-                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                        <img src="{{ asset('assets/img/kodetech/products/HRM.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
                                 </div>
@@ -617,7 +617,7 @@
                                             <!-- Section Block -->
                                             <div class="mb-5">
                                                 <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
-                                                    Learning Management System (LMS) </h2>
+                                                    E-Commerce solutions</h2>
                                             </div>
                                             <!-- Section Block -->
                                         </div>
@@ -633,7 +633,7 @@
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
                                     <div class="jos relative order-2 md:order-1">
-                                        <img src="{{ asset('assets/img/kodetech/Device - Macbook Pro.png') }}" alt="icon-green-star" />
+                                        <img src="{{ asset('assets/img/kodetech/products/e commerce 1.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
                                 </div>
