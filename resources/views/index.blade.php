@@ -44,10 +44,10 @@
             <div class="container-default relative z-10">
                 <!-- Hero Area -->
                 <div class="text-center">
-                    <h1 class="jos -trackig-[1px] mx-auto mb-6 font-PublicSans text-5xl font-bold leading-[1.06] text-[#121212] md:max-w-[80%] md:text-[60px] lg:max-w-[95%] lg:text-[70px] xl:max-w-[1000px] xl:text-[90px]">
+                    <h1 class="jos -trackig-[1px] mx-auto mb-6 font-PublicSans text-[30px] font-bold leading-[1.06] text-[#121212] md:max-w-[80%] md:text-[60px] lg:max-w-[95%] lg:text-[70px] xl:max-w-[1000px] xl:text-[90px]">
                         Driving Growth Through Digital Innovation
                     </h1>
-                    <p class="jos mx-auto mb-8 max-w-[658px] lg:mb-[50px]">
+                    <p class="jos mx-auto mb-8 max-w-[658px] lg:mb-[50px] mobile-text-14">
                         Make your business easier and more efficient with Kode Tech. We provide smart, innovative solutions to streamline your operations and drive growth. Let technology work for you and take your business to the next level!
 
                     </p>
@@ -89,7 +89,7 @@
                     <div>
                         <!-- Section Block -->
                         <div class="mb-5">
-                            <h2 class="text-center font-PublicSans text-4xl font-bold leading-[1.14] text-[#FDFBF9] lg:text-left lg:text-5xl xl:text-[56px]">
+                            <h2 class="text-center font-PublicSans text-[30px] font-bold leading-[1.14] text-[#FDFBF9] lg:text-left lg:text-5xl xl:text-[56px]">
                                 Earning Trust Through Innovation and Excellence.
                             </h2>
                         </div>
@@ -461,7 +461,7 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
                                                     Document Management System (DMS) </h2>
                                             </div>
                                             <!-- Section Block -->
@@ -471,7 +471,7 @@
                                             Kode Tech’s Document Management System is a comprehensive solution for businesses to securely store, organize, and retrieve critical documents. It enhances collaboration, ensures compliance, and optimizes workflows with features like version control, access management, and automated document tracking. Our DMS empowers organizations to reduce inefficiencies, minimize errors, and improve productivity, making it an indispensable tool for modern businesses. {{-- <hr class="mb-5" /> --}}
 
                                             <div class="mt-8 lg:mt-[50px]">
-                                                <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                                <a href="{{ url('/dms') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                             </div>
                                     </div>
                                     <!-- Content Block Left -->
@@ -504,12 +504,12 @@
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
-                                        <p class="mb-5">
+                                        <p class="mb-5 mobile-text-14">
                                             Kode Tech’s AI Chatbot is a versatile tool that revolutionizes customer interactions. Tailored for diverse industries, it offers real-time support, automates routine tasks, and provides personalized responses. From retail to healthcare, our chatbot enhances customer engagement, improves response times, and boosts operational efficiency, helping businesses deliver superior experiences while focusing on strategic goals. </p>
                                         {{-- <hr class="mb-5" /> --}}
 
                                         <div class="mt-8 lg:mt-[50px]">
-                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                            <a href="{{ url('/ai') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                         </div>
                                     </div>
                                     <!-- Content Block Left -->
@@ -542,12 +542,12 @@
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
-                                        <p class="mb-5">
+                                        <p class="mb-5 mobile-text-14">
                                             Kode Tech’s AI-powered Lead Generation and CRM platform transforms customer acquisition and relationship management. Leveraging advanced analytics, it identifies high-quality leads, streamlines customer engagement, and drives sales growth. This intelligent solution enables businesses to make informed decisions, enhance customer loyalty, and achieve measurable results in today’s competitive landscape.</p>
                                         {{-- <hr class="mb-5" /> --}}
 
                                         <div class="mt-8 lg:mt-[50px]">
-                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                            <a href="{{ url('/crm') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                         </div>
                                     </div>
                                     <!-- Content Block Left -->
@@ -582,13 +582,13 @@
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
-                                        <p class="mb-5">
+                                        <p class="mb-5 mobile-text-14">
                                             Kode Tech’s HRIS streamlines human resource management with a centralized and automated platform. It handles payroll, employee records, leave tracking, and more with precision and efficiency. Designed for scalability, our HRIS empowers organizations to optimize their workforce, improve compliance, and make data-driven decisions that enhance overall performance.
                                         </p>
                                         {{-- <hr class="mb-5" /> --}}
 
                                         <div class="mt-8 lg:mt-[50px]">
-                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                            <a href="{{ url('/hrm') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                         </div>
                                     </div>
                                     <!-- Content Block Left -->
@@ -622,12 +622,12 @@
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
-                                        <p class="mb-5">
+                                        <p class="mb-5 mobile-text-14">
                                             Kode Tech’s LMS is an advanced platform designed for seamless education and training delivery. It enables intuitive course management, progress tracking, and collaborative learning. Whether for corporate training or academic institutions, our LMS enhances learner engagement, fosters skill development, and ensures measurable outcomes, aligning perfectly with organizational objectives.</p>
                                         {{-- <hr class="mb-5" /> --}}
 
                                         <div class="mt-8 lg:mt-[50px]">
-                                            <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                            <a href="{{ url('/ecommerce') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                         </div>
                                     </div>
                                     <!-- Content Block Left -->
