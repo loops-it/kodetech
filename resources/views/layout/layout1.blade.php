@@ -50,16 +50,16 @@
                                     </a>
                                     <ul class="sub-menu" id="submenu-2">
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('serviceDetails') }}">Web Development</a>
+                                            <a href="{{ url('/web') }}">Web Development</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('serviceDetails') }}">Software Development</a>
+                                            <a href="{{ url('/software') }}">Software Development</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('serviceDetails') }}">AI Development</a>
+                                            <a href="{{ url('/aiDev') }}">AI Development</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('serviceDetails') }}">Blockchain Development</a>
+                                            <a href="{{ url('/blockchain') }}">Blockchain Development</a>
                                         </li>
                                     </ul>
                                 </li>
