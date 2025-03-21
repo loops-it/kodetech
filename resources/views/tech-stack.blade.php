@@ -270,51 +270,275 @@
                 <!-- Tech Stack Category Slider -->
                 <div class="swiper techStack-new-category-slider">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" data-category="web">
+                        <div class="swiper-slide" data-category="ai">
                             <div class="tech-item textTechStack">
-                                <p>Web Development</p>
-                                {{-- <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" /> --}}
+                                <p>AI Development</p>
                                 <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
-                                    <div class="bg-blue-500 p-6 text-white rounded-lg">Item 1</div>
-                                    <div class="bg-green-500 p-6 text-white rounded-lg">Item 2</div>
-                                    <div class="bg-red-500 p-6 text-white rounded-lg">Item 3</div>
-                                    <div class="bg-yellow-500 p-6 text-white rounded-lg">Item 4</div>
-                                    <div class="bg-purple-500 p-6 text-white rounded-lg">Item 5</div>
-                                    <div class="bg-pink-500 p-6 text-white rounded-lg">Item 6</div>
-                                    <div class="bg-gray-500 p-6 text-white rounded-lg">Item 7</div>
-                                    <div class="bg-teal-500 p-6 text-white rounded-lg">Item 8</div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ai/Group 1000003458.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ai/Group 1000003459.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ai/Group 1000003460.png" alt="Web Tech 1" />
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
-                        <div class="swiper-slide" data-category="software">
+                        <div class="swiper-slide" data-category="frontend">
                             <div class="tech-item textTechStack">
-                                <p>Software Development</p>
-                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                                <p>Frontend Development</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/front-end/Group 1000003336.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/front-end/Group 1000003341.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/front-end/Group 1000003343.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/front-end/Group 1000003359.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/front-end/Group 1000003379.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/front-end/Group 1000003380.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="backend">
+                            <div class="tech-item textTechStack">
+                                <p>Backend Development</p>
+                               <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/backend/Group 1000003353.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/backend/Group 1000003381.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/backend/Group 1000003382.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/backend/Group 1000003383.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/backend/Group 1000003384.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/backend/Group 1000003385.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/backend/Group 1000003386.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-category="mobile">
                             <div class="tech-item textTechStack">
                                 <p>Mobile Development</p>
-                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/mobile/Group 1000003375.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/mobile/Group 1000003376.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/mobile/Group 1000003377.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/mobile/Group 1000003378.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide" data-category="ai">
+                        <div class="swiper-slide" data-category="database">
                             <div class="tech-item textTechStack">
-                                <p>AI Development</p>
-                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                                <p>Database</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/database/Group 1000003368.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/database/Group 1000003372.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/database/Group 1000003373.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/database/Group 1000003374.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="test">
+                            <div class="tech-item textTechStack">
+                                <p>Testing automation</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/testing/Group 1000003394.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/testing/Group 1000003395.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/testing/Group 1000003396.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/testing/Group 1000003397.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/testing/Group 1000003398.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="cloud">
+                            <div class="tech-item textTechStack">
+                                <p>Cloud</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cloud/Group 1000003407.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cloud/Group 1000003408.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cloud/Group 1000003409.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cloud/Group 1000003410.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="design">
+                            <div class="tech-item textTechStack">
+                                <p>Design</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/design/Group 1000003403.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/design/Group 1000003404.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/design/Group 1000003405.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/design/Group 1000003406.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="ide">
+                            <div class="tech-item textTechStack">
+                                <p>IDE</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ide/Group 1000003413.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ide/Group 1000003432.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ide/Group 1000003433.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ide/Group 1000003434.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ide/Group 1000003435.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-category="game">
                             <div class="tech-item textTechStack">
                                 <p>Game Development</p>
-                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/game/Group 1000003428.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/game/Group 1000003429.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/game/Group 1000003430.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/game/Group 1000003431.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide" data-category="metaverse">
+                        <div class="swiper-slide" data-category="ar">
                             <div class="tech-item textTechStack">
-                                <p>Metaverse Development</p>
-                                <img src="assets/img/kodetech/Group 1000003363 (1).png" alt="Web Tech 1" />
+                                <p>AR/VR/3D</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ar/Group 1000003439.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ar/Group 1000003440.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ar/Group 1000003441.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ar/Group 1000003442.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ar/Group 1000003443.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ar/Group 1000003444.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/ar/Group 1000003445.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="cms">
+                            <div class="tech-item textTechStack">
+                                <p>CMS</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cms/Group 1000003451.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cms/Group 1000003452.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cms/Group 1000003453.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/cms/Group 1000003454.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-category="other">
+                            <div class="tech-item textTechStack">
+                                <p>Other</p>
+                                <div class="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2">
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/other/Group 1000003455.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/other/Group 1000003456.png" alt="Web Tech 1" />
+                                    </div>
+                                    <div class="p-6 text-white rounded-lg">
+                                        <img src="assets/img/kodetech/tech-stack/other/Group 1000003457.png" alt="Web Tech 1" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

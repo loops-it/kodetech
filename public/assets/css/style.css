@@ -7927,7 +7927,7 @@ p:last-child {
 
 .tech-item img {
   width: auto;
-  height: 300px;
+  height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
