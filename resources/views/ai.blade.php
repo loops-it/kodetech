@@ -34,7 +34,7 @@
         <!-- Section Container -->
         <div class="container-default">
             <div class="breadcrumb-block">
-                <h1 class="breadcrumb-title">CRM</h1>
+                <h1 class="breadcrumb-title">AI Chatbot</h1>
                 {{-- <ul class="breadcrumb-nav">
                     <li><a href="{{ url('index') }}">Home</a></li>
                 <li>About</li>
@@ -56,7 +56,7 @@
                 <!-- Service Details Area -->
                 <div class="mx-auto max-w-[1080px]">
                     <!-- Service main Image -->
-                    <img src="{{ asset('assets/img/th-1/service-main-img.jpg') }}" alt="service-main-img" class="mb-10 h-auto w-full rounded-[10px]" />
+                    <img src="{{ asset('assets/img/kodetech/products/AI Chat bot.png') }}" alt="service-main-img" class="mb-10 h-auto w-full rounded-[10px]" />
                     <!-- Service Rich Text -->
                     <div class="rich-text">
                         <h5>What is Digital Brand Strategy?</h5>
@@ -99,10 +99,10 @@
                             </li>
                         </ul>
 
-                        <div class="my-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+                        {{-- <div class="my-6 grid grid-cols-1 md:grid-cols-2 gap-5">
                             <img src="{{ asset('assets/img/th-1/service-inner-1-img.jpg') }}" alt="service-inner-1-img" width="532" height="355" class="w-full h-auto rounded-[10px]" />
                             <img src="{{ asset('assets/img/th-1/service-inner-2-img.jpg') }}" alt="service-inner-2-img" width="532" height="355" class="w-full h-auto rounded-[10px]" />
-                        </div>
+                        </div> --}}
 
                         <h5>Digital Branding vs. Digital Marketing</h5>
                         <p>

@@ -69,19 +69,19 @@
                                     </a>
                                     <ul class="sub-menu" id="submenu-2">
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">Document Management System (DMS)</a>
+                                            <a href="{{ url('/dms') }}">Document Management System (DMS)</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">AI Based Customer Relationship Management</a>
+                                            <a href="{{ url('/crm') }}">AI Based Customer Relationship Management</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">AI Chatbot</a>
+                                            <a href="{{ url('/ai') }}">AI Chatbot</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">Human Resource Information System</a>
+                                            <a href="{{ url('/hrm') }}">Human Resource Information System</a>
                                         </li>
                                         <li class="sub-menu--item">
-                                            <a href="{{ url('#') }}">E-Commerce solutions</a>
+                                            <a href="{{ url('/ecommerce') }}">E-Commerce solutions</a>
                                         </li>
                                     </ul>
                                 </li>
