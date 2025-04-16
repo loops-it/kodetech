@@ -67,7 +67,7 @@
                                     <a class="nav-link-item drop-trigger">Our Products
                                         <i class="fa-solid fa-angle-down"></i>
                                     </a>
-                                    <ul class="sub-menu" id="submenu-2">
+                                    <ul class="sub-menu" id="submenu-3">
                                         <li class="sub-menu--item">
                                             <a href="{{ url('/dms') }}">Document Management System (DMS)</a>
                                         </li>
