@@ -461,7 +461,7 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl" >
                                                     Document Management System (DMS) </h2>
                                             </div>
                                             <!-- Section Block -->
@@ -498,7 +498,7 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14] lg:text-4xl" >
                                                     AI Chatbot</h2>
                                             </div>
                                             <!-- Section Block -->
@@ -536,7 +536,7 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl">
                                                     AI-Based Lead Generation and CRM </h2>
                                             </div>
                                             <!-- Section Block -->
@@ -576,7 +576,7 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl">
                                                     Human Resource Information System (HRIS)</h2>
                                             </div>
                                             <!-- Section Block -->
@@ -616,7 +616,7 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-4xl font-bold leading-[1.14] text-[#DE0002] lg:text-4xl" style="color: #DE0002 !important">
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl">
                                                     E-Commerce solutions</h2>
                                             </div>
                                             <!-- Section Block -->
