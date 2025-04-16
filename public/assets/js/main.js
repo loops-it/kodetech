@@ -41,8 +41,8 @@ accordions.forEach((item) => {
 
 // ========================TF-1 : Brand Slider================================
 var brandSlider = new Swiper(".brand-slider", {
-  slidesPerView: 2,
-  spaceBetween: 90,
+  slidesPerView: 3,
+  spaceBetween: 10,
   speed: 1200,
   autoplay: {
     delay: 4000,

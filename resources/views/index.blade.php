@@ -53,7 +53,7 @@
                     </p>
                     <div class="jos flex flex-wrap justify-center gap-[18px]">
                         <a href="#" class="btn is-lime is-large btn-animation group rounded-[3px]" style="min-width: 177px !important"><span>Get In Touch</span></a>
-                        <a href="#" class="btn is-outline-black is-large btn-animation group rounded-[3px]"  style="min-width: 177px !important"><span>View Services</span></a>
+                        <a href="#" class="btn is-outline-black is-large btn-animation group rounded-[3px]" style="min-width: 177px !important"><span>View Services</span></a>
                     </div>
                 </div>
                 <!-- Hero Area -->
@@ -344,7 +344,7 @@
                                 Lorem ipsum
                             </div>
                             <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
                                 <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -366,16 +366,16 @@
                                 Immersive augmented and virtual reality experiences to revolutionize industries like education, retail, and entertainment.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
-                                <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
-                                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
-                                </span>
-                            </a>
-                        </div>
-                    </div> --}}
-                    <!-- Service Item -->
+                    <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
+                        <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                    </span>
+                    </a>
+                </div>
+            </div> --}}
+            <!-- Service Item -->
 
-                    <!-- Service Item -->
-                    {{-- <div class="jos" data-jos_delay="1.5">
+            <!-- Service Item -->
+            {{-- <div class="jos" data-jos_delay="1.5">
                         <div class="group flex h-full flex-col text-[#FDFBF9]">
                             <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">07.</span>
                             <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
@@ -386,43 +386,43 @@
                                 Engaging, visually stunning games built with advanced technology for an unparalleled gaming experience.
                             </p>
                             <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
-                                <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
-                                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
-                                </span>
-                            </a>
-                        </div>
-                    </div> --}}
-                    <!-- Service Item -->
-                    <!-- Service Item -->
-                    <div class="jos" data-jos_delay="1.5">
-                        <div class="group flex h-full flex-col text-[#FDFBF9]">
-                            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">08.</span>
-                            <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
-                            <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
-                                Lorem ipsum
-                            </div>
-                            <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            </p>
-                            <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
-                                <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
-                                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Service Item -->
-                </div>
-                <!-- Service List -->
-            </div>
-            <!-- Section Container -->
+            <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
+                <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+            </span>
+            </a>
         </div>
-        <!-- Section Space -->
-
-        <!-- Background Shape -->
-        {{-- <img src="{{ asset('assets/img/elements/home-5-service-bg-shape.svg') }}" alt="home-5-service-bg-shape" width="140" height="140" class="absolute right-12 top-[197px] -z-10 hidden xl:inline-block" /> --}}
+    </div> --}}
+    <!-- Service Item -->
+    <!-- Service Item -->
+    <div class="jos" data-jos_delay="1.5">
+        <div class="group flex h-full flex-col text-[#FDFBF9]">
+            <span class="block font-GeneralSans text-xl font-semibold leading-[1.4] transition-all duration-300 group-hover:text-ColorAtomicTangerine lg:text-2xl xl:text-3xl">08.</span>
+            <div class="relative my-[30px] h-[2px] w-full bg-[#FDFBF9]/10 after:absolute after:inset-0 after:scale-x-0 after:bg-ColorAtomicTangerine after:transition-all after:duration-300 group-hover:after:scale-x-100"></div>
+            <div class="mb-[15px] font-GeneralSans text-xl font-semibold leading-[1.4] lg:text-[22px] xl:text-3xl">
+                Lorem ipsum
+            </div>
+            <p class="mb-5 line-clamp-3 text-[#FDFBF9]/80">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="{{ url('servicedetails') }}" class="mt-auto inline-flex items-center gap-x-4 font-GeneralSans text-base font-semibold group-hover:text-ColorAtomicTangerine">Discover More
+                <span class="text-3xl transition-all duration-300 ease-in-out group-hover:translate-x-2">
+                    <i class="fa-sharp fa-regular fa-arrow-right-long"></i>
+                </span>
+            </a>
+        </div>
     </div>
-    <!-- Section Background -->
+    <!-- Service Item -->
+</div>
+<!-- Service List -->
+</div>
+<!-- Section Container -->
+</div>
+<!-- Section Space -->
+
+<!-- Background Shape -->
+{{-- <img src="{{ asset('assets/img/elements/home-5-service-bg-shape.svg') }}" alt="home-5-service-bg-shape" width="140" height="140" class="absolute right-12 top-[197px] -z-10 hidden xl:inline-block" /> --}}
+</div>
+<!-- Section Background -->
 </div>
 <!-- Service Section End -->
 
@@ -461,15 +461,15 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl" >
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl">
                                                     Document Management System (DMS) </h2>
                                             </div>
                                             <!-- Section Block -->
                                         </div>
                                         <!-- Section Wrapper -->
-                                        <p class="mb-5">
+                                        <p class="mb-5 mobile-text-14">
                                             Kode Tech’s Document Management System is a comprehensive solution for businesses to securely store, organize, and retrieve critical documents. It enhances collaboration, ensures compliance, and optimizes workflows with features like version control, access management, and automated document tracking. Our DMS empowers organizations to reduce inefficiencies, minimize errors, and improve productivity, making it an indispensable tool for modern businesses. {{-- <hr class="mb-5" /> --}}
-
+ </p>
                                             <div class="mt-8 lg:mt-[50px]">
                                                 <a href="{{ url('/dms') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
                                             </div>
@@ -498,7 +498,7 @@
                                         <div>
                                             <!-- Section Block -->
                                             <div class="mb-5">
-                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14] lg:text-4xl" >
+                                                <h2 class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14] lg:text-4xl">
                                                     AI Chatbot</h2>
                                             </div>
                                             <!-- Section Block -->
@@ -674,7 +674,7 @@
                     <!-- Section Content Block -->
                 </div>
                 <!-- Section Content Wrapper -->
-                 <!-- Section Content Wrapper -->
+                <!-- Section Content Wrapper -->
                 <style>
                     .grid-container {
                         display: grid;
@@ -697,23 +697,25 @@
                         border-radius: 10px;
                     }
 
-                   /* @media (max-width: 480px) {
+                    /* @media (max-width: 480px) {
                         .grid-container {
                              grid-template-columns: repeat(6, 1fr);
                         }
                     }*/
 
-@media screen and (max-width: 992px){
-                         .grid-item img {
-                        border-radius: 0px;
+                    @media screen and (max-width: 992px) {
+                        .grid-item img {
+                            border-radius: 0px;
+                        }
+
+                        .grid-container {
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            grid-template-rows: repeat(3, 1fr);
+                            gap: 15px;
+                        }
                     }
-                      .grid-container {
-                        display: grid;
-                        grid-template-columns: repeat(3, 1fr);
-                        grid-template-rows: repeat(3, 1fr);
-                        gap: 15px;
-                    }
-                    }
+
                 </style>
                 <!-- Partners Slider -->
                 <div class="swiper partners-slider-custom1">
@@ -890,11 +892,11 @@
                         <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3  px-4"  style="color: #000 !important">
+                        <p class="line-clamp-3  px-4" style="color: #000 !important">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
-                        <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#F90305] hover:text-ColorPurple"  style="color: #F90305 !important">Read More
-                                <i class="fa-solid fa-arrow-right"></i>
+                        <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#F90305] hover:text-ColorPurple" style="color: #F90305 !important">Read More
+                            <i class="fa-solid fa-arrow-right"></i>
                             </span>
                         </a>
                     </div>
@@ -907,11 +909,11 @@
                         <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3  px-4"  style="color: #000 !important">
+                        <p class="line-clamp-3  px-4" style="color: #000 !important">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple" style="color: #F90305 !important">Read More
-                                <i class="fa-solid fa-arrow-right"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
                             </span>
                         </a>
                     </div>
@@ -924,16 +926,16 @@
                         <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3  px-4"  style="color: #000 !important">
+                        <p class="line-clamp-3  px-4" style="color: #000 !important">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple" style="color: #F90305 !important">Read More
-                                <i class="fa-solid fa-arrow-right"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
                             </span>
                         </a>
                     </div>
                     <!-- Blog Class Item -->
-                    
+
                 </div>
                 <!-- Blog Class List-->
             </div>
@@ -948,4 +950,3 @@
 
 
 @endsection
-
