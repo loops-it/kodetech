@@ -277,7 +277,7 @@
     </div>
 </section>
 <!-- Service Section End -->
-
+  
 <!-- Video Section Start -->
 <section class="section-video">
     <!-- Section Space -->
@@ -368,6 +368,12 @@
                     @media screen and (max-width: 992px){
                          .grid-item img {
                         border-radius: 0px;
+                    }
+                      .grid-container {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-template-rows: repeat(3, 1fr);
+                        gap: 15px;
                     }
                     }
 
