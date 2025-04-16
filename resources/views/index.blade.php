@@ -238,7 +238,7 @@
 <!-- Video Section End -->
 
 <!-- Service Section Start -->
-<div class="section-service">
+<div class="section-service" id="services">
     <!-- Section Background -->
     <div class="relative z-10 bg-[#1B1C1D]">
         <!-- Section Space -->
@@ -428,7 +428,7 @@
 
 
 <!-- Case studies Section Start -->
-<div class="section-brand bg-[#ffffff] ">
+<div class="section-brand bg-[#ffffff] " id="products">
     <div class="jos">
         <!-- Section Space -->
         <div class="py-[60px] md:py-20 lg:py-[100px]">
@@ -456,7 +456,7 @@
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
-                                    <div class="jos order-1 md:order-2">
+                                    <div class="jos order-2 md:order-2">
                                         <!-- Section Wrapper -->
                                         <div>
                                             <!-- Section Block -->
@@ -476,7 +476,7 @@
                                     </div>
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
-                                    <div class="jos relative order-2 md:order-1">
+                                    <div class="jos relative order-1 md:order-1">
                                         <img src="{{ asset('assets/img/kodetech/products/document management system.png') }}" alt="icon-green-star" class="m-[20px] " />
                                     </div>
                                     <!-- Content Block Right -->
@@ -493,7 +493,7 @@
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
-                                    <div class="jos order-1 md:order-2">
+                                    <div class="jos order-2 md:order-2">
                                         <!-- Section Wrapper -->
                                         <div>
                                             <!-- Section Block -->
@@ -514,7 +514,7 @@
                                     </div>
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
-                                    <div class="jos relative order-2 md:order-1">
+                                    <div class="jos relative order-1 md:order-1">
                                         <img src="{{ asset('assets/img/kodetech/products/AI Chat bot.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
@@ -531,7 +531,7 @@
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
-                                    <div class="jos order-1 md:order-2">
+                                    <div class="jos order-2 md:order-2">
                                         <!-- Section Wrapper -->
                                         <div>
                                             <!-- Section Block -->
@@ -552,7 +552,7 @@
                                     </div>
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
-                                    <div class="jos relative order-2 md:order-1">
+                                    <div class="jos relative order-1 md:order-1">
                                         <img src="{{ asset('assets/img/kodetech/products/CRM.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
@@ -571,7 +571,7 @@
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
-                                    <div class="jos order-1 md:order-2">
+                                    <div class="jos order-2 md:order-2">
                                         <!-- Section Wrapper -->
                                         <div>
                                             <!-- Section Block -->
@@ -593,7 +593,7 @@
                                     </div>
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
-                                    <div class="jos relative order-2 md:order-1">
+                                    <div class="jos relative order-1 md:order-1">
                                         <img src="{{ asset('assets/img/kodetech/products/HRM.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
@@ -611,7 +611,7 @@
                                 <!-- Content Area Single -->
                                 <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
                                     <!-- Content Block Left -->
-                                    <div class="jos order-1 md:order-2">
+                                    <div class="jos order-2 md:order-2">
                                         <!-- Section Wrapper -->
                                         <div>
                                             <!-- Section Block -->
@@ -632,7 +632,7 @@
                                     </div>
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
-                                    <div class="jos relative order-2 md:order-1">
+                                    <div class="jos relative order-1 md:order-1">
                                         <img src="{{ asset('assets/img/kodetech/products/e commerce 1.png') }}" alt="icon-green-star" />
                                     </div>
                                     <!-- Content Block Right -->
@@ -846,7 +846,7 @@
 <!-- Partners Section End -->
 
 <!-- Blog Class Section Start -->
-<section class="video-class-section" style="background-color: #FDFBF9 !important;">
+<section class="video-class-section" id="knowdge" style="background-color: #FDFBF9 !important;">
     <div class="relative z-10">
         <!-- Section Space -->
         <div class="section-space">

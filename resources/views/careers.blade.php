@@ -516,7 +516,7 @@
 <!-- Careers Section End -->
 
 <!-- Brand Section Start -->
-<div class="section-brand">
+{{-- <div class="section-brand">
     <div class="jos">
         <!-- Section Space -->
         <div class="section-space-bottom">
@@ -569,7 +569,7 @@
         </div>
         <!-- Section Space -->
     </div>
-</div>
+</div> --}}
 <!-- Brand Section End -->
 
 

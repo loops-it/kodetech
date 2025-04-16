@@ -180,7 +180,7 @@
         <!-- Section Space -->
         <div class="section-space">
             <!-- Section Container -->
-            <div class="container-custom">
+            <div class="container-default">
                 <!-- Section Content Wrapper -->
                 <div class="jos mb-[60px] xl:mb-20">
                     <!-- Section Content Block -->
@@ -363,6 +363,12 @@
                         height: auto;
                         object-fit: cover;
                         border-radius: 10px;
+                    }
+
+                    @media screen and (max-width: 992px){
+                         .grid-item img {
+                        border-radius: 0px;
+                    }
                     }
 
                    /* @media (max-width: 480px) {

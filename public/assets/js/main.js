@@ -88,7 +88,7 @@ var brandSlider = new Swiper(".brand-slider-2", {
 
 // ========================TF-1 : Testimonial Slider custom================================
 var brandSlider = new Swiper(".testimonial-slider-custom1", {
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 40,
   pagination: {
     el: '.swiper-pagination',

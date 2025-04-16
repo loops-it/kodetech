@@ -123,7 +123,7 @@
                                     <h2 class="text-center font-GeneralSans font-semibold text-[#1B1C1D] md:text-left">
                                         Let's Build Something Great Together!
                                     </h2>
-                                    <p class="text-start ">
+                                    <p class="text-center md:text-start  ">
                                         Get in touch with us today and take the first step toward innovation and growth.
                                     </p>
                                 </div>
@@ -191,16 +191,16 @@
                                             <a href="{{ url('about') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('services') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Services</a>
+                                            <a href="{{ url('/#services') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Services</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('pricing') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Products</a>
+                                            <a href="{{ url('/#products') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Products</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('contact') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Projects</a>
+                                            <a href="{{ url('portfolio') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Projects</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('contact') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Knowledge Center</a>
+                                            <a href="{{ url('/#knowdge') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Knowledge Center</a>
                                         </li>
                                          <li>
                                             <a href="{{ url('careers') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Careers</a>
@@ -279,7 +279,7 @@
                     <!-- Footer Bottom Spacing -->
                     <div class="py-[18px]" style="padding-bottom: 50px !important;">
                         <!-- Section Container -->
-                        <div class="container-default flex flex-col-reverse md:flex-row justify-between">
+                        <div class="container-default flex flex-col md:flex-row justify-between">
                             <div class="text-center text-[#FDFBF9]/80" style="color: #CFD3D7 !important">
                                 &copy; Copyright 2023 Kodetech (Pvt) Ltd.
                             </div>

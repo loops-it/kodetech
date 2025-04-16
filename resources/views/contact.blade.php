@@ -160,7 +160,7 @@
                         <form action="https://formspree.io/f/mlqvzkyx" method="post">
                             <!-- From Group List -->
                             <div class="flex flex-col gap-6">
-                                <div class="grid grid-cols-2 gap-6">
+                                <div class="grid md:grid-cols-2 gap-6">
                                     <!-- Form Group Item-->
                                     <div>
                                         <input type="text" name="first_name" id="first_name" placeholder="First Name *" class="w-full rounded-[8px] border border-ColorBlack/50 bg-white px-[30px] py-[15px] outline-none transition-all duration-300 placeholder:text-ColorBlack/50 focus:border-ColorBlue" required style="border-radius: 8px !important" />
