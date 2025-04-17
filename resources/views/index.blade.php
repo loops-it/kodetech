@@ -33,15 +33,22 @@
         bottom: 0px !important;
     }
 
+@media screen and (max-width: 600px) {
+  .mobile-hero-size {
+        display: flex !important;
+        padding: 50px 20px !important;
+    }
+}
+    
 </style>
 <!-- Hero Section Start -->
 <section class="section-hero" style="background-image: url({{ asset('assets/img/kodetech/home.png') }}); background-position: bottom center; background-size: cover">
     <!-- Section Background -->
-    <div class="relative z-10 overflow-hidden">
+    <div class="relative z-10 overflow-hidden ">
         <!-- Hero Section Space -->
-        <div class="pt-[105px] sm:pt-[145px] lg:pt-[185px]">
+        <div class="pt-[60px] sm:pt-[145px] lg:pt-[185px]">
             <!-- Section Container -->
-            <div class="container-default relative z-10">
+            <div class="container-default relative z-10 mobile-hero-size">
                 <!-- Hero Area -->
                 <div class="text-center">
                     <h1 class="jos -trackig-[1px] mx-auto mb-6 font-PublicSans text-[30px] font-bold leading-[1.06] text-[#121212] md:max-w-[80%] md:text-[60px] lg:max-w-[95%] lg:text-[70px] xl:max-w-[1000px] xl:text-[90px]">
@@ -469,10 +476,10 @@
                                         <!-- Section Wrapper -->
                                         <p class="mb-5 mobile-text-14">
                                             Kode Tech’s Document Management System is a comprehensive solution for businesses to securely store, organize, and retrieve critical documents. It enhances collaboration, ensures compliance, and optimizes workflows with features like version control, access management, and automated document tracking. Our DMS empowers organizations to reduce inefficiencies, minimize errors, and improve productivity, making it an indispensable tool for modern businesses. {{-- <hr class="mb-5" /> --}}
- </p>
-                                            <div class="mt-8 lg:mt-[50px]">
-                                                <a href="{{ url('/dms') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
-                                            </div>
+                                        </p>
+                                        <div class="mt-8 lg:mt-[50px]">
+                                            <a href="{{ url('/dms') }}" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn More</span></a>
+                                        </div>
                                     </div>
                                     <!-- Content Block Left -->
                                     <!-- Content Block Right -->
@@ -892,7 +899,7 @@
                         <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3  px-4" style="color: #000 !important">
+                        <p class="line-clamp-3  px-4 mobile-text-14" style="color: #000 !important">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#F90305] hover:text-ColorPurple" style="color: #F90305 !important">Read More
@@ -909,7 +916,7 @@
                         <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3  px-4" style="color: #000 !important">
+                        <p class="line-clamp-3  px-4 mobile-text-14" style="color: #000 !important">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple" style="color: #F90305 !important">Read More
@@ -926,7 +933,7 @@
                         <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack" style="color: #000 !important">
                             App - The power of communication
                         </div>
-                        <p class="line-clamp-3  px-4" style="color: #000 !important">
+                        <p class="line-clamp-3  px-4 mobile-text-14"  style="color: #000 !important">
                             A lot of information is given in our blogs. You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business .You can learn more about startup by reading our blogs. It’s time to brainstorm ideas for your business
                         </p>
                         <a href="{{ url('servicedetails') }}" class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#121212] hover:text-ColorPurple" style="color: #F90305 !important">Read More

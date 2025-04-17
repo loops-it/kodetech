@@ -69,7 +69,7 @@
                     <!-- Content Area Single -->
                     <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-10 xl:gap-10">
                         <!-- Content Block Left -->
-                        <div class="jos order-1 md:order-2" data-jos_animation="fade-right">
+                        <div class="jos order-2 md:order-2" data-jos_animation="fade-right">
                             <!-- Section Wrapper -->
                             <div>
                                 <!-- Section Block -->
@@ -92,7 +92,7 @@
                         </div>
                         <!-- Content Block Left -->
                         <!-- Content Block Right -->
-                        <div class="jos relative order-2 md:order-1" data-jos_animation="fade-left">
+                        <div class="jos relative order-1 md:order-1" data-jos_animation="fade-left">
                             <!-- Content Image -->
                             <img src="{{ asset('assets/img/kodetech/about-content-image.png') }}" alt="content-img-1" width="523" height="450" class="h-auto w-full rounded-[10px] shadow shadow-lg" />
                         </div>

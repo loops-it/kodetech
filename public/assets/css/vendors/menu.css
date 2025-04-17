@@ -950,7 +950,9 @@
 .menu-block.active .nav-link-item {
     color: #000 !important;
 }
-
+.menu-block.active .nav-link-item.active-url{
+    color: #F90305 !important;
+}
 @media (min-width: 480px) {
     .d-xs-inline-flex {
         display: inline-flex !important;

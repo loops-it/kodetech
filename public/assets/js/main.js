@@ -41,7 +41,7 @@ accordions.forEach((item) => {
 
 // ========================TF-1 : Brand Slider================================
 var brandSlider = new Swiper(".brand-slider", {
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 10,
   speed: 1200,
   autoplay: {
@@ -284,6 +284,7 @@ document.querySelectorAll(".techStack-category-slider .swiper-slide").forEach(sl
 var brandSlider = new Swiper(".partners-slider-custom1", {
   slidesPerView: 1,
   spaceBetween: 0,
+  loop: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,

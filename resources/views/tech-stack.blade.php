@@ -268,7 +268,7 @@
                     <!-- Section Content Block -->
                 </div>
                 <!-- Tech Stack Category Slider -->
-                <div class="swiper techStack-new-category-slider">
+                {{-- <div class="swiper techStack-new-category-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" data-category="ai">
                             <div class="tech-item textTechStack">
@@ -543,6 +543,268 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
+                </div> --}}
+                <style>
+                    .grid-container {
+                        display: grid;
+                        grid-template-columns: repeat(6, 1fr);
+                        grid-template-rows: repeat(3, 1fr);
+                        gap: 15px;
+                    }
+
+                    .grid-item {
+                        background-color: transparent;
+                        padding: 0px;
+                        text-align: center;
+                        border-radius: 5px;
+                    }
+
+                    .grid-item img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                        border-radius: 10px;
+                    }
+
+                    @media screen and (max-width: 992px){
+                         .grid-item img {
+                        border-radius: 0px;
+                    }
+                      .grid-container {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-template-rows: repeat(3, 1fr);
+                        gap: 15px;
+                    }
+                    }
+
+                   /* @media (max-width: 480px) {
+                        .grid-container {
+                             grid-template-columns: repeat(6, 1fr);
+                        }
+                    }*/
+
+                </style>
+                <div class="swiper partners-slider-custom1" style="padding-bottom: 30px;">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <!-- Partner Item -->
+                            <div class="jos break-inside-avoid shadow rounded-md">
+                                <div class="grid-container">
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ai/Group 1000003458.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ai/Group 1000003459.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ai/Group 1000003460.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/front-end/Group 1000003336.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/front-end/Group 1000003341.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/front-end/Group 1000003343.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/front-end/Group 1000003359.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/front-end/Group 1000003379.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/front-end/Group 1000003380.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/backend/Group 1000003353.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/backend/Group 1000003381.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/backend/Group 1000003382.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/backend/Group 1000003383.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/backend/Group 1000003384.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/backend/Group 1000003385.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/backend/Group 1000003386.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/mobile/Group 1000003375.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/mobile/Group 1000003376.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Partner Item -->
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Partner Item -->
+                            <div class="jos break-inside-avoid shadow rounded-md">
+                                <div class="grid-container">
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/mobile/Group 1000003377.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/mobile/Group 1000003378.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/database/Group 1000003368.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/database/Group 1000003372.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/database/Group 1000003373.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/database/Group 1000003374.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/testing/Group 1000003394.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/testing/Group 1000003395.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/testing/Group 1000003396.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/testing/Group 1000003397.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/testing/Group 1000003398.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cloud/Group 1000003407.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cloud/Group 1000003408.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cloud/Group 1000003409.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cloud/Group 1000003410.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/design/Group 1000003403.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/design/Group 1000003404.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/design/Group 1000003405.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Partner Item -->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!-- Partner Item -->
+                            <div class="jos break-inside-avoid shadow rounded-md">
+                                <div class="grid-container">
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/design/Group 1000003406.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ide/Group 1000003413.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ide/Group 1000003432.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ide/Group 1000003433.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ide/Group 1000003434.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ide/Group 1000003435.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/game/Group 1000003428.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/game/Group 1000003429.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/game/Group 1000003430.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/game/Group 1000003431.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ar/Group 1000003439.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ar/Group 1000003440.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ar/Group 1000003441.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ar/Group 1000003442.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ar/Group 1000003443.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ar/Group 1000003444.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/ar/Group 1000003445.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cms/Group 1000003451.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Partner Item -->
+                        </div>
+
+                         <div class="swiper-slide">
+                            <!-- Partner Item -->
+                            <div class="jos break-inside-avoid shadow rounded-md">
+                                <div class="grid-container">
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cms/Group 1000003452.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cms/Group 1000003453.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/cms/Group 1000003454.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/other/Group 1000003455.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/other/Group 1000003456.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="{{ asset('assets/img/kodetech/tech-stack/other/Group 1000003457.png') }}" alt="icon-green-star" class="rounded" />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Partner Item -->
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -581,7 +843,7 @@
                                     <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] group-hover:text-ColorBlue xl:text-2xl">App — The power of communication</a>
                                     <a href="#" class="hover:text-ColorBlue">UI/UX Design</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View More
+                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] text-ColorBlue group-hover:text-ColorBlue">View More
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -598,7 +860,7 @@
                                     <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] group-hover:text-ColorBlue xl:text-2xl">Website — The future lifestyle platform.</a>
                                     <a href="#" class="hover:text-ColorBlue">Branding</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] group-hover:text-ColorBlue">View More
+                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] text-ColorBlue group-hover:text-ColorBlue">View More
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
