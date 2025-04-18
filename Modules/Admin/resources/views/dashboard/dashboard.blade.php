@@ -127,7 +127,7 @@
 </style> --}}
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> --}}
 @extends('admin::layouts.dashboard-header')
 
 @section('content')
@@ -157,7 +157,7 @@
                                         <th scope="row">{{ $index + 1 }}</th>
                                         <td>{{ $project->project }}</td>
                                         <td>{{ $project->project }}</td>
-                                        <td>{{ $project->project_description ?? 'No description' }}</td>
+                                        {{-- <td>{{ $project->project_description ?? 'No description' }}</td> --}}
                                         <td>
                                             @if ($project->project_image)
                                                 <img src="{{ asset('storage/' . $project->project_image) }}" width="100"
@@ -262,7 +262,7 @@
                                         <th scope="row">{{ $index + 1 }}</th>
                                         <td>{{ $product->product_name }}</td>
                                         <td>{{ $product->product_overview }}</td>
-                                        <td>{{ $product->product_description ?? 'No description' }}</td>
+                                        {{-- <td>{{ $product->product_description ?? 'No description' }}</td> --}}
                                         <td>
                                             @if ($product->product_image)
                                                 <img src="{{ asset('storage/' . $product->product_image) }}" width="100"

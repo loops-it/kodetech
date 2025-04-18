@@ -34,7 +34,7 @@
         <!-- Section Container -->
         <div class="container-default">
             <div class="breadcrumb-block">
-                <h1 class="breadcrumb-title">App — {{$projects->project_name}}</h1>
+                <h1 class="breadcrumb-title">{{$projects->project_name}}</h1>
                 {{-- <ul class="breadcrumb-nav">
                     <li><a href="{{ url('index') }}">Home</a></li>
                 <li>About</li>
@@ -93,12 +93,12 @@
 
                 <!-- Portfolio Rich Text -->
                 <div class="rich-text">
-                    <h4>Project overview</h4>
+                    <h5>Project overview</h5>
                     <p>
                         {{ $projects->project_overview }}
                     </p>
                     <div>
-                        {{ $projects->project_description }}
+                        {!! $projects->project_description !!}
                     </div>
 
                     {{-- <h5>What we did for this project</h5>

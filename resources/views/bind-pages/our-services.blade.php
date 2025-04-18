@@ -72,6 +72,7 @@
                     <!-- Service Rich Text -->
                     <div class="rich-text">
                         {!! $services->service_description !!}
+                        {{-- <h5>What is Digital Branding?</h5>
                         {{-- <h5>What is Digital Brand Strategy?</h5>
                         <p>
                             A comprehensive plan that helps you communicate your
