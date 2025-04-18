@@ -108,6 +108,7 @@
                     <!-- Contact Info Item -->
 
                     <!-- Contact Info Item -->
+                    <div>
                     <div class="jos flex gap-[30px]" data-jos_delay="0.6">
                         <div class="p-3" style="border: solid 1px #EB131B; padding: 20px; border-radius: 8px">
                             <img src="{{ asset('assets/img/kodetech/Location.png') }}" alt="icon-duotone-message" width="74" height="60" class="h-[60px] w-auto" />
@@ -122,7 +123,25 @@
                                 No 2A, Sulaiman Terrace,<br>
                                 Colombo 05, Sri Lanka.
                             </p>
+                            
                         </div>
+                    </div>
+                    <div class="jos flex gap-[30px]" data-jos_delay="0.6">
+                        <div class="p-3" style="border: solid 1px #EB131B; padding: 20px; border-radius: 8px;visibility: hidden">
+                            <img src="{{ asset('assets/img/kodetech/Location.png') }}" alt="icon-duotone-message" width="74" height="60" class="h-[60px] w-auto" />
+                        </div>
+
+                        <div>
+                            {{-- <div class="mb-2 text-2xl font-semibold -tracking-[0.5] text-ColorBlack">
+                                Location
+                            </div> --}}
+                            <p style="line-height: 22px;" class="mt-5">
+                                Kodetech (Pvt) Ltd, <br>
+                                No 2A, Sulaiman Terrace,<br>
+                                Colombo 05, Sri Lanka.
+                            </p>
+                        </div>
+                    </div>
                     </div>
                     <!-- Contact Info Item -->
                     <div class="flex flex-col gap-5">
