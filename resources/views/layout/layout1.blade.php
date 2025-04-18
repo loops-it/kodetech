@@ -1,7 +1,19 @@
+<?php
+use App\Models\Product;
+use App\Models\Project;
+use App\Models\Service;
+
+$products = Product::all();
+$projects = Project::all();
+$services = Service::all();
+?>
+
+
 <!doctype html>
 <html lang="en">
 
 <x-head />
+
 <body>
     <div class="page-wrapper relative z-[1] {{ isset($bgColor) ? $bgColor : 'bg-white' }}">
         <!-- Header Start -->
@@ -11,7 +23,6 @@
                     display: none !important;
                 }
             }
-
         </style>
         <header class="site-header bg-white site-header--absolute is--white py-3" id="sticky-menu">
             <div class="container-default">
@@ -19,7 +30,8 @@
                     <!-- Header Logo -->
                     <a href="{{ url('index') }}" class="">
                         {{-- @yield('headerLogo') --}}
-                        <img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109" height="30" class="img-logo-head" />
+                        <img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109"
+                            height="30" class="img-logo-head" />
                     </a>
                     <!-- Header Logo -->
 
@@ -49,7 +61,17 @@
                                         <i class="fa-solid fa-angle-down"></i>
                                     </a>
                                     <ul class="sub-menu" id="submenu-2">
-                                        <li class="sub-menu--item">
+
+                                        @foreach ($services as $service)
+                                            <li class="sub-menu--item"><a
+                                                    href="{{ route('ServicesShow', $service->slug) }}">{{ $service->service_name }}</a>
+                                            </li>
+                                        @endforeach
+
+
+                                       
+
+                                        {{-- <li class="sub-menu--item">
                                             <a href="{{ url('/web') }}">Web Development</a>
                                         </li>
                                         <li class="sub-menu--item">
@@ -60,7 +82,7 @@
                                         </li>
                                         <li class="sub-menu--item">
                                             <a href="{{ url('/blockchain') }}">Blockchain Development</a>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </li>
                                 <li class="nav-item nav-item-has-children">
@@ -68,7 +90,12 @@
                                         <i class="fa-solid fa-angle-down"></i>
                                     </a>
                                     <ul class="sub-menu" id="submenu-3">
-                                        <li class="sub-menu--item">
+                                        @foreach ($products as $product)
+                                            <li class="sub-menu--item"><a
+                                                    href="{{ route('product.show', $product->slug) }}">{{ $product->product_name }}</a>
+                                            </li>
+                                        @endforeach
+                                        {{-- <li class="sub-menu--item">
                                             <a href="{{ url('/dms') }}">Document Management System (DMS)</a>
                                         </li>
                                         <li class="sub-menu--item">
@@ -82,14 +109,15 @@
                                         </li>
                                         <li class="sub-menu--item">
                                             <a href="{{ url('/ecommerce') }}">E-Commerce solutions</a>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ url('portfolio') }}" class="nav-link-item">Our Projects</a>
+                                    <a href="{{ url('our-projects') }}" class="nav-link-item">Our Projects</a>
                                 </li>
                                 <li class=" contact-on-mobile px-4">
-                                    <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group mt-2">
+                                    <a href="{{ url('contact') }}"
+                                        class="btn is-blue is-rounded btn-animation group mt-2">
                                         <span>Contact Us</span>
                                     </a>
                                 </li>
@@ -98,7 +126,9 @@
                         </nav>
                     </div>
                     <!-- Header Navigation -->
-                    <a href="{{ url('contact') }}" class="btn is-blue is-rounded btn-animation group hidden lg:inline-block"><span>Contact Us</span></a>
+                    <a href="{{ url('contact') }}"
+                        class="btn is-blue is-rounded btn-animation group hidden lg:inline-block"><span>Contact
+                            Us</span></a>
                     <!-- Header User Event -->
                     @yield('headButtons')
                     <!-- Header User Event -->
@@ -118,7 +148,8 @@
                     <!-- Footer Top Spacing -->
                     <div class="pt-[60px] lg:pt-20 xl:pt-[100px]">
                         <div class="container-default">
-                            <div class="flex flex-col items-center justify-between gap-x-10 gap-y-8 rounded-[5px] bg-white p-10 md:flex-row lg:gap-x-20 lg:p-[50px]" style="border: solid 2px #F90305">
+                            <div class="flex flex-col items-center justify-between gap-x-10 gap-y-8 rounded-[5px] bg-white p-10 md:flex-row lg:gap-x-20 lg:p-[50px]"
+                                style="border: solid 2px #F90305">
                                 <div class="max-w-none md:max-w-[60%] lg:max-w-[65%] xl:max-w-[700px]">
                                     <h2 class="text-center font-GeneralSans font-semibold text-[#1B1C1D] md:text-left">
                                         Let's Build Something Great Together!
@@ -128,7 +159,9 @@
                                     </p>
                                 </div>
                                 <div class="">
-                                    <a href="#" class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Contact us</span></a>
+                                    <a href="#"
+                                        class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Contact
+                                            us</span></a>
                                 </div>
                             </div>
                         </div>
@@ -144,30 +177,42 @@
                         <!-- Section Container -->
                         <div class="container-default">
                             <!-- Footer Widget List -->
-                            <div class="grid gap-x-16 gap-y-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[1fr_repeat(3,_auto)] xl:gap-x-24 xxl:gap-x-[134px]">
+                            <div
+                                class="grid gap-x-16 gap-y-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[1fr_repeat(3,_auto)] xl:gap-x-24 xxl:gap-x-[134px]">
                                 <!-- Footer Widget Item -->
                                 <div class="flex flex-col gap-y-7 md:col-span-3 lg:col-span-1">
                                     <!-- Footer Logo -->
                                     <a href="{{ url('index') }}">
-                                        <img src="{{ asset('assets/img/kodetech/Kode_Tech_v3_copy_2-removebg-preview 2 (1).png') }}" alt="Masco" width="180" height="50" />
+                                        <img src="{{ asset('assets/img/kodetech/Kode_Tech_v3_copy_2-removebg-preview 2 (1).png') }}"
+                                            alt="Masco" width="180" height="50" />
                                     </a>
                                     <!-- Footer Content -->
                                     <div>
                                         <!-- Footer About Text -->
                                         <div class="lg:max-w-[416px]">
-                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a rich legacy spanning over 14 years.
+                                            Kode Tech (Pvt) Ltd is a well-established and renowned software development
+                                            company with a rich legacy spanning over 14 years.
                                         </div>
                                         <!-- Footer Mail -->
-                                        <a href="mailto:kodetech@gmail.com" class="my-6 block underline-offset-4 transition-all duration-300 hover:underline">kodetech@gmail.com</a>
+                                        <a href="mailto:kodetech@gmail.com"
+                                            class="my-6 block underline-offset-4 transition-all duration-300 hover:underline">kodetech@gmail.com</a>
                                         <!-- Footer Social Link -->
                                         <div class="flex flex-wrap gap-5">
-                                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]" aria-label="facebook">
+                                            <a href="https://www.facebook.com/" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
+                                                aria-label="facebook">
                                                 <i class="fa-brands fa-facebook-f"></i>
                                             </a>
-                                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]" aria-label="instagram">
+                                            <a href="https://www.instagram.com/" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
+                                                aria-label="instagram">
                                                 <i class="fa-brands fa-instagram"></i>
                                             </a>
-                                            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer" class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]" aria-label="github">
+                                            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer"
+                                                class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
+                                                aria-label="github">
                                                 <i class="fa-brands fa-github"></i>
                                             </a>
                                         </div>
@@ -185,28 +230,44 @@
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="{{ url('index') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Home</a>
+                                            <a href="{{ url('index') }}"
+                                                class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Home</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('about') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">About Us</a>
+                                            <a href="{{ url('about') }}"
+                                                class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#services') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Services</a>
+                                            <a href="{{ url('/#services') }}"
+                                                class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Our Services</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#products') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Products</a>
+                                            <a href="{{ url('/#products') }}"
+                                                class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Our Products</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('portfolio') }}" class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Our Projects</a>
+                                            <a href="{{ url('portfolio') }}"
+                                                class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Our Projects</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#knowdge') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Knowledge Center</a>
+                                            <a href="{{ url('/#knowdge') }}"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Knowledge Center</a>
                                         </li>
-                                         <li>
-                                            <a href="{{ url('careers') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Careers</a>
+                                        <li>
+                                            <a href="{{ url('careers') }}"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Careers</a>
                                         </li>
-                                         <li>
-                                            <a href="{{ url('faq') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">FAQ</a>
+                                        <li>
+                                            <a href="{{ url('faq') }}"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">FAQ</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -223,16 +284,24 @@
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="{{ url('signup') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Web Development</a>
+                                            <a href="{{ url('signup') }}"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Web Development</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('login') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Mobile App Development</a>
+                                            <a href="{{ url('login') }}"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Mobile App Development</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('error404') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">AR & VR Solutions</a>
+                                            <a href="{{ url('error404') }}"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">AR & VR Solutions</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('resetpassword') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Game Development</a>
+                                            <a href="{{ url('resetpassword') }}"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Game Development</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -249,16 +318,28 @@
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Metaverse Solutions</a>
+                                            <a href="https://www.example.com/" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Metaverse Solutions</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Block Chain</a>
+                                            <a href="https://www.example.com/" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Block Chain</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">Software Development</a>
+                                            <a href="https://www.example.com/" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">Software Development</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #939393 !important">AI Solutions</a>
+                                            <a href="https://www.example.com/" target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                style="color: #939393 !important">AI Solutions</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -272,7 +353,8 @@
                 </div>
                 <!-- Footer Area Center -->
 
-                <div class="horizontal-line bg-[#F90305]" style="height: 2px; width: 100%; background-color: #F90305; opacity: 1"></div>
+                <div class="horizontal-line bg-[#F90305]"
+                    style="height: 2px; width: 100%; background-color: #F90305; opacity: 1"></div>
 
                 <!-- Footer Area Bottom -->
                 <div>
@@ -284,9 +366,13 @@
                                 &copy; Copyright 2023 Kodetech (Pvt) Ltd.
                             </div>
                             <div class="text-center text-[#FDFBF9]/80">
-                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline " style="color: #CFD3D7 !important">Terms & Conditions</a>
+                                <a href="{{ url('index') }}"
+                                    class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline "
+                                    style="color: #CFD3D7 !important">Terms & Conditions</a>
                                 <span style="width: 50px">|</span>
-                                <a href="{{ url('index') }}" class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline" style="color: #CFD3D7 !important">Privacy Policy</a>
+                                <a href="{{ url('index') }}"
+                                    class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                    style="color: #CFD3D7 !important">Privacy Policy</a>
                             </div>
                         </div>
                         <!-- Section Container -->
@@ -318,7 +404,6 @@
                 }
             });
         });
-
     </script>
 </body>
 
