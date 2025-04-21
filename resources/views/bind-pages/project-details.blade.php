@@ -74,19 +74,19 @@
                 <ul class="mb-[60px] mt-[30px] flex flex-wrap justify-between gap-8">
                     <li>
                         <span class="mb-[5px] block text-xl font-bold leading-[1.4] text-ColorBlack">Client:</span>
-                        <span class="text-ColorBlack/80">Adam Smith</span>
+                        <span class="text-ColorBlack/80">{{$projects->client_name}}</span>
                     </li>
                     <li>
                         <span class="mb-[5px] block text-xl font-bold leading-[1.4] text-ColorBlack">Category:</span>
-                        <span class="text-ColorBlack/80">UI/UX Design</span>
+                        <span class="text-ColorBlack/80">{{$projects->category}}</span>
                     </li>
                     <li>
                         <span class="mb-[5px] block text-xl font-bold leading-[1.4] text-ColorBlack">Duration:</span>
-                        <span class="text-ColorBlack/80">1 Week</span>
+                        <span class="text-ColorBlack/80">{{$projects->duration}}</span>
                     </li>
                     <li>
                         <span class="mb-[5px] block text-xl font-bold leading-[1.4]">Website Link:</span>
-                        <span class="text-ColorBlack/80">example@gmail.com</span>
+                        <span class="text-ColorBlack/80"><a href="https://{{ $projects->website_link }}">{{$projects->website_link}}</a></span>
                     </li>
                 </ul>
                 <!-- Portfolio Info List -->

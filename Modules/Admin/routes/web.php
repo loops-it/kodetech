@@ -29,7 +29,7 @@ use Modules\Admin\Http\Middleware\AuthAdmin;
 Route::prefix('admin')->group(function() {
     Route::match(['get', 'post'],'/', [UserController::class, 'login']);
     // Route::match(['get', 'post'],'/sign-up', [UserController::class, 'login']);
-    Route::match(['get', 'post'],'/dashboard', [UserController::class, 'dashboard'])->middleware(AuthAdmin::class)->name('admin.dashbaord');
+    Route::match(['get', 'post'],'/dashboard', [UserController::class, 'dashboard'])->middleware(AuthAdmin::class)->name('admin.dashboard');
     Route::match(['get', 'post'],'/add-migrant', [UserController::class, 'addMigrant'])->middleware(AuthAdmin::class);
     Route::get('/logout', [UserController::class, 'logout']);
 });
@@ -37,6 +37,9 @@ Route::prefix('admin')->group(function() {
 
 Route::prefix('admin')->group(function(){
     Route::match(['get','post'],'/add-project',[ProjectController::class, 'addProject'])->middleware((AuthAdmin::class));
+    Route::get('/edit-project/{id}', [ProjectController::class, 'edit'])->middleware(AuthAdmin::class)->name('project.edit');
+    Route::post('/update-project/{id}', [ProjectController::class, 'update'])->middleware(AuthAdmin::class)->name('project.update');
+    Route::delete('/delete-project/{id}', [ProjectController::class, 'destroy'])->middleware(AuthAdmin::class)->name('project.destroy');
 
 
     Route::match(['get','post'],'/add-product',[ProductController::class, 'addProduct'])->middleware((AuthAdmin::class));
@@ -46,15 +49,27 @@ Route::prefix('admin')->group(function(){
 
 
     Route::match(['get','post'],'/add-service',[ServiceController::class, 'addService'])->middleware((AuthAdmin::class));
-    Route::match(['get','post'],'/add-client',[ClientController::class, 'addClient'])->middleware((AuthAdmin::class));
+    Route::get('/edit-service/{id}', [ServiceController::class, 'edit'])->middleware(AuthAdmin::class)->name('service.edit');
+    Route::post('/update-service/{id}', [ServiceController::class, 'update'])->middleware(AuthAdmin::class)->name('service.update');
+    Route::delete('/delete-service/{id}', [ServiceController::class, 'destroy'])->middleware(AuthAdmin::class)->name('service.destroy');
+
+
     Route::match(['get','post'],'/add-testimonial',[TestimonialController::class, 'addTestimonial'])->middleware((AuthAdmin::class));
+    Route::get('/edit-testimonial/{id}', [TestimonialController::class, 'edit'])->middleware(AuthAdmin::class)->name('testimonial.edit');
+    Route::post('/update-testimonial/{id}', [TestimonialController::class, 'update'])->middleware(AuthAdmin::class)->name('testimonial.update');
+    Route::delete('/delete-testimonial/{id}', [TestimonialController::class, 'delete'])->middleware(AuthAdmin::class)->name('testimonial.delete');
+
+
+
+
+    Route::match(['get','post'],'/add-client',[ClientController::class, 'addClient'])->middleware((AuthAdmin::class));
     Route::match(['get','post'],'/add-blog',[BlogController::class, 'addBlog'])->middleware((AuthAdmin::class));
 });
 
 
 
 Route::get('/about', function () {
-    return view('about');
+    return view('bind-pages.about');
 });
 
 

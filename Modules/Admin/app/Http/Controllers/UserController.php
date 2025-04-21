@@ -3,6 +3,8 @@
 namespace Modules\Admin\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\Blog;
+use App\Models\Client;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -23,6 +25,8 @@ use App\Models\User;
 use App\Models\MigrantDetails;
 use App\Models\Product;
 use App\Models\Project;
+use App\Models\Service;
+use App\Models\Testimonial;
 use setasign\Fpdi\Fpdi;
 
 
@@ -66,8 +70,12 @@ class UserController extends Controller
         // $migrant = MigrantDetails::paginate(10);
         $products = Product::all();
         $projects = Project::all();
+        $services = Service::all();
+        $testimonials = Testimonial::all();
+        $clients = Client::all();
+        $blogs = Blog::all();
 
-        return view('admin::dashboard.dashboard', compact(['products','projects']));
+        return view('admin::dashboard.dashboard', compact(['products','projects','services','clients','testimonials','blogs']));
     }
 
     // public function addMigrant(Request $request)

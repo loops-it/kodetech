@@ -96,11 +96,11 @@ $projects = Project::all();
                                         <a class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack group-hover:text-ColorBlue xl:text-2xl"
                                             href="{{ route('ProjectShow', $project->slug) }}">
                     
-                                            App — {{ $project->project_name }}
+                                            {{ $project->project_name }}
                     
                                         </a>
                                         <a href="{{ route('ProjectShow', $project->slug) }}"
-                                            class="hover:text-ColorBlue">UI/UX Design</a>
+                                            class="hover:text-ColorBlue">{{$project->category}}</a>
                                     </div>
                                     <a href="{{ route('ProjectShow', $project->slug) }}"
                                         class="text-base font-bold capitalize leading-[1.5] text-ColorBlue group-hover:text-ColorBlue">

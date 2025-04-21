@@ -145,18 +145,18 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Project Name</th>
+                                    <th scope="col">Project Image</th>
+                                    <th scope="col">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @forelse ($projects as $index => $project)
                                     <tr>
                                         <th scope="row">{{ $index + 1 }}</th>
-                                        <td>{{ $project->project }}</td>
-                                        <td>{{ $project->project }}</td>
+                                        <td>{{ $project->project_name }}</td>
+                                        {{-- <td>{{ $project->project_overview }}</td> --}}
                                         {{-- <td>{{ $project->project_description ?? 'No description' }}</td> --}}
                                         <td>
                                             @if ($project->project_image)
@@ -166,7 +166,9 @@
                                                 No image
                                             @endif
                                         </td>
-                                        {{-- <td>
+
+
+                                        <td>
                                           <a href="{{ route('project.edit', $project->id) }}" class="btn btn-sm btn-warning">
                                             <i class="fas fa-edit"></i>
                                           </a>
@@ -178,7 +180,7 @@
                                               <i class="fas fa-trash-alt"></i>
                                             </button>
                                           </form>
-                                        </td> --}}
+                                        </td>
 
                                     </tr>
 
@@ -205,30 +207,47 @@
                             <thead>
                                 <tr>
                                     <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                    <th scope="col">Service Name</th>
+                                    {{-- <th scope="col">Overview</th> --}}
+                                    {{-- <th scope="col">Description</th> --}}
+                                    <th scope="col">Image</th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
+                                @forelse ($services as $index => $service)
+                                    <tr>
+                                        <th scope="row">{{ $index + 1 }}</th>
+                                        <td>{{ $service->service_name }}</td>
+                                        {{-- <td>{{ $product->product_overview }}</td> --}}
+                                        {{-- <td>{{ $product->product_description ?? 'No description' }}</td> --}}
+                                        <td>
+                                            @if ($service->service_image)
+                                                <img src="{{ asset('storage/' . $service->service_image) }}" width="100"
+                                                    height="100" alt="Product Image">
+                                            @else
+                                                No image
+                                            @endif
+                                        </td>
+                                        <td>
+                                          <a href="{{ route('service.edit', $service->id) }}" class="btn btn-sm btn-warning">
+                                            <i class="fas fa-edit"></i>
+                                          </a>
+                                        
+                                          <form action="{{ route('service.destroy', $service->id) }}" method="POST" style="display:inline-block;">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete this service?')">
+                                              <i class="fas fa-trash-alt"></i>
+                                            </button>
+                                          </form>
+                                        </td>
+
+                                    </tr>
+
+                                @empty
+                                @endforelse
+
                             </tbody>
                         </table>
                     </div>
@@ -250,8 +269,8 @@
                                 <tr>
                                     <th scope="col">#</th>
                                     <th scope="col">Product Name</th>
-                                    <th scope="col">Overview</th>
-                                    <th scope="col">Description</th>
+                                    {{-- <th scope="col">Overview</th> --}}
+                                    {{-- <th scope="col">Description</th> --}}
                                     <th scope="col">Image</th>
                                     <th>Actions</th>
                                 </tr>
@@ -261,7 +280,7 @@
                                     <tr>
                                         <th scope="row">{{ $index + 1 }}</th>
                                         <td>{{ $product->product_name }}</td>
-                                        <td>{{ $product->product_overview }}</td>
+                                        {{-- <td>{{ $product->product_overview }}</td> --}}
                                         {{-- <td>{{ $product->product_description ?? 'No description' }}</td> --}}
                                         <td>
                                             @if ($product->product_image)
@@ -277,6 +296,69 @@
                                           </a>
                                         
                                           <form action="{{ route('product.destroy', $product->id) }}" method="POST" style="display:inline-block;">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete this product?')">
+                                              <i class="fas fa-trash-alt"></i>
+                                            </button>
+                                          </form>
+                                        </td>
+
+                                    </tr>
+
+                                @empty
+                                @endforelse
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="card col-5">
+                <div class="card-body">
+                    <div class="d-flex justify-content-end">
+                        <a href="{{ url('/admin/add-testimonial') }}">
+                            <button type="button" class="btn btn-info">Add Testimonial</button>
+                        </a>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Review Overview</th>
+                                    {{-- <th scope="col">Overview</th> --}}
+                                    {{-- <th scope="col">Description</th> --}}
+                                    <th scope="col">Rating</th>
+                                    <th scope="col">Client Name</th>
+                                    <th scope="col">Client Designation</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @forelse ($testimonials as $index => $testimonial)
+                                    <tr>
+                                        <th scope="row">{{ $index + 1 }}</th>
+                                        <td>{{ $testimonial->review_overview }}</td>
+                                        {{-- <td>{{ $product->product_overview }}</td> --}}
+                                        {{-- <td>{{ $product->product_description ?? 'No description' }}</td> --}}
+                                        <td>{{ $testimonial->rating }}</td>
+                                        <td>{{ $testimonial->client_name }}</td>
+                                        <td>{{ $testimonial->client_designation }}</td>
+                                        <td>
+                                          <a href="{{ route('testimonial.edit', $testimonial->id) }}" class="btn btn-sm btn-warning">
+                                            <i class="fas fa-edit"></i>
+                                          </a>
+                                        
+                                          <form action="{{ route('testimonial.delete', $testimonial->id) }}" method="POST" style="display:inline-block;">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete this product?')">
