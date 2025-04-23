@@ -115,6 +115,10 @@ $services = Service::all();
                                 <li class="nav-item">
                                     <a href="{{ url('our-projects') }}" class="nav-link-item">Our Projects</a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a href="{{ route('blog') }}" class="nav-link-item">Blogs</a>
+                                </li>
                                 <li class=" contact-on-mobile px-4">
                                     <a href="{{ url('contact') }}"
                                         class="btn is-blue is-rounded btn-animation group mt-2">
@@ -159,7 +163,7 @@ $services = Service::all();
                                     </p>
                                 </div>
                                 <div class="">
-                                    <a href="#"
+                                    <a href="/contact"
                                         class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Contact
                                             us</span></a>
                                 </div>

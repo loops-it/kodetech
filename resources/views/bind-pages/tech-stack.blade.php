@@ -1,3 +1,7 @@
+<?php
+use App\Models\Project;
+$projects = Project::all();
+?>
 @extends('layout.layout1')
 
 {{-- @section('headerLogo')
@@ -823,34 +827,38 @@
                 <div class="jos mb-[60px] flex flex-wrap items-end justify-between gap-8 xl:mb-20">
                     <!-- Section Block -->
                     <div class="max-w-[550px]">
-                        <h2>We create world-class web design, & branding</h2>
+                        <h2>We Create World-class Web Design & Branding</h2>
                     </div>
                     <!-- Section Block -->
-                    <a href="{{ url('portfolio') }}" class="btn is-blue is-rounded btn-animation is-large group"><span>View More Works</span></a>
+                    <a href="/our-projects" class="btn is-blue is-rounded btn-animation is-large group"><span>View More Works</span></a>
                 </div>
                 <!-- Section Wrapper -->
 
                 <!-- Portfolio List -->
                 <div class="grid gap-8 md:grid-cols-2 lg:gap-10 xl:gap-[60px]">
-                    <!-- Portfolio Item -->
+                    @foreach ($projects->take(2) as $project)
                     <div class="jos" data-jos_delay="0">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
-                                <img src="{{ asset('assets/img/kodetech/Rectangle 103.png') }}" alt="portfolio-img-1" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
+                                <img src="{{ asset('storage/' . $project->project_image) }}"
+                                alt="{{ $project->product_name }}" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
                             </div>
                             <div class="mt-6">
                                 <div class="mb-5 flex flex-wrap justify-between gap-5 text-ColorBlack lg:flex-nowrap xl:mb-7">
-                                    <a href="{{ url('portfoliodetails') }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] group-hover:text-ColorBlue xl:text-2xl">App — The power of communication</a>
-                                    <a href="#" class="hover:text-ColorBlue">UI/UX Design</a>
+                                    <a href="{{ route('ProjectShow', $project->slug) }}" class="text-xl font-semibold leading-[1.33] -tracking-[0.5px] group-hover:text-ColorBlue xl:text-2xl">{{$project->project_name}}</a>
+                                    <a href="#" class="hover:text-ColorBlue">{{$project->category}}</a>
                                 </div>
-                                <a href="{{ url('portfoliodetails') }}" class="text-base font-bold capitalize leading-[1.5] text-ColorBlue group-hover:text-ColorBlue">View More
+                                <a href="{{ route('ProjectShow', $project->slug) }}" class="text-base font-bold capitalize leading-[1.5] text-ColorBlue group-hover:text-ColorBlue">View More
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
                     </div>
+                    @endforeach
+                    <!-- Portfolio Item -->
+                    
                     <!-- Portfolio Item -->
                     <!-- Portfolio Item -->
-                    <div class="jos" data-jos_delay="0.3">
+                    {{-- <div class="jos" data-jos_delay="0.3">
                         <div class="group">
                             <div class="overflow-hidden rounded-[10px]">
                                 <img src="{{ asset('assets/img/kodetech/Rectangle 104.png') }}" alt="portfolio-img-2" width="617" height="450" class="h-full w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-105" />
@@ -864,7 +872,7 @@
                                     <span class="inline-block transition-all duration-150 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- Portfolio Item -->
                 </div>
                 <!-- Portfolio List -->

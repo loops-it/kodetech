@@ -61,6 +61,7 @@
                     <!-- Service Rich Text -->
                     <div class="rich-text">
                         {!! $products->product_description !!}
+
                         {{-- <h5>What is Digital Brand Strategy?</h5>
                         <p>
                             A comprehensive plan that helps you communicate your
@@ -131,6 +132,11 @@
                             creating a website. Keep the spirit and see you on the next
                             article!
                         </p> --}}
+                    </div>
+                    <div>
+                        <p>
+                            Explore our <a href="/our-projects" style="text-decoration: underline">Projects Page</a> to see how our solutions have made an impact across industries.
+                        </p>
                     </div>
                 </div>
                 <!-- Service Details Area -->

@@ -8,7 +8,16 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
-    
+
+    // index
+    public function index(Request $request)
+    {
+        $blogs = Blog::orderBy('created_at', 'desc')->get(); 
+        return view('bind-pages.blog', compact('blogs'));
+        // return dd($blogs);
+    }
+
+
     // Store News Data
     public function addBlog(Request $request)
     {
@@ -17,6 +26,8 @@ class BlogController extends Controller
             $request->validate([
                 'news_heading' => 'required|string|max:255',
                 'news_description' => 'required|string',
+                'authur' => 'nullable|string',
+                'date' => 'required|date',
                 'news_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             ]);
 
@@ -29,6 +40,8 @@ class BlogController extends Controller
             Blog::create([
                 'news_heading' => $request->news_heading,
                 'news_description' => $request->news_description,
+                'authur' => $request->authur,
+                'date' => $request->date,
                 'news_image' => $imagePath,
             ]);
 
@@ -37,20 +50,4 @@ class BlogController extends Controller
 
         return view('admin::add-section.add-blogs');
     }
-
-    // Show All News
-    // public function showNews()
-    // {
-    //     $newsList = Blog::all();
-    //     return view('admin::blogs.index', compact('newsList'));
-    // }
 }
-
-
-
-
-
-
-
-
-

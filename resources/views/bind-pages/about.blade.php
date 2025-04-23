@@ -82,7 +82,7 @@ $clients = Client::all();
                                     <div class="mb-5">
                                         <h2 style="color: #000 !important"
                                             class="font-PublicSans text-4xl font-bold leading-[1.14] text-[#121212] lg:text-left lg:text-5xl xl:text-[56px]">
-                                            The Story behind our consulting firm
+                                            The Story Behind Our Consulting Firm
                                         </h2>
                                     </div>
                                     <!-- Section Block -->
@@ -445,10 +445,10 @@ $clients = Client::all();
                         }
 
                         /* @media (max-width: 480px) {
-                                    .grid-container {
-                                         grid-template-columns: repeat(6, 1fr);
-                                    }
-                                }*/
+                                            .grid-container {
+                                                 grid-template-columns: repeat(6, 1fr);
+                                            }
+                                        }*/
                     </style>
                     <!-- Partners Slider -->
                     <div class="swiper partners-slider-custom1">
@@ -456,102 +456,32 @@ $clients = Client::all();
                         <div class="swiper-wrapper">
                             <!-- Slides -->
 
-                            <div class="swiper-slide">
+                            {{-- <div class="swiper-slide">
 
                                 <!-- Partner Item -->
                                 <div class="jos break-inside-avoid shadow rounded-md">
                                     <div class="grid-container">
                                         @foreach ($clients as $client)
                                             <img src="{{ asset('storage/' . $client->client_logo) }}"
-                                                alt="testimonial-avater-1"
-                                                class=" class="rounded" />
+                                                alt="testimonial-avater-1" class=" class="rounded" />
                                         @endforeach
                                     </div>
                                 </div>
 
-                            </div>
-
-
-                            {{-- <div class="swiper-slide">
-                                <!-- Partner Item -->
-                                <div class="jos break-inside-avoid shadow rounded-md">
-                                    <div class="grid-container">
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 02.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
+                            </div> --}}
+                            @foreach ($clients->chunk(18) as $chunk)
+                                <div class="swiper-slide">
+                                    <!-- Partner Item -->
+                                    <div class="jos break-inside-avoid shadow rounded-md">
+                                        <div class="grid-container">
+                                            @foreach ($chunk as $client)
+                                                <img src="{{ asset('storage/' . $client->client_logo) }}"
+                                                    alt="client-logo" class="rounded" />
+                                            @endforeach
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Partner Item -->
-                            </div> --}}
+                            @endforeach
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>

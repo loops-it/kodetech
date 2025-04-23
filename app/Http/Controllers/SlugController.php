@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use App\Models\Product;
 use App\Models\Project;
 use App\Models\Service;
@@ -32,4 +33,13 @@ class SlugController extends Controller
         $projects = Project::where('slug', $slug)->firstOrFail();
         return view('bind-pages.project-details', compact('projects'));
     }
+
+    public function BlogShow($slug)
+    {
+        // Fetch the post by slug
+        $blogs = Blog::where('slug', $slug)->firstOrFail();
+        return view('bind-pages.blogDetails', compact('blogs'));
+    }
+
+
 }
