@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Modules\Admin\Http\Controllers\AddSectionController;
 use Modules\Admin\Http\Controllers\AdminController;
 use Modules\Admin\Http\Controllers\BlogController;
+use Modules\Admin\Http\Controllers\CareerController;
 use Modules\Admin\Http\Controllers\ProductController;
 use Modules\Admin\Http\Controllers\ProjectController;
 use Modules\Admin\Http\Controllers\ServiceController;
@@ -63,7 +64,21 @@ Route::prefix('admin')->group(function(){
 
 
     Route::match(['get','post'],'/add-client',[ClientController::class, 'addClient'])->middleware((AuthAdmin::class));
+
+
     Route::match(['get','post'],'/add-blog',[BlogController::class, 'addBlog'])->middleware((AuthAdmin::class));
+    Route::get('/edit-blog/{id}', [BlogController::class, 'edit'])->middleware(AuthAdmin::class)->name('blog.edit');
+    Route::post('/update-blog/{id}', [BlogController::class, 'update'])->middleware(AuthAdmin::class)->name('blog.update');
+    Route::delete('/delete-blog/{id}', [BlogController::class, 'delete'])->middleware(AuthAdmin::class)->name('blog.delete');
+
+
+
+    // Route::match(['get','post'],'/add-career',[CareerController::class, 'addCareer'])->middleware((AuthAdmin::class));
+    Route::get('/add-career',[CareerController::class, 'index'])->middleware(AuthAdmin::class)->name('career.index');
+    Route::post('/add-career',[CareerController::class, 'addCareer'])->middleware(AuthAdmin::class)->name('career.add');
+    Route::get('/edit-career/{id}', [CareerController::class, 'edit'])->middleware(AuthAdmin::class)->name('career.edit');
+    Route::post('/update-career/{id}', [CareerController::class, 'update'])->middleware(AuthAdmin::class)->name('career.update');
+    Route::delete('/delete-career/{id}', [CareerController::class, 'delete'])->middleware(AuthAdmin::class)->name('career.delete');
 });
 
 
@@ -73,24 +88,24 @@ Route::get('/about', function () {
 });
 
 
-Route::get('/techstack', function () {
-    return view('techstack');
-});
+// Route::get('/techstack', function () {
+//     return view('techstack');
+// });
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
+// Route::get('/portfolio', function () {
+//     return view('portfolio');
+// });
 
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
 
-Route::get('/portfoliodetails', function () {
-    return view('portfoliodetails');
-});
+// Route::get('/portfoliodetails', function () {
+//     return view('portfoliodetails');
+// });
 
-Route::get('/servicedetails', function () {
-    return view('serviceDetails');
-});
+// Route::get('/servicedetails', function () {
+//     return view('serviceDetails');
+// });
 

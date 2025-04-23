@@ -74,6 +74,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('admin/add-blog') }}">Add Blog Post</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('admin/career.index') }}">Add Career</a>
+                    </li>
                 </ul>
             </div>
 

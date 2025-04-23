@@ -4,7 +4,6 @@ namespace Modules\Admin\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Client;
-use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ClientController extends Controller
@@ -18,8 +17,6 @@ class ClientController extends Controller
             
             $request->validate([
                 'client_name' => 'required|string|max:255',
-                // 'product_overview' => 'required|string',
-                // 'product_description' => 'nullable|string',
                 'client_logo' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048', 
             ]);
 
@@ -31,8 +28,6 @@ class ClientController extends Controller
 
             Client::create([
                 'client_name' => $request->client_name,
-                // 'product_overview' => $request->product_overview,
-                // 'product_description' => $request->product_description,
                 'client_logo' => $imagePath,
             ]);
             return redirect()->back()->with('success', 'Client added successfully!');

@@ -69,7 +69,7 @@ $services = Service::all();
                                         @endforeach
 
 
-                                       
+
 
                                         {{-- <li class="sub-menu--item">
                                             <a href="{{ url('/web') }}">Web Development</a>
@@ -234,7 +234,7 @@ $services = Service::all();
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
                                         <li>
-                                            <a href="{{ url('index') }}"
+                                            <a href="{{ url('/') }}"
                                                 class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">Home</a>
                                         </li>
@@ -254,7 +254,7 @@ $services = Service::all();
                                                 style="color: #939393 !important">Our Products</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('portfolio') }}"
+                                            <a href="{{ url('our-projects') }}"
                                                 class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">Our Projects</a>
                                         </li>
@@ -287,26 +287,13 @@ $services = Service::all();
 
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
-                                        <li>
-                                            <a href="{{ url('signup') }}"
-                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">Web Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ url('login') }}"
-                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">Mobile App Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ url('error404') }}"
-                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">AR & VR Solutions</a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ url('resetpassword') }}"
-                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">Game Development</a>
-                                        </li>
+                                        @foreach ($services as $service)
+                                            <li>
+                                                <a href="{{ route('ServicesShow', $service->slug) }}"
+                                                    class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                                                    style="color: #939393 !important">{{ $service->service_name }}</a>
+                                            </li>
+                                        @endforeach
                                     </ul>
                                 </div>
                                 <!-- Footer Widget Item-->
@@ -315,36 +302,22 @@ $services = Service::all();
                                 <div class="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
                                     <!-- Footer Title -->
                                     <div class="text-xl font-semibold capitalize">
-                                        OUR SERVICES
+                                        OUR PRODUCTS
                                     </div>
                                     <!-- Footer Title -->
 
                                     <!-- Footer Navbar -->
                                     <ul class="flex flex-col gap-y-[10px] capitalize">
+                                        @foreach ($products as $product)
+                                       
                                         <li>
-                                            <a href="https://www.example.com/" target="_blank"
+                                            <a href="#" target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">Metaverse Solutions</a>
+                                                style="color: #939393 !important">{{$product->product_name}}</a>
                                         </li>
-                                        <li>
-                                            <a href="https://www.example.com/" target="_blank"
-                                                rel="noopener noreferrer"
-                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">Block Chain</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.example.com/" target="_blank"
-                                                rel="noopener noreferrer"
-                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">Software Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.example.com/" target="_blank"
-                                                rel="noopener noreferrer"
-                                                class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
-                                                style="color: #939393 !important">AI Solutions</a>
-                                        </li>
+                                        @endforeach
+                                        
                                     </ul>
                                 </div>
                                 <!-- Footer Widget Item -->

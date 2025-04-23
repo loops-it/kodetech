@@ -14,9 +14,9 @@ Route::get('/blogDetails', function () {
 });
 
 
-Route::get('/careers', function () {
-    return view('careers');
-});
+// Route::get('/careers', function () {
+//     return view('careers');
+// });
 
 
 Route::get('/our-projects', function () {
@@ -29,11 +29,15 @@ Route::get('/tech-stack', function () {
 });
 
 
+Route::get('/contact', function () {
+    return view('bind-pages.contact');
+});
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/products/{slug}', [SlugController::class, 'ProductsShow'])->name('product.show');
 Route::get('/services/{slug}', [SlugController::class, 'ServicesShow'])->name('ServicesShow');
 Route::get('/project-details/{slug}', [SlugController::class, 'ProjectShow'])->name('ProjectShow');
 
-Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/blog-details/{slug}', [SlugController::class, 'BlogShow'])->name('BlogShow');
 
 Route::post('/mailSubmit', [MailController::class, 'mailSubmit'])->name('mailSubmit');
