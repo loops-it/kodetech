@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
+use App\Models\Career;
 use App\Models\Product;
 use App\Models\Project;
 use App\Models\Service;
@@ -39,6 +40,14 @@ class SlugController extends Controller
         // Fetch the post by slug
         $blogs = Blog::where('slug', $slug)->firstOrFail();
         return view('bind-pages.blogDetails', compact('blogs'));
+    }
+
+
+    public function CareerShow($slug)
+    {
+        // Fetch the post by slug
+        $careers = Career::where('slug', $slug)->firstOrFail();
+        return view('bind-pages.careerDetails', compact('careers'));
     }
 
 

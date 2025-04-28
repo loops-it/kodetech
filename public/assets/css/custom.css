@@ -109,3 +109,144 @@ input:checked~.toggle_dot {
   text-align: center;
 }
 
+
+
+
+
+
+
+/* career */
+ /* From Uiverse.io by Yaya12085 */
+ 
+ .file-upload-div .container {
+  /* height: 300px;
+width: 300px; */
+  border-radius: 25px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5px;
+  background-color: rgba(0, 110, 255, 0.041);
+}
+
+.file-upload-div .header {
+  flex: 1;
+  width: 100%;
+  border: 2px dashed rgb(249 3 5 / var(--tw-bg-opacity));
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px
+}
+
+.file-upload-div .header svg {
+  height: 50px;
+}
+
+.file-upload-div .header p {
+  text-align: center;
+  color: black;
+
+}
+
+
+.file-upload-div .footer {
+  background-color: rgba(255, 0, 0, 0.075);
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: black;
+  border: none;
+  overflow: hidden;
+}
+
+.file-upload-div .footer svg {
+  height: 130%;
+  fill: rgb(249 3 5 / var(--tw-bg-opacity));
+  background-color: rgba(70, 66, 66, 0.103);
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.205);
+}
+
+.file-upload-div .footer p {
+  flex: 1;
+  text-align: center;
+  margin-bottom: unset !important
+}
+
+.file-upload-div #file {
+  display: none;
+}
+
+.career-icon{
+  align-items: center;
+}
+
+.career-form input:focus , .career-form textarea:focus {
+  border-color: red;
+}
+
+
+
+
+
+
+/* sd */
+
+/* #products {
+  background-image: url('/assets/img/kodetech/bg-img-kodete.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  opacity: 0.;
+} */
+
+
+#products {
+  position: relative;
+  z-index: 1;
+  min-height: 300px;
+}
+
+#products::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/img/kodetech/bg-img-kodete.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; 
+  z-index: -1;
+}
+
+
+/*  */
+.section-max-width{
+  max-width: 940px;
+}
+
+.section-max-width-2{
+  max-width: 750px;
+}
+
+
+
+/* footer */
+.footer-ul li{
+  font-size: 16px;
+}

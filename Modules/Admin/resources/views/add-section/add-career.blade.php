@@ -29,10 +29,14 @@
                         <input type="text" class="form-control" id="careerNameLabel" name="career_name" required>
                     </div>
 
+                    <div class="mb-3">
+                        <label for="careerOverviewLabel" class="form-label">Career Overview</label>
+                        <input type="text" class="form-control" id="careerOverviewLabel" name="career_overview" required>
+                    </div>
 
                     <div class="mb-3">
                         <label for="careerDescriptionLabel" class="form-label">Career Description</label>
-                        <textarea class="form-control" id="summernote" name="career_description" rows="5"></textarea>
+                        <textarea class="form-control" id="summernote" name="career_description"></textarea>
                     </div>
 
                     <div class="mb-3">
@@ -72,5 +76,8 @@
                 console.error(error);
             });
     </script>
+
+
+
     
 @endsection

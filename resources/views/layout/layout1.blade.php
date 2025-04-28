@@ -28,7 +28,7 @@ $services = Service::all();
             <div class="container-default">
                 <div class="flex items-center justify-between gap-x-8">
                     <!-- Header Logo -->
-                    <a href="{{ url('index') }}" class="">
+                    <a href="{{ url('/') }}" class="">
                         {{-- @yield('headerLogo') --}}
                         <img src="{{ asset('assets/img/kodetech/kodetech-logo.png') }}" alt="Masco" width="109"
                             height="30" class="img-logo-head" />
@@ -116,9 +116,9 @@ $services = Service::all();
                                     <a href="{{ url('our-projects') }}" class="nav-link-item">Our Projects</a>
                                 </li>
 
-                                <li class="nav-item">
+                                {{-- <li class="nav-item">
                                     <a href="{{ route('blog') }}" class="nav-link-item">Blogs</a>
-                                </li>
+                                </li> --}}
                                 <li class=" contact-on-mobile px-4">
                                     <a href="{{ url('contact') }}"
                                         class="btn is-blue is-rounded btn-animation group mt-2">
@@ -163,7 +163,7 @@ $services = Service::all();
                                     </p>
                                 </div>
                                 <div class="">
-                                    <a href="/contact"
+                                    <a href="{{url('/contact')}}"
                                         class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Contact
                                             us</span></a>
                                 </div>
@@ -186,7 +186,7 @@ $services = Service::all();
                                 <!-- Footer Widget Item -->
                                 <div class="flex flex-col gap-y-7 md:col-span-3 lg:col-span-1">
                                     <!-- Footer Logo -->
-                                    <a href="{{ url('index') }}">
+                                    <a href="{{ url('/') }}">
                                         <img src="{{ asset('assets/img/kodetech/Kode_Tech_v3_copy_2-removebg-preview 2 (1).png') }}"
                                             alt="Masco" width="180" height="50" />
                                     </a>
@@ -202,23 +202,23 @@ $services = Service::all();
                                             class="my-6 block underline-offset-4 transition-all duration-300 hover:underline">kodetech@gmail.com</a>
                                         <!-- Footer Social Link -->
                                         <div class="flex flex-wrap gap-5">
-                                            <a href="https://www.facebook.com/" target="_blank"
+                                            <a href="https://www.facebook.com/kodetech.co?_rdc=1&_rdr#" target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
                                                 aria-label="facebook">
                                                 <i class="fa-brands fa-facebook-f"></i>
                                             </a>
-                                            <a href="https://www.instagram.com/" target="_blank"
+                                            <a href="https://www.instagram.com/kodetech.co/" target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
                                                 aria-label="instagram">
                                                 <i class="fa-brands fa-instagram"></i>
                                             </a>
-                                            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer"
+                                            {{-- <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer"
                                                 class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-white transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
                                                 aria-label="github">
                                                 <i class="fa-brands fa-github"></i>
-                                            </a>
+                                            </a> --}}
                                         </div>
                                     </div>
                                     <!-- Footer Content -->
@@ -232,34 +232,34 @@ $services = Service::all();
                                         QUICK LINKS
                                     </div>
                                     <!-- Footer Navbar -->
-                                    <ul class="flex flex-col gap-y-[10px] capitalize">
-                                        <li>
+                                    <ul class="flex flex-col gap-y-[10px] capitalize footer-ul">
+                                        {{-- <li>
                                             <a href="{{ url('/') }}"
                                                 class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">Home</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a href="{{ url('about') }}"
                                                 class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">About Us</a>
                                         </li>
-                                        <li>
+                                        {{-- <li>
                                             <a href="{{ url('/#services') }}"
                                                 class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">Our Services</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="{{ url('/#products') }}"
                                                 class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">Our Products</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="{{ url('our-projects') }}"
                                                 class="hover:opcity-100 text-[#939393]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">Our Projects</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
-                                            <a href="{{ url('/#knowdge') }}"
+                                            <a href="{{ url('/blog') }}"
                                                 class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                                 style="color: #939393 !important">Knowledge Center</a>
                                         </li>
@@ -286,7 +286,7 @@ $services = Service::all();
                                     <!-- Footer Title -->
 
                                     <!-- Footer Navbar -->
-                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                    <ul class="flex flex-col gap-y-[10px] capitalize footer-ul">
                                         @foreach ($services as $service)
                                             <li>
                                                 <a href="{{ route('ServicesShow', $service->slug) }}"
@@ -301,13 +301,13 @@ $services = Service::all();
                                 <!-- Footer Widget Item -->
                                 <div class="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
                                     <!-- Footer Title -->
-                                    <div class="text-xl font-semibold capitalize">
+                                    <div class="text-xl font-semibold capitalize ">
                                         OUR PRODUCTS
                                     </div>
                                     <!-- Footer Title -->
 
                                     <!-- Footer Navbar -->
-                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                    <ul class="flex flex-col gap-y-[10px] capitalize footer-ul">
                                         @foreach ($products as $product)
                                        
                                         <li>
@@ -343,11 +343,11 @@ $services = Service::all();
                                 &copy; Copyright 2023 Kodetech (Pvt) Ltd.
                             </div>
                             <div class="text-center text-[#FDFBF9]/80">
-                                <a href="{{ url('index') }}"
+                                <a href="{{ url('/terms') }}"
                                     class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline "
                                     style="color: #CFD3D7 !important">Terms & Conditions</a>
                                 <span style="width: 50px">|</span>
-                                <a href="{{ url('index') }}"
+                                <a href="{{ url('/privacy') }}"
                                     class="hover:opcity-100 text-[#FDFBF9]/80 underline-offset-4 transition-all duration-300 ease-linear hover:underline"
                                     style="color: #CFD3D7 !important">Privacy Policy</a>
                             </div>

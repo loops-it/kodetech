@@ -102,6 +102,9 @@ $projects = Project::all();
                                         <a href="{{ route('ProjectShow', $project->slug) }}"
                                             class="hover:text-ColorBlue">{{$project->category}}</a>
                                     </div>
+                                    <p>
+                                        {{ Str::limit($project->project_overview, 100, '...') }}
+                                    </p>
                                     <a href="{{ route('ProjectShow', $project->slug) }}"
                                         class="text-base font-bold capitalize leading-[1.5] text-ColorBlue group-hover:text-ColorBlue">
                                         View work

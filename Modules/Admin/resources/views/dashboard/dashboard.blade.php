@@ -4,11 +4,11 @@ use Illuminate\Support\Str;
 @extends('admin::layouts.dashboard-header')
 
 @section('content')
-    <div class="main-wrapper">
-        <div class="row row-cols-2 gap-3">
+    <div class="main-wrapper p-3" style="background-color: beige">
+        <div class="row d-flex flex-column align-items-center row-cols-1 gap-3">
 
             {{-- project table --}}
-            <div class="card col-6">
+            <div class="card col-9">
                 <div class="card-body">
                     <div class="d-flex justify-content-end">
                         <a href="{{ url('/admin/add-project') }}">
@@ -64,7 +64,7 @@ use Illuminate\Support\Str;
             </div>
 
             {{-- service table --}}
-            <div class="card col-5">
+            <div class="card col-9">
                 <div class="card-body">
                     <div class="d-flex justify-content-end">
                         <a href="{{ url('/admin/add-service') }}">
@@ -119,8 +119,8 @@ use Illuminate\Support\Str;
                 </div>
             </div>
 
-            {{-- product table--}}
-            <div class="card col-6">
+            {{-- product table --}}
+            <div class="card col-9">
                 <div class="card-body">
                     <div class="d-flex justify-content-end">
                         <a href="{{ url('/admin/add-product') }}">
@@ -176,7 +176,7 @@ use Illuminate\Support\Str;
             </div>
 
             {{-- testtimonial table --}}
-            <div class="card col-5">
+            <div class="card col-9">
                 <div class="card-body">
                     <div class="d-flex justify-content-end">
                         <a href="{{ url('/admin/add-testimonial') }}">
@@ -230,8 +230,8 @@ use Illuminate\Support\Str;
 
 
             {{-- blog table --}}
-            
-            <div class="card col-8">
+
+            <div class="card col-9">
                 <div class="card-body">
                     <div class="d-flex justify-content-end">
                         <a href="{{ url('/admin/add-blog') }}">
@@ -253,20 +253,75 @@ use Illuminate\Support\Str;
                                 @forelse ($blogs as $index => $blog)
                                     <tr>
                                         <th scope="row">{{ $index + 1 }}</th>
-                                        <td>{{ $blog->news_heading}}</td>
+                                        <td>{{ $blog->news_heading }}</td>
                                         <td>
-                                            {{$blog->authur}}
+                                            {{ $blog->authur }}
                                         </td>
                                         <td>
-                                            {{$blog->date}}
+                                            {{ $blog->date }}
                                         </td>
                                         <td>
-                                            <a href="{{ route('blog.edit', $blog->id) }}"
-                                                class="btn btn-sm btn-warning">
+                                            <a href="{{ route('blog.edit', $blog->id) }}" class="btn btn-sm btn-warning">
                                                 <i class="fas fa-edit"></i>
                                             </a>
 
                                             <form action="{{ route('blog.delete', $blog->id) }}" method="POST"
+                                                style="display:inline-block;">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn btn-sm btn-danger"
+                                                    onclick="return confirm('Are you sure to delete this blog?')">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                @empty
+                                @endforelse
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            {{-- career table --}}
+            <div class="card col-9">
+                <div class="card-body">
+                    <div class="d-flex justify-content-end">
+                        <a href="{{ url('/admin/add-blog') }}">
+                            <button type="button" class="btn btn-info">Add Blog Post</button>
+                        </a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">career_name</th>
+                                    <th scope="col">career_overview</th>
+                                    <th scope="col">career_description</th>
+                                    <th scope="col">working_type</th>
+                                    <th scope="col">location</th>
+                                    <th scope="col">salary</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @forelse ($careers as $index => $career)
+                                    <tr>
+                                        <th scope="row">{{ $index + 1 }}</th>
+                                        <td>{{ $career->career_name }}</td>
+                                        <td>{{ $career->career_overview }}</td>
+                                        <td>{{ $career->career_description }}</td>
+                                        <td>{{ $career->working_type }}</td>
+                                        <td>{{ $career->location }}</td>
+                                        <td>{{ $career->salary }}</td>
+                                        <td>
+                                            <a href="{{ route('career.edit', $career->id) }}" class="btn btn-sm btn-warning">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+
+                                            <form action="{{ route('career.delete', $career->id) }}" method="POST"
                                                 style="display:inline-block;">
                                                 @csrf
                                                 @method('DELETE')

@@ -224,15 +224,20 @@ $clients = Client::all();
                     <!-- Section Content Wrapper -->
                     <div class="jos mb-[60px] xl:mb-20">
                         <!-- Section Content Block -->
-                        <div class="mx-auto max-w-[700px]">
+                        <div class="mx-auto section-max-width-2">
                             <h2 class="text-center mb-4">
                                 Guiding Principles That Define Us
                             </h2>
-                            <div
+                            {{-- <div
                                 class="mx-auto mb-10 max-w-[80%] text-center text-xl font-semibold leading-[1.4] opacity-70 md:mb-16 lg:mb-20 lg:max-w-2xl">
                                 Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a
                                 rich legacy spanning over 14 years.
-                            </div>
+                            </div> --}}
+
+                            <p class="text-center">
+                                Kode Tech (Pvt) Ltd is a well-established and renowned software development company with a
+                                rich legacy spanning over 14 years.
+                            </p>
                         </div>
                         <!-- Section Content Block -->
                     </div>
@@ -365,8 +370,8 @@ $clients = Client::all();
                 <!-- Video Block -->
                 <div class="jos">
                     <div class="relative flex items-center justify-center">
-                        <img src="{{ asset('assets/img/kodetech/about-video.png') }}" alt="video-img" width="1295"
-                            height="699" class="h-auto w-full" />
+                        <img src="{{ asset('assets/img/kodetech/about-video.png') }}" alt="video-img" width="1200"
+                            height="740" class="" />
                         <a data-fslightbox="gallery" href="https://www.youtube.com/watch?v=3nQNiWdeH2Q"
                             class="group group absolute flex h-20 w-20 items-center justify-center rounded-[50%] bg-white text-ColorPurple xl:h-[120px] xl:w-[120px]"
                             aria-label="video-play">
@@ -401,7 +406,7 @@ $clients = Client::all();
                     <!-- Section Content Wrapper -->
                     <div class="jos mb-[60px] xl:mb-20">
                         <!-- Section Content Block -->
-                        <div class="mx-auto max-w-[636px]">
+                        <div class="mx-auto section-max-width">
                             <h2 class="mb-5 text-center text-white">
                                 Our clients have shared their experiences using Masco
                             </h2>
@@ -507,7 +512,7 @@ $clients = Client::all();
                     <!-- Section Content Wrapper -->
                     <div class="jos mb-[60px] xl:mb-20">
                         <!-- Section Content Block -->
-                        <div class="mx-auto max-w-[636px]">
+                        <div class="mx-auto section-max-width">
                             <h2 class="mb-5 text-center">
                                 Client testimonials highlight the impact of our services and solutions.
                             </h2>

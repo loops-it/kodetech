@@ -76,8 +76,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('admin/career.index') }}">Add Career</a>
+                        <a class="nav-link" href="{{ route('career.index') }}">Add Career</a>
                     </li>
+
+                    
                 </ul>
             </div>
 

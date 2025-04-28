@@ -830,7 +830,7 @@ $projects = Project::all();
                         <h2>We Create World-class Web Design & Branding</h2>
                     </div>
                     <!-- Section Block -->
-                    <a href="/our-projects" class="btn is-blue is-rounded btn-animation is-large group"><span>View More Works</span></a>
+                    <a href="{{url('/our-projects')}}" class="btn is-blue is-rounded btn-animation is-large group"><span>View More Works</span></a>
                 </div>
                 <!-- Section Wrapper -->
 

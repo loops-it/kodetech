@@ -4,6 +4,7 @@ namespace Modules\Admin\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Blog;
+use App\Models\Career;
 use App\Models\Client;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -74,8 +75,9 @@ class UserController extends Controller
         $testimonials = Testimonial::all();
         $clients = Client::all();
         $blogs = Blog::all();
+        $careers = Career::all();
 
-        return view('admin::dashboard.dashboard', compact(['products','projects','services','clients','testimonials','blogs']));
+        return view('admin::dashboard.dashboard', compact(['products','projects','services','clients','testimonials','blogs','careers']));
     }
 
     // public function addMigrant(Request $request)

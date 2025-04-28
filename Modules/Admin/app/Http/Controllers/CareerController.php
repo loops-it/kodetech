@@ -17,36 +17,64 @@ class CareerController extends Controller
 
     public function addCareer(Request $request)
     {
-        
-        try {
-            if ($request->isMethod('post')) {
+        $request->validate([
+            'career_name' => 'required',
+            'career_overview' => 'required',
+            'career_description' => 'required',
+            'working_type' => 'required',
+            'location' => 'required',
+            'salary' => 'required',
+        ]);
 
-                // dd($request);
+        Career::create([
+            'career_name' => $request->career_name,
+            'career_overview' => $request->career_overview,
+            'career_description' => $request->career_description,
+            'working_type' => $request->working_type,
+            'location' => $request->location,
+            'salary' => $request->salary,
+        ]);
 
-                $request->validate([
-                    'career_name' => 'required|string|max:255',
-                    'career_description' => 'required|string|max:255',
-                    'working_type' => 'required|string',
-                    'location' => 'nullable|string',
-                    'salary' => 'nullable|integer',
-                ]);
+        return redirect()->back()->with('success', 'Career added successfully!');
+    }
 
-                Career::create([
-                    'career_name' => $request->career_name,
-                    'career_description' => $request->career_description,
-                    'working_type' => $request->working_type,
-                    'location' => $request->location,
-                    'salary' => $request->salary
-                ]);
 
-                return redirect()->back()->with('success', 'Career added successfully!');
-            }
+    public function edit($id)
+    {
+            $career = Career::findOrFail($id);
+            return view('admin::edit-section.edit-career', compact('career'));
+    }
 
-            $careers = Career::all();
-            return view('admin::add-section.add-career', compact('careers'));
-        } catch (\Exception $e) {
-            Log::error('Add Career Error: ' . $e->getMessage());
-            return redirect()->back()->with('error', 'Something went wrong while adding the career.');
-        }
+    public function update(Request $request, $id)
+    {
+        $request->validate([
+            'career_name' => 'required',
+            'career_overview' => 'required',
+            'career_description' => 'required',
+            'working_type' => 'required',
+            'location' => 'required',
+            'salary' => 'required',
+        ]);
+
+        $career = Career::findOrFail($id);
+        $career->update([
+            'career_name' => $request->career_name,
+            'career_overview' => $request->career_overview,
+            'career_description' => $request->career_description,
+            'working_type' => $request->working_type,
+            'location' => $request->location,
+            'salary' => $request->salary,
+        ]);
+
+        return redirect()->back()->with('success', 'Career updated successfully!');
+    }
+
+
+    public function delete($id)
+    {
+        $career = Career::findOrFail($id);
+        $career->delete();
+
+        return redirect()->back()->with('success', 'Career deleted successfully!');
     }
 }

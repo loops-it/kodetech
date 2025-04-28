@@ -149,21 +149,21 @@
                                 Connect With Us
                             </div>
                             <div class="flex flex-wrap gap-5">
-                                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                                <a href="https://www.facebook.com/kodetech.co?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer"
                                     class="flex h-[50px] w-[50px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-black border border-black transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
                                     aria-label="facebook">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </a>
-                                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                                <a href="https://www.instagram.com/kodetech.co/" target="_blank" rel="noopener noreferrer"
                                     class="flex h-[50px] w-[50px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-black border border-black transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
                                     aria-label="instagram">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
-                                <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer"
+                                {{-- <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer"
                                     class="flex h-[50px] w-[50px] items-center justify-center rounded-[50%] bg-[#FDFBF9]/10 text-sm text-black border border-black transition-all duration-300 hover:bg-ColorAtomicTangerine hover:text-[#1B1C1D]"
                                     aria-label="github">
                                     <i class="fa-brands fa-github"></i>
-                                </a>
+                                </a> --}}
                             </div>
                         </div>
 

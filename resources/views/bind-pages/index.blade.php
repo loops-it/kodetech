@@ -3,11 +3,13 @@ use App\Models\Service;
 use App\Models\Project;
 use App\Models\Product;
 use App\Models\Client;
+use App\Models\Blog;
 
 $products = Product::all();
 $services = Service::all();
 $projects = Project::all();
 $clients = Client::all();
+$blogs = Blog::all();
 
 ?>
 
@@ -66,14 +68,14 @@ $clients = Client::all();
                             class="jos -trackig-[1px] mx-auto mb-6 font-PublicSans text-[30px] font-bold leading-[1.06] text-[#121212] md:max-w-[80%] md:text-[60px] lg:max-w-[95%] lg:text-[70px] xl:max-w-[1000px] xl:text-[90px]">
                             Driving Growth Through Digital Innovation
                         </h1>
-                        <p class="jos mx-auto mb-8 max-w-[658px] lg:mb-[50px] mobile-text-14">
+                        <p class="jos mx-auto mb-8 max-w-[996px] lg:mb-[50px] mobile-text-14">
                             Make your business easier and more efficient with Kode Tech. We provide smart, innovative
                             solutions to streamline your operations and drive growth. Let technology work for you and take
                             your business to the next level!
 
                         </p>
                         <div class="jos flex flex-wrap justify-center gap-[18px]">
-                            <a href="/contact" class="btn is-lime is-large btn-animation group rounded-[3px]"
+                            <a href="{{url('/contact')}}" class="btn is-lime is-large btn-animation group rounded-[3px]"
                                 style="min-width: 177px !important"><span>Get In Touch</span></a>
                             <a href="#services" class="btn is-outline-black is-large btn-animation group rounded-[3px]"
                                 style="min-width: 177px !important"><span>View Services</span></a>
@@ -128,7 +130,7 @@ $clients = Client::all();
                             <!-- Fact Item -->
                             <div
                                 class="relative px-0 text-center after:absolute after:left-full after:top-1/2 after:hidden after:h-10 after:w-0.5 after:-translate-y-1/2 after:bg-ColorPurple first:pl-0 last:pr-0 last:after:hidden sm:px-10 sm:after:block">
-                                <div>
+                                <div class="lg:mt-[12%]">
                                     <div class="mb-[5px] font-PublicSans text-5xl font-bold leading-[1.14] text-[#FDFBF9] xl:text-[56px]"
                                         data-module="countup">
                                         <span class="start-number" data-countup-number="15">15</span>+
@@ -139,8 +141,8 @@ $clients = Client::all();
                             <!-- Fact Item -->
                             <!-- Fact Item -->
                             <div
-                                class="relative px-0 text-center after:absolute after:left-full after:top-1/2 after:hidden after:h-10 after:w-0.5 after:-translate-y-1/2 after:bg-ColorPurple first:pl-0 last:pr-0 last:after:hidden sm:px-10 sm:after:block">
-                                <div>
+                                class="relative px-0 text-center after:absolute after:left-full after:top-1/2 after:hidden after:h-10 after:w-0.5 after:-translate-y-1/2 after:bg-ColorPurple first:pl-0 last:pr-0 last:after:hidden sm:after:block">
+                                <div class="lg:mt-[12%]">
                                     <div class="mb-[5px] font-PublicSans text-5xl font-bold leading-[1.14] text-[#FDFBF9] xl:text-[56px]"
                                         data-module="countup">
                                         <span class="start-number" data-countup-number="84">84</span>K
@@ -152,7 +154,7 @@ $clients = Client::all();
                             <!-- Fact Item -->
                             <div
                                 class="relative px-0 text-center after:absolute after:left-full after:top-1/2 after:hidden after:h-10 after:w-0.5 after:-translate-y-1/2 after:bg-ColorPurple first:pl-0 last:pr-0 last:after:hidden sm:px-10 sm:after:block">
-                                <div>
+                                <div class="md:mt-[12%]">
                                     <div class="mb-[5px] font-PublicSans text-5xl font-bold leading-[1.14] text-[#FDFBF9] xl:text-[56px]"
                                         data-module="countup">
                                         <span class="start-number" data-countup-number="600">600</span>+
@@ -211,7 +213,7 @@ $clients = Client::all();
                                     what's possible, helping our clients achieve success at every step.
                                 </p>
                                 <div class="mt-8 lg:mt-[50px]">
-                                    <a href="/about"
+                                    <a href="{{url('/about')}}"
                                         class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn
                                             More</span></a>
                                 </div>
@@ -254,13 +256,14 @@ $clients = Client::all();
                 <!-- Section Content Wrapper -->
                 <div class="jos mb-[60px] xl:mb-20">
                     <!-- Section Content Block -->
-                    <div class="mx-auto max-w-[636px]">
+                    <div class="mx-auto max-w-[637px]">
                         <h2 class="mb-5 text-center">
                             Explore Our Innovation and Expertise
                         </h2>
                         <p class="text-center">
                             Unveil the power of our innovative solutions that drive growth, efficiency, and success for
-                            businesses worldwide. </p>
+                            businesses worldwide. 
+                        </p>
                     </div>
                     <!-- Section Content Block -->
                 </div>
@@ -269,8 +272,8 @@ $clients = Client::all();
                 <!-- Video Block -->
                 <div class="jos">
                     <div class="relative flex items-center justify-center">
-                        <img src="{{ asset('assets/img/kodetech/video-thumbnail.png') }}" alt="video-img" width="1295"
-                            height="699" class="h-auto w-full" />
+                        <img src="{{ asset('assets/img/kodetech/video-thumbnail.png') }}" alt="video-img" width="1200"
+                            height="740" class="" />
                         <a data-fslightbox="gallery" href="https://www.youtube.com/watch?v=3nQNiWdeH2Q"
                             class="group group absolute flex h-20 w-20 items-center justify-center rounded-[50%] bg-white text-ColorPurple xl:h-[120px] xl:w-[120px]"
                             aria-label="video-play">
@@ -356,7 +359,7 @@ $clients = Client::all();
 
 
     <!-- Case studies Section Start -->
-    <div class="section-brand bg-[#ffffff] " id="products">
+    <div class="section-brand " id="products">
         <div class="jos">
             <!-- Section Space -->
             <div class="py-[60px] md:py-20 lg:py-[100px]">
@@ -422,196 +425,6 @@ $clients = Client::all();
                                 </div>
                             @endforeach
 
-                            {{-- <div class="swiper-slide">
-                                <!-- Case studies Item -->
-                                <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
-                                    <!-- Content Area Single -->
-                                    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
-                                        <!-- Content Block Left -->
-                                        <div class="jos order-2 md:order-2">
-                                            <!-- Section Wrapper -->
-                                            <div>
-                                                <!-- Section Block -->
-                                                <div class="mb-5">
-                                                    <h2
-                                                        class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14] lg:text-4xl">
-                                                        AI Chatbot</h2>
-                                                </div>
-                                                <!-- Section Block -->
-                                            </div>
-                                            <!-- Section Wrapper -->
-                                            <p class="mb-5 mobile-text-14">
-                                                Kode Tech’s AI Chatbot is a versatile tool that revolutionizes customer
-                                                interactions. Tailored for diverse industries, it offers real-time support,
-                                                automates routine tasks, and provides personalized responses. From retail to
-                                                healthcare, our chatbot enhances customer engagement, improves response
-                                                times, and boosts operational efficiency, helping businesses deliver
-                                                superior experiences while focusing on strategic goals. </p>
-                                           
-                                            <div class="mt-8 lg:mt-[50px]">
-                                                <a href="{{ url('/ai') }}"
-                                                    class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn
-                                                        More</span></a>
-                                            </div>
-                                        </div>
-                                        <!-- Content Block Left -->
-                                        <!-- Content Block Right -->
-                                        <div class="jos relative order-1 md:order-1">
-                                            <img src="{{ asset('assets/img/kodetech/products/AI Chat bot.png') }}"
-                                                alt="icon-green-star" />
-                                        </div>
-                                        <!-- Content Block Right -->
-                                    </div>
-                                    <!-- Content Area Single -->
-
-
-                                </div>
-                                <!-- Case studies Item -->
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- Case studies Item -->
-                                <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
-                                    <!-- Content Area Single -->
-                                    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
-                                        <!-- Content Block Left -->
-                                        <div class="jos order-2 md:order-2">
-                                            <!-- Section Wrapper -->
-                                            <div>
-                                                <!-- Section Block -->
-                                                <div class="mb-5">
-                                                    <h2
-                                                        class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl">
-                                                        AI-Based Lead Generation and CRM </h2>
-                                                </div>
-                                                <!-- Section Block -->
-                                            </div>
-                                            <!-- Section Wrapper -->
-                                            <p class="mb-5 mobile-text-14">
-                                                Kode Tech’s AI-powered Lead Generation and CRM platform transforms customer
-                                                acquisition and relationship management. Leveraging advanced analytics, it
-                                                identifies high-quality leads, streamlines customer engagement, and drives
-                                                sales growth. This intelligent solution enables businesses to make informed
-                                                decisions, enhance customer loyalty, and achieve measurable results in
-                                                today’s competitive landscape.</p>
-                                            
-
-                                            <div class="mt-8 lg:mt-[50px]">
-                                                <a href="{{ url('/crm') }}"
-                                                    class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn
-                                                        More</span></a>
-                                            </div>
-                                        </div>
-                                        <!-- Content Block Left -->
-                                        <!-- Content Block Right -->
-                                        <div class="jos relative order-1 md:order-1">
-                                            <img src="{{ asset('assets/img/kodetech/products/CRM.png') }}"
-                                                alt="icon-green-star" />
-                                        </div>
-                                        <!-- Content Block Right -->
-                                    </div>
-                                    <!-- Content Area Single -->
-
-
-                                </div>
-                                <!-- Case studies Item -->
-                            </div>
-
-
-                            <div class="swiper-slide">
-                                <!-- Case studies Item -->
-                                <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
-                                    <!-- Content Area Single -->
-                                    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
-                                        <!-- Content Block Left -->
-                                        <div class="jos order-2 md:order-2">
-                                            <!-- Section Wrapper -->
-                                            <div>
-                                                <!-- Section Block -->
-                                                <div class="mb-5">
-                                                    <h2
-                                                        class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl">
-                                                        Human Resource Information System (HRIS)</h2>
-                                                </div>
-                                                <!-- Section Block -->
-                                            </div>
-                                            <!-- Section Wrapper -->
-                                            <p class="mb-5 mobile-text-14">
-                                                Kode Tech’s HRIS streamlines human resource management with a centralized
-                                                and automated platform. It handles payroll, employee records, leave
-                                                tracking, and more with precision and efficiency. Designed for scalability,
-                                                our HRIS empowers organizations to optimize their workforce, improve
-                                                compliance, and make data-driven decisions that enhance overall performance.
-                                            </p>
-                                            
-
-                                            <div class="mt-8 lg:mt-[50px]">
-                                                <a href="{{ url('/hrm') }}"
-                                                    class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn
-                                                        More</span></a>
-                                            </div>
-                                        </div>
-                                        <!-- Content Block Left -->
-                                        <!-- Content Block Right -->
-                                        <div class="jos relative order-1 md:order-1">
-                                            <img src="{{ asset('assets/img/kodetech/products/HRM.png') }}"
-                                                alt="icon-green-star" />
-                                        </div>
-                                        <!-- Content Block Right -->
-                                    </div>
-                                    <!-- Content Area Single -->
-
-
-                                </div>
-                                <!-- Case studies Item -->
-                            </div>
-
-                            <div class="swiper-slide">
-                                <!-- Case studies Item -->
-                                <div class="jos mb-6 break-inside-avoid rounded-md slide-padding-case">
-                                    <!-- Content Area Single -->
-                                    <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24">
-                                        <!-- Content Block Left -->
-                                        <div class="jos order-2 md:order-2">
-                                            <!-- Section Wrapper -->
-                                            <div>
-                                                <!-- Section Block -->
-                                                <div class="mb-5">
-                                                    <h2
-                                                        class="mb-5 font-PublicSans text-2xl font-bold leading-[1.14]  lg:text-4xl">
-                                                        E-Commerce solutions</h2>
-                                                </div>
-                                                <!-- Section Block -->
-                                            </div>
-                                            <!-- Section Wrapper -->
-                                            <p class="mb-5 mobile-text-14">
-                                                Kode Tech’s LMS is an advanced platform designed for seamless education and
-                                                training delivery. It enables intuitive course management, progress
-                                                tracking, and collaborative learning. Whether for corporate training or
-                                                academic institutions, our LMS enhances learner engagement, fosters skill
-                                                development, and ensures measurable outcomes, aligning perfectly with
-                                                organizational objectives.</p>
-                                            
-
-                                            <div class="mt-8 lg:mt-[50px]">
-                                                <a href="{{ url('/ecommerce') }}"
-                                                    class="btn is-lime is-large btn-animation group inline-block rounded-[3px]"><span>Learn
-                                                        More</span></a>
-                                            </div>
-                                        </div>
-                                        <!-- Content Block Left -->
-                                        <!-- Content Block Right -->
-                                        <div class="jos relative order-1 md:order-1">
-                                            <img src="{{ asset('assets/img/kodetech/products/e commerce 1.png') }}"
-                                                alt="icon-green-star" />
-                                        </div>
-                                        <!-- Content Block Right -->
-                                    </div>
-                                    <!-- Content Area Single -->
-
-
-                                </div>
-                                <!-- Case studies Item -->
-                            </div> --}}
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -703,166 +516,7 @@ $clients = Client::all();
                                     </div>
                                 </div>
                             @endforeach
-                            {{-- <div class="swiper-slide">
-                                <!-- Partner Item -->
-                                <div class="jos break-inside-avoid shadow rounded-md">
-                                    <div class="grid-container">
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 02.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Partner Item -->
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- Partner Item -->
-                                <div class="jos break-inside-avoid shadow rounded-md">
-                                    <div class="grid-container">
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 02.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/Logo 01.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                        <div class="grid-item">
-                                            <img src="{{ asset('assets/img/kodetech/clients/LogoDell.png') }}"
-                                                alt="icon-green-star" class="rounded" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Partner Item -->
-                            </div> --}}
+                          
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -885,14 +539,14 @@ $clients = Client::all();
                     <!-- Section Content Wrapper -->
                     <div class="jos mb-[60px] xl:mb-20">
                         <!-- Section Content Block -->
-                        <div class="mx-auto max-w-[640px]">
+                        <div class="mx-auto max-w-[840px]">
                             <div class="mb-5">
                                 <h2
                                     class="mb-5 text-center font-PublicSans text-4xl font-bold leading-[1.14] text-[#1212121] lg:text-5xl xl:text-[56px]">
                                     Browse Through Our Tech Insights
                                 </h2>
                             </div>
-                            <p class="text-center ">
+                            <p class="text-center mx-auto max-w-[640px]">
                                 Stay updated with the latest trends, innovations, and expert insights in technology, AI,
                                 blockchain, and more. Explore our blogs to gain valuable knowledge and stay ahead in the
                                 digital world.
@@ -904,28 +558,33 @@ $clients = Client::all();
 
                     <!-- Blog Class List-->
                     <div class="mb-10 grid gap-x-6 gap-y-10 md:grid-cols-2 lg:mb-20 lg:grid-cols-3">
-                        @foreach ($projects->take(3) as $project)
-                            <div class="jos shadow rounded">
-                                <div
-                                    class="relative flex items-center justify-center overflow-hidden rounded-[10px] after:absolute after:inset-0 after:bg-ColorBlack/40">
-                                    <img src="{{ asset('storage/' . $project->project_image) }}" alt="{{ $project->project_name }}"
-                                        alt="video-class-img-1" width="416" height="250"
-                                        class="h-full w-full object-cover" />
-                                </div>
-                                <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack"
-                                    style="color: #000 !important">
-                                    {{$project->project_name}}
-                                </div>
-                                <p class="line-clamp-3  px-4 mobile-text-14" style="color: #000 !important">
-                                    {{$project->project_overview}}
-                                </p>
-                                <a href="{{ route('ProjectShow', $project->slug) }}"
-                                    class="mt-auto  px-4 mb-4 inline-flex items-center gap-x-2 text-base font-bold text-[#F90305] hover:text-ColorPurple"
-                                    style="color: #F90305 !important">Read More
+                        @foreach ($blogs->take(3) as $blog)
+                        <div class="jos shadow rounded h-full flex flex-col">
+                            <div class="relative flex items-center justify-center overflow-hidden rounded-[10px] after:absolute after:inset-0 min-h-[250px]">
+                                <img src="{{ asset('storage/' . $blog->news_image) }}" alt="{{ $blog->news_heading }}"
+                                    width="416" height="260px" class=" w-full object-cover" style="height: 260px"/>
+                            </div>
+                        
+                            <div class="mb-4 px-4 mt-6 text-2xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack"
+                                style="color: #000 !important">
+                                {{ str($blog->news_heading)->limit(40) }}
+
+                            </div>
+                        
+                            <p class="line-clamp-3 px-4 mobile-text-14 mb-4" style="color: #000 !important">
+                                {{ Str::limit(strip_tags($blog->news_description), 100) }}...
+                            </p>
+                        
+                            <div class="mt-auto px-4 mb-4">
+                                <a href="{{ route('BlogShow', $blog->slug) }}"
+                                    class="inline-flex items-center gap-x-2 text-base font-bold text-[#F90305] hover:text-ColorPurple"
+                                    style="color: #F90305 !important">
+                                    Read More
                                     <i class="fa-solid fa-arrow-right"></i>
-                                    </span>
                                 </a>
                             </div>
+                        </div>
+                        
                         @endforeach
                         <!-- Blog Class Item -->
 

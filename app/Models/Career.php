@@ -12,7 +12,7 @@ class Career extends Model
     use HasSlug;
     use HasFactory;
 
-    protected $fillable = ['career_name','career_description', 'working_type','location','salary'];
+    protected $fillable = ['career_name','career_overview','career_description', 'working_type','location','salary'];
 
 
     public function getSlugOptions() : SlugOptions
